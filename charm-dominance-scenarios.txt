@@ -1,0 +1,257 @@
+Charm dominance scenarios (spec + examples)
+============================================
+
+Purpose
+-------
+Drive implementation and review of charm comparison logic:
+
+  * **Pareto dominated** — implemented in `scripts/find_pareto_dominated_charms.py`
+  * **Budget dominated** — removed for now; rules TBD from this file + your additions
+
+Encoding reference: `charm-encoded-line-format.txt` (seven comma-separated fields).
+Jewel data: `decorations.txt` (format: jewel_name, size, skill, skill_level).
+
+
+Glossary
+--------
+  * **Native (on talisman)** — skill + level from skill1/skill2 columns only (no decorations).
+  * **Skill pair / skill_key** — (skill1 string, skill2 string) as written; Pareto only compares
+    lines with the same pair.
+  * **Slot triple** — last three fields; larger values mean larger decoration holes on that charm.
+  * **Pareto dominated** — same skill_key; every numeric field ≤ on the loser and at least one
+    strict < on the winner (component-wise on lvl1, lvl2, slot1, slot2, slot3).
+  * **Budget dominated** (informal, to be nailed down) — loser can be discarded because another
+    charm + allowed decorations + your build assumptions replicates or beats what the loser
+    gave you, without Pareto’s “same two skill columns” requirement.
+  * **Baggage** — a native skill on the dominating charm that the loser’s build did not include;
+    may or may not be acceptable (e.g. Punishing Draw vs “pure upside” skills).
+  * **Strict improvement** — must be better in some dimension you care about (higher native tier
+    on a shared skill, extra slot value after paying for jewels, etc.) — exact definition TBD.
+
+
+================================================================================
+PART A — PARETO DOMINATED (current script behavior)
+================================================================================
+
+Rule (summary)
+--------------
+Same (skill1, skill2). Compare (lvl1, lvl2, slot1, slot2, slot3). Winner ≥ loser on all five;
+winner > loser on at least one.
+
+Example A1 — clear Pareto (user discussion)
+-------------------------------------------
+  Loser:  Critical Eye,2,,0,1,0,0
+  Winner: Critical Eye,3,,0,1,1,0
+
+  Why: Same skills (Critical Eye + empty second). Higher CE level; slots 1,1,0 vs 1,0,0 (not
+  worse on any slot; strictly better on at least one). Safe to treat loser as obsolete vs winner.
+
+Example A2 — script sanity check
+--------------------------------
+  Loser: Blight Resistance,1,Affinity Sliding,1,0,0,0
+  Winner: Blight Resistance,1,Affinity Sliding,1,3,1,0
+  Why: Skills & their levels are equal. The winner has two slots. The loser has no slots.
+
+Example A3 — NOT Pareto (different skill columns)
+------------------------------------------------
+  Line 1: Critical Eye,4,Weakness Exploit,1,1,1,0
+  Line 2: Critical Eye,4,,0,3,1,1
+
+  Verdict: NOT Pareto-comparable (different skill2 / skill_key).
+
+  Why: Pareto requires identical (skill1, skill2) strings. These differ on the second skill
+  column, so the script correctly ignores this pair for Pareto.
+
+Example A4
+-------------------------------------------
+  Loser:  Critical Eye,3,,0,1,0,0
+  Winner: Critical Eye,3,,0,1,1,0
+
+  Why: Same skills (Critical Eye + empty second). Slots 1,1,0 vs 1,0,0 (not
+  worse on any slot; strictly better on at least one). Safe to treat loser as obsolete vs winner.
+
+Example A5
+-------------------------------------------
+  Loser:  Critical Eye,2,,0,1,1,0
+  Winner: Critical Eye,3,,0,1,1,0
+
+  Why: Same skills (Critical Eye + empty second). Slots even out, but winner has higher CE level.
+
+================================================================================
+PART B — BUDGET DOMINATED (for you to extend; logic not in script yet)
+================================================================----------------
+
+High-level decision outline (draft — refine as you add examples)
+----------------------------------------------------------------
+  [ ] 1. Which charms are even candidates to compare? (all pairs? same first skill only? …)
+  [ ] 2. Which skills on the loser must be matched or exceeded on the winner’s side?
+       (native only vs native + jewels)
+  [ ] 3. Which decorations are allowed? (only `decorations.txt` rows? sub-list?)
+  [ ] 4. Slot / jewel feasibility: when must “Y cannot fit this jewel on the talisman” hold?
+  [ ] 5. Strict improvement: native only vs includes jewel-granted levels?
+  [ ] 6. Baggage: which extra native skills on the winner are allowed without invalidating
+       dominance? (allowlist? none? per-build?)
+  [ ] 7. Relationship to Pareto: should every budget-dominated pair fail Pareto, or can they
+       overlap?
+
+  Your notes:
+  ------------------------------------------------------------------------------
+  [ My answers to above questions
+    #1: for a given charm, (more)
+    #2: native + jewels. for example, CE,4,,0,3,1,1 beats CE,4,WE,1,1,1,0 (more)
+    #3: all decorations in decorations.txt are allowed
+    #4: Given `Guardian Jewel,3,Offensive Guard,1` example, to slot a jewel for Offensive Guard level 1,
+        that can only be done on a lvl3 or lvl4 slot. The Guardian Jewel,3 indicates the jewel requires
+        slot level >= 3. Let me know if this need further clarification.
+    #5:
+  ]
+
+
+--------------------------------------------------------------------------------
+B1 — Example you gave: CE + WE + small slots vs CE + large slots (DOMINATED)
+--------------------------------------------------------------------------------
+  Loser:  Critical Eye,4,Weakness Exploit,1,1,1,0
+  Winner: Critical Eye,4,,0,3,1,1
+
+  Jewel context (from decorations.txt):
+    Tenderizer Jewel,2,Weakness Exploit,1
+
+  Idea: Winner has no WE on talisman but can socket Tenderizer (size 2) in the size-3 slot;
+  loser’s slots are only 1,1,0 so cannot host that jewel. Winner also has strictly better slot
+  layout for large decorations.
+
+  Verdict (your call): budget dominated (loser discardable vs winner for typical builds).
+
+  [My notes: Consider removing wording "for typical builds". Because the winner would be a winner across all
+      builds anyway, not just for "typical builds". Also, to be crystal clear, when we slot Tenderizer
+      (size 2) into the size 3 slot in order to meet "loser" charm's baseline, the remaining slots not in
+      use (in this case, the two level 1 slots) must meet loser's baseline, which it does.]
+  ------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+B2 — Example you gave: same CE, tradeoff (NOT dominated / situational)
+--------------------------------------------------------------------------------
+  Line A: Critical Eye,4,Weakness Exploit,1,1,1,0
+  Line B: Critical Eye,4,,0,3,1,0
+
+  Verdict (your call): neither decisively budget-dominates the other; situational.
+
+  Idea: After paying a size-2 jewel for WE on B’s 3-slot, remaining slot budget ties or does not
+  clearly beat A’s two size-1 slots for every build goal.
+
+  [YOUR NOTES — what rule would codify “stop here” vs B1? My note: when we slot Tenderizer 2 jewel into
+  the B's 3-slot in order to meet Line A's baseline of having WE1, this leaves us with only 1 remaining
+  slot, thus failing to meet Line A's baseline of having two level 1 slots.
+
+  On the inverse side, at first glance, Line B might look like a better charm compared to Line A because
+  of greater flexibility (having level 3 slot), ]
+  ------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+B3 — Example you gave: Constitution + Recovery vs DB + Constitution + jewel (DOMINATED)
+--------------------------------------------------------------------------------
+  Loser:  Constitution,1,Recovery Up,2,0,0,0
+  Winner: Divine Blessing,3,Constitution,2,4,0,0
+
+  Jewel witness (from decorations.txt):
+    Medicine Jewel+,4,Recovery Up,2
+
+  Idea: Loser’s skill1 (Constitution) is met natively on winner at higher tier (2 > 1). Recovery
+  Up 2 on loser is matched by Medicine Jewel+4 in winner’s size-4 slot. Loser has no slots to fit
+  that jewel. Winner adds native Divine Blessing as upside.
+
+  Verdict (your call): budget dominated.
+
+  [YOUR NOTES — e.g. allowlist for “OK baggage” skills like Divine Blessing]
+  ------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+B4 — DISPUTED: script once said budget; you said NOT (review + your explanation)
+--------------------------------------------------------------------------------
+  Loser:  Wirebug Whisperer,1,Speed Eating,1,1,1,0
+  Winner: Punishing Draw,2,Wirebug Whisperer,3,2,1,0
+
+  What the old script did: Treated as budget dominated (e.g. match Speed Eating via
+  Gobbler Jewel,2,Speed Eating,1 and rely on native Wirebug 3 > 1), without a correct final
+  comparison of **leftover slot value** after jewels are paid for.
+
+  Your position (recap): Incorrect as a winner — not because Punishing Draw is “bad,” but because
+  the subject has **native** Speed Eating 1 while the candidate does not. To get SE1 on the
+  candidate you must spend the **size-2** slot on Gobbler Jewel,2 (see `decorations.txt`; no
+  smaller jewel for SE1 there). That leaves **one** remaining usable slot (the size-1). The subject
+  keeps **1-1-0** with both skills native, i.e. two size-1-class holes with nothing consumed for
+  SE. So the candidate **loses on the Step-5-style test** (residual slots not ≥ subject’s slot
+  structure), consistent with `step by step determination if charm can be safely discarded`.
+
+  [YOUR NOTES — tighten wording or add edge cases]
+  ------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+B5 — Related false-positive pattern (Fortify + Recovery vs Constitution + Recovery)
+--------------------------------------------------------------------------------
+  Before the “native extras / allowlist” idea, an earlier version could match:
+
+  Loser:  Constitution,1,Recovery Up,2,0,0,0
+  Winner: Fortify,1,Recovery Up,3,3,1,0  (example pattern — adjust if your file differs)
+
+  Issue: Winner does not natively carry Constitution; script tried to patch with jewels and/or
+  treated Recovery level as enough “strict” improvement. You wanted the Divine Blessing + Con
+  style case (B3) without Fortify-style winners.
+
+  [YOUR NOTES — how B3 differs from this pattern in your rules]
+  ------------------------------------------------------------------------------
+
+
+================================================================================
+PART C — MORE SLOTS FOR YOU
+================================================================================
+
+Budget dominated — additional positive examples
+-----------------------------------------------
+  [Example C1]
+  Loser:
+  Winner:
+  Jewels (decorations.txt lines):
+  Verdict: budget dominated
+  Why:
+
+  [Example C2]
+  Loser:
+  Winner:
+  Jewels:
+  Verdict: budget dominated
+  Why:
+
+
+Budget dominated — counterexamples (should NOT flag)
+----------------------------------------------------
+  [Counterexample C3]
+  Line A:
+  Line B:
+  Verdict: NOT budget dominated
+  Why (which check fails):
+
+  [Counterexample C4]
+  Line A:
+  Line B:
+  Verdict: NOT budget dominated
+  Why:
+
+
+Open questions / edge cases
+---------------------------
+  [Q1]
+  [Q2]
+
+
+================================================================================
+PART D — IMPLEMENTATION CHECKLIST (for a future script pass)
+================================================================================
+
+  [ ] Unit tests or golden file: paste loser/winner pairs + expected: pareto | budget | neither
+  [ ] Re-read `decorations.txt` when logic references jewel size or skill names
+  [ ] Document CLI flags if allowlists stay configurable

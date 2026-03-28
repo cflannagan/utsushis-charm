@@ -1,0 +1,44 @@
+Given a charm:
+Thunder Resistance,3,Blight Resistance,1,2,0,0
+
+We need to determine if this charm can be safely discarded which would be possible only if there is
+another charm that completely beats this charm in every sense.
+
+This charm currently gives me:
+Thunder Resistance 3
+Blight Resistance 1
+2-0-0 slots (shorthand for single level 2 slot)
+
+The above is the baseline. Can we find a charm that gives us more than those?
+
+Let's go over each attribute of the charm step by step. We will begin with Thunder Resistance 3.
+
+Step 1: We look for any charms (starting with full list, charms.encoded.txt) that has Thunder Resistance 3 or better. Add those charms into the candidate winner list that can be considered as being better than the subject charm but hold that thought. By the way, it does not matter if charms added to candidate list has other extraneous skills. Those can be considered "bonus" which is always good, there is no such thing as a "bad skill" to have if it comes extra.
+
+Step 2: Focusing on remaining non-subject charms that have not been added to "candidate winner list" (thus that way we avoid adding duplicates to the candidate winner list), we want to look for charms that has a level 4 slot which would allow us to slot in Hard Thunder Res Jewel 4, giving us Thunder Resistance 3. We would add those charms ("union") into the candidate list. That would make this slot "used" for this purpose, so make sure we note that for those charms we just added to candidate list.
+
+At this point we are shifting focus to the _candidate_ winner list; what's currently in the candidate list will be able to satisfy our requirement for Thunder Resistance 3, but we need to go through other attributes. Next attribute we want to consider is Blight Resistance 1.
+
+Step 3: Do any of those candidate charms have Blight Resistance 1 or better? If yes, then we keep those charms on the candidate list. If there are charms on candidate list that doesn't satisfy this, we first do one more check in the next step before we filter those charm(s) out.
+
+Step 4: We now need to consider the slot angle here. According to decorations.txt, Blight Resistance 1 can be gotten from a Resistor Jewel 2. Are any of the candidate charms that failed Step 3 test able to give us Blight Resistance 1 via an available level 2 or better slot instead? Note that this CANNOT be the same slot used to meet requirement for Step 2 (Thunder Res Jewel 4). Same as Step 2, we should make note that a slot is being used for this purpose. If the charm cannot satisfy the requirement via step 3 or 4, we filter out the charm from the candidate list.
+
+We're now down to charms that we know will give us both Thunder Resistance 3 and Blight Resistance 1 at minimum.
+
+Step 5: Final test - out of the remaining charms on candidate list, for the unused slots (not used for Step 2 or Step 4), is it equal or better than 2-0-0? If not, we remove from the candidate list. We are comparing sorted unused slot multisets lexicographically (larger first). (ie: assuming all slots are unused, a subject with 2-0-0 cannot be replaced by a candidate winner charm with 1-1-0, because the player might want level 2 slot to be available due to certain jewel size requirements and thus having two level 1 slots would not help here)
+
+Step 6: Are there any charms remaning on the candidate list? We need at least one candidate that survives all steps. If yes, then the subject charm is considered a potential loser, because every requirement is being met so far through some other charm, and thus can potentially be discarded safely.
+
+Nuance: (TIEBREAKER SCENARIO): Subject charm might be "tied" with a candidate charm, if subject charm has native skill (Blight Resistance 1) and candidate charm has exactly a level 2 slot and every other requirement is being met. In this event of "tie", we would prefer to have flexibility which means the charm with the level 2 slot wins here. With a native skill, we're locked in to that with less flexibility, so the greater flexibility charm with level 2 slot would win out.
+
+Nuance #2: If the charms ties in everything (has same native skills, same skill levels, same slots, and same degree of flexibility), then it's a true tie, we can make note of this in the script output but practically, this should not happen because I would most likely notice the duplicate and just get rid of duplicate quickly.
+
+Nuance #3: When you look for a slot to use in step #2 or step #4, try to use the smallest unused slot that can fit the needs of the jewel that will help meet the requirement. Ie: if we need to slot a jewel that is size 1, and we have 4-2-1, we wouldn't want to waste the level 4 slot by slotting size 1 jewel into that, if there's also a level 1 slot available.
+
+Nuance #4: For steps #2 and #4, you can use any combination of jewels to try to meet the requirement. For example, you could use three Thunder Res Jewel 1, to meet the TR3 requirement, if there were three available level 1 slots. However, as a general rule, it is more efficient to go for the biggest jewel, and then try to slot the jewel(s) into the smallest possible available slots.
+
+Nuance #5: The steps I did start with TR3 arbitarily. I could start with BR1 instead and then do TR3 next. Ordering of skill when evaluating things does not matter.
+
+Nuance #6: For charms that only has one native skill, you would skip steps 3 and 4 (you would still do the slot test in steps 5 and 6)
+
+Note about slot notations: Generally we lead with biggest slot level followed by smaller ones. So when there is level 2, level 4, and level 1 slots, we would say 4-2-1. The ordering of slots does not really matter. So a 0,2,0 is equal to 2,0,0, both of those has a level 2 slot.

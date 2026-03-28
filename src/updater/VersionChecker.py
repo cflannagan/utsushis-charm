@@ -154,6 +154,6 @@ class VersionChecker:
             return None
         except Exception as e:
             logger.exception(
-                f"An unexpected error occurred loading update information: {sc}"
+                f"An unexpected error occurred loading update information: {e}"
             )
             return None

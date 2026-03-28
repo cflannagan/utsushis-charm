@@ -1,0 +1,42 @@
+Charm encoded line format (seven fields)
+========================================
+
+Each charm line uses exactly seven comma-separated fields (matching `Charm.to_simple_encode()`):
+
+  skill_1, skill_1_lvl, skill_2, skill_2_lvl, slot_1_lvl, slot_2_lvl, slot_3_lvl
+
+The first four fields are always the two skill columns: if a charm has only one skill, the second
+skill name is empty and the placeholder level is 0 — e.g. `,,0` after the first skill’s level.
+
+The last three fields are always the three jewel slot levels (in fixed UI order). They are the
+last three comma-separated values on the line, after the four skill-related fields.
+
+See this example:
+Evade Extender,3,Grinder (S),1,1,1,1
+It is a charm that has the following properties:
+* Evade Extender skill, level 3
+* Grinder (S), level 1
+* three level-1 slots
+
+Another example:
+Critical Eye,3,,0,1,1,0
+This charm has the following properties:
+* Critical Eye 3
+* no second skill (`,,0`)
+* slots 1, 1, and 0
+
+One more example:
+Mail of Hellfire,1,Tremor Resistance,3,3,2,1
+The charm has:
+* Mail of Hellfire 1
+* Tremor Resistance 3
+* one level-3 slot, one level-2 slot, one level-1 slot
+
+“Only one skill, no slots” is encoded with three zero slot fields, not by omitting fields — full line:
+Critical Eye,3,,0,0,0,0
+That is: Critical Eye at level 3, empty second skill (`,,0`), then slots 0, 0, 0.
+
+Charms in-game usually have one or two skills (often two). This file format only allocates two
+skill columns; it does not add a third `skill_3` column. Edge cases like “no skills, only slots”
+or “three skills” would need a different encoding if you ever recorded them — they are not
+represented as extra fields in `charms.encoded.txt`.

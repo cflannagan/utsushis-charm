@@ -1,0 +1,132 @@
+Charm discard test (concise spec)
+==================================
+
+At a glance
+-----------
+  * **Question:** Is there another charm in the pool that **meets or beats** the subject on skills
+    (with jewels from `decorations.txt`) and **residual slot flexibility**?
+  * **Flow:** **A → B → C → D**; if **D** ties, **E** then maybe **F**.
+  * **Extras on the challenger:** Any native skills on **C** that the subject does **not** have are
+    fine—they are **not** part of the test unless you add your own filter later.
+
+
+Question
+--------
+Given one **subject** charm (a line from `charms.encoded.txt`), is there **any other** charm in the
+pool that lets you **match or beat** everything the subject gives—skills, levels, and **slot
+flexibility**—after you pay for missing skills with jewels from `decorations.txt`? If yes, the
+subject is a **discard candidate** (you might still keep it for taste).
+
+
+Inputs
+------
+  * **Subject:** seven-field encoded line (baseline).
+  * **Pool:** usually the full encoded list (**exclude** the subject line so you do not “beat”
+    yourself).
+  * **Jewels:** `decorations.txt` rows (skill granted, jewel size).
+
+
+Evaluation order (read this first)
+----------------------------------
+  1. **A–C** — Can you build a valid jewel plan on **C** that covers every subject skill?
+  2. **D** — After paying for those jewels, does **C**’s **leftover slot multiset** beat, lose to, or
+     tie the subject’s?
+        * **Win** on **D** → **C passes** (stop; do **not** run **F**).
+        * **Lose** on **D** → **C fails** entirely (even if **C** has higher native skills).
+        * **Tie** on **D** → go to **3**.
+  3. **E** — On a multiset tie only: **strict native beat** on any subject skill? → **C passes**
+     (stop; do **not** run **F**). Else **exact skill tie**? → go to **4**. Else **C fails**.
+  4. **F** — Only when **D** tied **and** **E** is **exact skill tie**. If **F** applies in your
+     favor → **C passes**; else **C fails**.
+
+You may assign jewels in **any order** (e.g. skill1 first or skill2 first); slot reservations must
+stay consistent.
+
+
+Rules (A–C: plan on the challenger)
+-----------------------------------
+
+  **A — Cover the subject’s skills**
+  Every subject skill (both columns, with levels) must be **covered** on **C** by:
+        • native skill on **C** at that level or higher, **or**
+        • jewels slotted on **C** whose combined effect reaches that level (any legal combo from
+          `decorations.txt`, e.g. three size-1 Thunder Res jewels for Thunder Res 3).
+  **C may have any other native skills** not on the subject; they do **not** need to match the
+  subject and do **not** by themselves fail the test.
+
+  **B — Disjoint slots**
+  Each jewel you rely on occupies a **different** hole. A hole used for one requirement cannot count
+  toward another.
+
+  **C — Greedy placement (canonical plan)**
+  Put each jewel in the **smallest** empty slot that still fits it. Prefer **fewer / larger** jewels
+  when multiple jewel sets hit the same skill target (do not burn a size-4 hole on a size-1 jewel
+  if a size-1 hole exists).
+
+
+Rule D — Residual slot multiset
+-------------------------------
+Delete holes committed for jewels in your plan. Compare what is left on **C** to the subject’s
+**three slot fields** (order ignored—multiset). Sort both **descending**, compare **lexicographically**
+(larger first).
+
+Intuition: a subject with a single **size-2** hole (2-0-0) is **not** fairly replaced by a charm
+that only leaves two **size-1** holes (1-1-0), because some builds need a real size-2 hole.
+
+
+Rule E — Skill outcome (only when D ties)
+-----------------------------------------
+Compare each skill the subject has **natively** (name + level **L**) to how **C** covers that skill
+in your plan (native + jewels). Compare by **skill name**, not skill1 vs skill2 column.
+
+  * **Strict native beat:** **C** has **native** level **>** **L** for some skill the subject has
+    natively at **L**. Then **F does not apply**; on a multiset tie, **C still passes**. Example:
+    subject `Geologist,1,Botanist,1,1,1,0` vs `Geologist,2,,0,1,1,1` with Botanist 1 from jewels—
+    Geologist **2** vs **1** → **never visit F**; **D** here is also a strict win for **C**.
+
+  * **Exact skill tie (F-eligible):** **No** strict native beat, and for **every** skill the subject
+    has natively at level **L**, total coverage on **C** (native + slotted jewels) is **exactly**
+    **L**, with **C**’s **native** level of that skill **≤** **L**.
+
+  * If neither applies (e.g. jewel overcoverage so total **>** **L**): **C fails** unless you extend
+    the spec.
+
+
+Rule F — Flexibility tie-break (only when D ties and E is exact skill tie)
+--------------------------------------------------------------------------
+**C passes** when there is at least one skill (by name) that the subject has **natively** at **L**,
+such that **C** has **no** native level of that skill that reaches **L**, but the plan still supplies
+**L** **only** via jewels on **C** from A–C.
+
+Examples (jewels from `decorations.txt`):
+
+  * Subject `Geologist,1,Botanist,1,1,1,0` vs `Geologist,1,,0,1,1,1` with Botanist 1 from **Botany
+    Jewel,1**: multisets tie → **E** exact tie → **F** → **C wins**.
+
+  * Subject `Blight Resistance,1,,0,0,0,0` vs `,,0,0,2,0,0` with Blight 1 from **Resistor Jewel,2**:
+    multisets tie → **E** exact tie → **F** → **C wins**.
+
+If **E** is exact tie but **F** is false (e.g. duplicates), **C fails**.
+
+
+Subject has only one native skill
+---------------------------------
+Skip the second skill’s native/jewel checks; still run **D**, then **E** / **F** when applicable.
+
+
+Duplicates
+----------
+If **C** is identical to the subject, note it in tooling; in practice dedupe the file. Such lines tie
+on **D**, **E** is exact tie, **F** is false → they do **not** make the subject discardable here.
+
+
+Verdict
+-------
+If **at least one** charm **C** in the pool passes the chain above, the subject is a **discard
+candidate**. If **none** pass, keep the subject for this test.
+
+
+Related files
+-------------
+  * Longer walkthrough: `step by step determination if charm can be safely discarded`
+  * Pareto-only script: `scripts/find_pareto_dominated_charms.py` (same skill pair, no jewels)

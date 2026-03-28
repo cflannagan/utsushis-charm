@@ -1,0 +1,243 @@
+Mastery Jewel,2,Master's Touch,1
+Handicraft Jewel,3,Handicraft,1
+Fate Jewel,3,Good Luck,1
+Hellfire Jewel,3,Hellfire Cloak,1
+Leap Jewel,3,Jump Master,1
+Salvo Jewel,3,Rapid Fire Up,1
+Thrift Jewel,2,Spare Shot,1
+Razor Jewel,2,Razor Sharp,1
+Spread Jewel,3,Spread Up,1
+Pierce Jewel,3,Pierce Up,1
+Forceshot Jewel,3,Normal/Rapid Up,1
+Sharp Jewel,2,Protective Polish,1
+Blast Jewel,2,Blast Attack,1
+Sleep Jewel,2,Sleep Attack,1
+Paralyzer Jewel,2,Paralysis Attack,1
+Throttle Jewel,2,Latent Power,1
+Crisis Jewel,2,Resuscitate,1
+Furor Jewel,2,Resentment,1
+Flawless Jewel,2,Peak Performance,1
+Challenger Jewel,2,Agitator,1
+Tenderizer Jewel,2,Weakness Exploit,1
+Critical Jewel,2,Critical Boost,1
+Capacity Jewel,3,Ammo Up,1
+Guardian Jewel,3,Offensive Guard,1
+Fungiform Jewel,3,Mushroomancer,1
+Draw Jewel,3,Critical Draw,1
+Precise Jewel,2,Ballistics,1
+Crit Element Jewel,2,Critical Element,1
+Artillery Jewel,2,Artillery,1
+Sprinter Jewel,2,Marathon Runner,1
+Charger Jewel,2,Focus,1
+Mind's Eye Jewel,2,Mind's Eye,1
+Potential Jewel,2,Heroics,1
+Trueshot Jewel,2,Special Ammo Boost,1
+Magazine Jewel,2,Load Shells,1
+Shield Jewel,2,Guard Up,1
+Ironwall Jewel,2,Guard,1
+Refresh Jewel,2,Stamina Surge,1
+Enhancer Jewel,2,Power Prolonger,1
+Mighty Jewel,2,Maximum Might,1
+Attack Jewel,2,Attack Boost,1
+Expert Jewel,2,Critical Eye,1
+Quickswitch Jewel,2,Rapid Morph,1
+Absorber Jewel,1,Recoil Down,1
+Blunt Jewel,2,Bludgeoner,1
+Quickload Jewel,1,Reload Speed,1
+Steadfast Jewel,1,Stun Resistance,1
+Footing Jewel,2,Tremor Resistance,1
+Earplug Jewel,3,Earplugs,1
+Counter Jewel,2,Counterstrike,1
+Bubble Jewel,2,Bubbly Dance,1
+Sniper Jewel,1,Steadiness,1
+Gambit Jewel,2,Punishing Draw,1
+Jumping Jewel,2,Evade Extender,1
+Evasion Jewel,2,Evade Window,1
+Brace Jewel,1,Flinch Free,1
+Sheath Jewel,2,Quick Sheathe,1
+Wind Res Jewel,1,Windproof,1
+KO Jewel,2,Slugger,1
+Friendship Jewel,2,Wide-Range,1
+Destroyer Jewel,2,Partbreaker,1
+Resistor Jewel,2,Blight Resistance,1
+Gobbler Jewel,2,Speed Eating,1
+Protection Jewel,2,Divine Blessing,1
+Wall Run Jewel,2,Wall Runner,1
+Wirebug Jewel,2,Wirebug Whisperer,1
+Grinder Jewel,1,Speed Sharpening,1
+Enduring Jewel,2,Item Prolonger,1
+Recovery Jewel,1,Recovery Speed,1
+Medicine Jewel,2,Recovery Up,1
+Sonorous Jewel,1,Horn Maestro,1
+Drain Jewel,1,Stamina Thief,1
+Physique Jewel,2,Constitution,1
+Venom Jewel,1,Poison Attack,1
+Slider Jewel,1,Affinity Sliding,1
+Bomber Jewel,1,Bombardier,1
+Blaze Jewel,1,Fire Attack,1
+Stream Jewel,1,Water Attack,1
+Bolt Jewel,1,Thunder Attack,1
+Frost Jewel,1,Ice Attack,1
+Dragon Jewel,1,Dragon Attack,1
+Defense Jewel,1,Defense Boost,1
+Carver Jewel,1,Carving Pro,1
+Rodeo Jewel,2,Master Mounter,1
+Hungerless Jewel,1,Hunger Resistance,1
+Satiated Jewel,1,Free Meal,1
+Muck Jewel,1,Muck Resistance,1
+Diversion Jewel,1,Diversion,1
+Dive Jewel,1,Leap of Faith,1
+Fortitude Jewel,2,Fortify,1
+Geology Jewel,1,Geologist,1
+Botany Jewel,1,Botanist,1
+Antiblast Jewel,1,Blast Resistance,1
+Pep Jewel,1,Sleep Resistance,1
+Antipara Jewel,1,Paralysis Resistance,1
+Antidote Jewel,1,Poison Resistance,1
+Fire Res Jewel,1,Fire Resistance,1
+Water Res Jewel,1,Water Resistance,1
+Thunder Res Jewel,1,Thunder Resistance,1
+Ice Res Jewel,1,Ice Resistance,1
+Dragon Res Jewel,1,Dragon Resistance,1
+Hard Fire Res Jewel,4,Fire Resistance,3
+Hard Water Res Jewel,4,Water Resistance,3
+Hard Ice Res Jewel,4,Ice Resistance,3
+Hard Thunder Res Jewel,4,Thunder Resistance,3
+Hard Dragon Res Jewel,4,Dragon Resistance,3
+Hard Botany Jewel,4,Botanist,3
+Hard Geology Jewel,4,Geologist,3
+Hard Satiated Jewel,4,Free Meal,3
+Hard Drain Jewel,4,Stamina Thief,3
+Hard Enduring Jewel,4,Item Prolonger,3
+Hard Hungerless Jewel,4,Hunger Resistance,3
+Blaze Jewel+,2,Fire Attack,2
+Hard Blaze Jewel,3,Fire Attack,3
+Stream Jewel+,2,Water Attack,2
+Hard Stream Jewel,3,Water Attack,3
+Frost Jewel+,2,Ice Attack,2
+Hard Frost Jewel,3,Ice Attack,3
+Bolt Jewel+,2,Thunder Attack,2
+Hard Bolt Jewel,3,Thunder Attack,3
+Dragon Jewel+,2,Dragon Attack,2
+Hard Dragon Jewel,3,Dragon Attack,3
+Defense Jewel+,2,Defense Boost,2
+Hard Defense Jewel,3,Defense Boost,3
+Hard Defense Jewel++,4,Defense Boost,5
+Hard Bomber Jewel,4,Bombardier,3
+Hard Grinder Jewel,4,Speed Sharpening,3
+Medicine Jewel+,4,Recovery Up,2
+Physique Jewel+,4,Constitution,2
+Wirebug Jewel+,4,Wirebug Whisperer,2
+Hard Wall Run Jewel,4,Wall Runner,3
+Hard Recovery Jewel,4,Recovery Speed,3
+Protection Jewel+,4,Divine Blessing,2
+Gobbler Jewel+,4,Speed Eating,2
+Resistor Jewel+,4,Blight Resistance,2
+Hard Friendship Jewel,3,Wide-Range,3
+Hard Friendship Jewel+,4,Wide-Range,4
+Evasion Jewel+,4,Evade Window,2
+Gambit Jewel+,4,Punishing Draw,2
+Hard Brace Jewel,4,Flinch Free,3
+Bubble Jewel+,4,Bubbly Dance,2
+KO Jewel+,4,Slugger,2
+Jumping Jewel+,4,Evade Extender,2
+Hard Wind Res Jewel,4,Windproof,3
+Refresh Jewel+,4,Stamina Surge,2
+Ironwall Jewel+,3,Guard,2
+Shield Jewel+,4,Guard Up,2
+Precise Jewel+,4,Ballistics,2
+Crit Element Jewel+,4,Critical Element,2
+Charger Jewel+,4,Focus,2
+Sprinter Jewel+,4,Marathon Runner,2
+Draw Jewel+,4,Critical Draw,2
+Fungiform Jewel+,4,Mushroomancer,2
+Hard Steadfast Jewel,4,Stun Resistance,3
+Mind's Eye Jewel+,4,Mind's Eye,2
+Earplug Jewel+,4,Earplugs,2
+Enhancer Jewel+,4,Power Prolonger,2
+Footing Jewel+,4,Tremor Resistance,2
+Hellfire Jewel+,4,Hellfire Cloak,2
+Fate Jewel+,4,Good Luck,2
+Breath Jewel,3,Quick Breath,1
+Bladescale Jewel,2,Bladescale Hone,1
+Redirection Jewel,3,Redirection,1
+Flywall Jewel,1,Wall Runner (Boost),1
+Mighty Bow Jewel,4,Bow Charge Plus,1
+Sniper Jewel+,4,Steadiness,2
+Hard Sniper Jewel,4,Steadiness,3
+Quickswitch Jewel+,4,Rapid Morph,2
+Magazine Jewel+,4,Load Shells,2
+Trueshot Jewel+,4,Special Ammo Boost,2
+Artillery Jewel+,4,Artillery,2
+Charge Jewel,2,Charge Master,1
+Sheath Jewel+,4,Quick Sheathe,2
+Crisis Jewel+,4,Resuscitate,2
+Destroyer Jewel+,4,Partbreaker,2
+Counter Jewel+,4,Counterstrike,2
+Sharp Jewel+,4,Protective Polish,2
+Hard Venom Jewel,4,Poison Attack,3
+Razor Jewel+,4,Razor Sharp,2
+Foil Jewel,3,Tune-Up,1
+Hard Antidote Jewel,4,Poison Resistance,3
+Hard Antipara Jewel,4,Paralysis Resistance,3
+Hard Pep Jewel,4,Sleep Resistance,3
+Hard Antiblast Jewel,4,Blast Resistance,3
+Mastery Jewel+,4,Master's Touch,2
+Spiribird's Call Jewel,1,Spiribird's Call,1
+Polisher Pro Jewel,3,Grinder (S),1
+Phoenix Jewel,2,Coalescence,1
+Paralyzer Jewel+,4,Paralysis Attack,2
+Sleep Jewel+,4,Sleep Attack,2
+Blast Jewel+,4,Blast Attack,2
+Foray Jewel,2,Foray,1
+Mighty Jewel+,4,Maximum Might,2
+Chain Jewel,2,Burst,1
+Phoenix Jewel+,4,Coalescence,2
+Haze Jewel,1,Chameleos Blessing,1
+Forceshot Jewel+,4,Normal/Rapid Up,2
+Pierce Jewel+,4,Pierce Up,2
+Spread Jewel+,4,Spread Up,2
+Handicraft Jewel+,4,Handicraft,2
+Hard Dragon Jewel+,4,Dragon Attack,4
+Hard Bolt Jewel+,4,Thunder Attack,4
+Hard Frost Jewel+,4,Ice Attack,4
+Hard Stream Jewel+,4,Water Attack,4
+Hard Blaze Jewel+,4,Fire Attack,4
+Redirection Jewel+,4,Redirection,2
+Flamescale Jewel,1,Teostra Blessing,1
+Throttle Jewel+,4,Latent Power,2
+Ironshell Jewel,1,Kushala Blessing,1
+Flawless Jewel+,4,Peak Performance,2
+Polisher Pro Jewel+,4,Grinder (S),2
+Charge Jewel+,4,Charge Master,2
+Element Exploit Jewel,2,Element Exploit,1
+Backstab Jewel,2,Sneak Attack,1
+Counterattack Jewel,2,Adrenaline Rush,1
+Guardian Jewel+,4,Offensive Guard,2
+Foil Jewel+,4,Tune-Up,2
+Bloodening Jewel,3,Blood Rite,1
+Embolden Jewel,2,Embolden,1
+Furor Jewel+,4,Resentment,2
+Dragon Spirit Jewel,4,Dragonheart,1
+Element Exploit Jewel+,4,Element Exploit,2
+Intrepid Jewel,1,Intrepid Heart,1
+Hard Cornerstone Jewel,4,Defiance,3
+Backstab Jewel+,4,Sneak Attack,2
+Foray Jewel+,4,Foray,2
+Counterattack Jewel+,4,Adrenaline Rush,2
+Trigger Jewel,3,Status Trigger,1
+Potential Jewel+,4,Heroics,2
+Chain Jewel+,4,Burst,2
+Shockproof Jewel,1,Shock Absorber,1
+Bladescale Jewel+,4,Bladescale Hone,2
+Challenger Jewel+,4,Agitator,2
+Capacity Jewel+,4,Ammo Up,2
+Bloodlust Jewel,4,Bloodlust,1
+Embolden Jewel+,4,Embolden,2
+Intrepid Jewel+,3,Intrepid Heart,2
+Trigger Jewel+,4,Status Trigger,2
+Expert Jewel+,4,Critical Eye,2
+Attack Jewel+,4,Attack Boost,2
+Inspiration Jewel,1,Inspiration,1
+Bloodening Jewel+,4,Blood Rite,2
+Thrift Jewel+,4,Spare Shot,2

@@ -1,0 +1,50 @@
+Total parsed lines: 635
+Pareto-dominated lines: 47
+
+Blight Resistance,1,Affinity Sliding,1,0,0,0 < Blight Resistance,1,Affinity Sliding,1,3,1,0, pareto dominated
+Blast Attack,1,,0,0,0,0 < Blast Attack,2,,0,3,1,0, pareto dominated
+Resuscitate,1,,0,0,0,0 < Resuscitate,1,,0,3,0,0, pareto dominated
+Jump Master,1,,0,1,0,0 < Jump Master,1,,0,1,1,0, pareto dominated
+Resentment,1,,0,1,0,0 < Resentment,2,,0,1,1,1, pareto dominated
+Partbreaker,1,Water Attack,1,1,0,0 < Partbreaker,3,Water Attack,1,1,0,0, pareto dominated
+Attack Boost,1,,0,1,1,0 < Attack Boost,2,,0,1,1,0, pareto dominated
+Handicraft,1,,0,0,0,0 < Handicraft,1,,0,1,1,0, pareto dominated
+Spare Shot,2,,0,1,0,0 < Spare Shot,2,,0,3,0,0, pareto dominated
+Focus,1,,0,0,0,0 < Focus,1,,0,1,0,0, pareto dominated
+Artillery,1,,0,0,0,0 < Artillery,1,,0,3,0,0, pareto dominated
+Attack Boost,2,,0,0,0,0 < Attack Boost,2,,0,1,1,0, pareto dominated
+Water Attack,1,Bubbly Dance,1,3,0,0 < Water Attack,2,Bubbly Dance,1,3,0,0, pareto dominated
+Fire Attack,1,Water Attack,1,2,0,0 < Fire Attack,2,Water Attack,1,2,0,0, pareto dominated
+Earplugs,2,Counterstrike,1,1,0,0 < Earplugs,2,Counterstrike,2,2,0,0, pareto dominated
+Normal/Rapid Up,1,,0,1,0,0 < Normal/Rapid Up,2,,0,1,0,0, pareto dominated
+Guard,2,,0,1,0,0 < Guard,2,,0,1,1,0, pareto dominated
+Steadiness,1,Geologist,1,1,0,0 < Steadiness,1,Geologist,2,3,0,0, pareto dominated
+Evade Window,1,Recoil Down,1,0,0,0 < Evade Window,1,Recoil Down,1,2,0,0, pareto dominated
+Razor Sharp,2,,0,0,0,0 < Razor Sharp,2,,0,1,1,0, pareto dominated
+Guard,1,,0,0,0,0 < Guard,2,,0,1,0,0, pareto dominated
+Guard Up,2,,0,1,0,0 < Guard Up,2,,0,1,1,0, pareto dominated
+Stamina Surge,1,,0,0,0,0 < Stamina Surge,1,,0,1,0,0, pareto dominated
+Heroics,1,,0,0,0,0 < Heroics,1,,0,1,0,0, pareto dominated
+Resuscitate,1,,0,1,0,0 < Resuscitate,1,,0,3,0,0, pareto dominated
+Evade Extender,1,Partbreaker,1,1,1,0 < Evade Extender,2,Partbreaker,1,1,1,0, pareto dominated
+Weakness Exploit,1,,0,0,0,0 < Weakness Exploit,1,,0,1,1,0, pareto dominated
+Ice Attack,1,Rapid Morph,1,2,0,0 < Ice Attack,2,Rapid Morph,2,3,1,0, pareto dominated
+Power Prolonger,1,,0,0,0,0 < Power Prolonger,2,,0,1,1,0, pareto dominated
+Power Prolonger,2,,0,1,0,0 < Power Prolonger,2,,0,1,1,0, pareto dominated
+Spare Shot,1,,0,1,0,0 < Spare Shot,2,,0,3,0,0, pareto dominated
+Blight Resistance,1,Resentment,1,0,0,0 < Blight Resistance,1,Resentment,1,1,0,0, pareto dominated
+Blast Attack,1,,0,1,0,0 < Blast Attack,2,,0,3,1,0, pareto dominated
+Latent Power,1,,0,1,0,0 < Latent Power,2,,0,1,0,0, pareto dominated
+Paralysis Attack,1,,0,0,0,0 < Paralysis Attack,1,,0,1,1,0, pareto dominated
+Stamina Thief,1,Bubbly Dance,1,1,1,0 < Stamina Thief,1,Bubbly Dance,2,1,1,0, pareto dominated
+Weakness Exploit,1,,0,1,0,0 < Weakness Exploit,1,,0,1,1,0, pareto dominated
+Spare Shot,1,,0,0,0,0 < Spare Shot,2,,0,3,0,0, pareto dominated
+Divine Blessing,1,Hunger Resistance,1,2,0,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, pareto dominated
+Bubbly Dance,2,Leap of Faith,1,1,0,0 < Bubbly Dance,2,Leap of Faith,1,1,1,0, pareto dominated
+Critical Eye,2,,0,1,1,0 < Critical Eye,3,,0,1,1,0, pareto dominated
+Agitator,1,,0,0,0,0 < Agitator,2,,0,3,0,0, pareto dominated
+Fire Attack,1,Botanist,1,1,0,0 < Fire Attack,2,Botanist,1,2,1,0, pareto dominated
+Power Prolonger,1,,0,1,0,0 < Power Prolonger,2,,0,1,1,0, pareto dominated
+Thunder Resistance,1,Recoil Down,1,1,0,0 < Thunder Resistance,1,Recoil Down,1,3,1,0, pareto dominated
+Tremor Resistance,1,Divine Blessing,1,0,0,0 < Tremor Resistance,3,Divine Blessing,2,1,1,1, pareto dominated
+Agitator,2,,0,0,0,0 < Agitator,2,,0,3,0,0, pareto dominated
