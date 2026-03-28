@@ -1,5 +1,15 @@
 [![Github All Releases](https://img.shields.io/github/downloads/chpoit/utsushis-charm/total.svg)]() [![Github All Releases](https://img.shields.io/github/downloads/chpoit/utsushis-charm/latest/total.svg)]()
 
+## About this repository (personal fork)
+
+This is a **fork** of [Utsushi’s Charm](https://github.com/chpoit/utsushis-charm). This copy exists for **personal use** only; it is **not** intended as a maintained or supported project for public consumption.
+
+You are free to `git clone` this repository if you wish, but you do so **entirely at your own risk**. For the canonical app, documentation, releases, and issue tracking, use the **[upstream repository](https://github.com/chpoit/utsushis-charm)**.
+
+The README below is largely inherited from upstream and may describe workflows or links that point at the original project.
+
+---
+
 # Utsushi's Charm
 
 > Whenever I look at Utsushi I feel like I can do anything. Unfortunately, when I need to register my charms, I can't lose myself in Utsushi's charm.

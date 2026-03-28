@@ -1,14 +1,26 @@
 import json
+import re
+
 from .parse_errors import ParseError
 
 
+def _encoded_frame_suffix(frame_loc):
+    """`,fr123` when ``frame_loc`` points at ``frame123.png`` (under ``frames/`` or elsewhere)."""
+    if not frame_loc:
+        return ""
+    path = str(frame_loc).replace("\\", "/")
+    m = re.search(r"(?i)frame(\d+)\.png", path)
+    return f",fr{m.group(1)}" if m else ""
+
+
 class Charm:
-    def __init__(self, slots, skills=None, frame_loc=None):
+    def __init__(self, slots, skills=None, frame_loc=None, rarity=None):
         if not skills:
             skills = {}
         self.slots = list(sorted(slots, reverse=True))
         self.skills = skills
         self.frame_loc = frame_loc
+        self.rarity = rarity if rarity in range(1, 11) else None
 
     def __eq__(self, other):
         return self.is_identical(other)
@@ -30,10 +42,32 @@ class Charm:
 
     @staticmethod
     def from_dict(json_data):
-        return Charm(json_data["slots"], json_data["skills"])
+        r = json_data.get("rarity")
+        if r is not None:
+            try:
+                r = int(r)
+                if r not in range(1, 11):
+                    r = None
+            except (TypeError, ValueError):
+                r = None
+        elif json_data.get("rarity7") is True:
+            r = 7
+        else:
+            r = None
+        return Charm(
+            json_data["slots"],
+            json_data["skills"],
+            frame_loc=json_data.get("frame_loc"),
+            rarity=r,
+        )
 
     def to_dict(self):
-        return {"slots": self.slots, "skills": self.skills}
+        d = {"slots": self.slots, "skills": self.skills}
+        if self.rarity is not None:
+            d["rarity"] = self.rarity
+        if self.frame_loc is not None:
+            d["frame_loc"] = self.frame_loc
+        return d
 
     def is_identical(self, charm):
         if (
@@ -63,7 +97,13 @@ class Charm:
 
         for level in self.slots:
             acc += f"{level},"
-        return acc[:-1]
+        acc = acc[:-1]
+        if self.rarity is not None:
+            acc += f",rar{self.rarity}"
+        else:
+            acc += ",rar0"
+        acc += _encoded_frame_suffix(self.frame_loc)
+        return acc
 
     def has_skills(self):
         return len(self.skills)
@@ -71,14 +111,21 @@ class Charm:
 
 class InvalidCharm(Charm):
     def __init__(self, charm: Charm, skill_errors: [(list, str, int, ParseError)]):
-        super().__init__(charm.slots, charm.skills, frame_loc=charm.frame_loc)
+        super().__init__(
+            charm.slots,
+            charm.skills,
+            frame_loc=charm.frame_loc,
+            rarity=getattr(charm, "rarity", None),
+        )
         self.skill_errors = skill_errors
 
     def get_errors(self):
         yield from self.skill_errors
 
     def repair(self, fixed_skills):
-        return Charm(self.slots, fixed_skills, self.frame_loc)
+        return Charm(
+            self.slots, fixed_skills, self.frame_loc, rarity=self.rarity
+        )
 
     def to_dict(self):
         base = super().to_dict()

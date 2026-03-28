@@ -215,8 +215,23 @@ def download_language_data(lang="eng", _=lambda x: x, retry=False):
             print(e)
 
 
-def process_image_with_tesseract(tesseract, image):
-    whitelist = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890'/-()"
+def process_image_with_tesseract(
+    tesseract,
+    image,
+    whitelist=None,
+    *,
+    resolution=None,
+    pageseg_mode=None,
+):
+    """
+    Runs OCR. If ``pageseg_mode`` or ``resolution`` are set, they are applied for this
+    call only and reset afterward so skill OCR (same Tess instance) stays unchanged.
+    ``pageseg_mode`` uses Tesseract enum values (e.g. 7 = single text line).
+    """
+    if whitelist is None:
+        whitelist = (
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890'/-()"
+        )
 
     height, width = image.shape[:2]
     if len(image.shape) == 2:
@@ -227,8 +242,19 @@ def process_image_with_tesseract(tesseract, image):
     # Forcing obnoxious type conversion, probably some windows BS
     image = image.astype(np.uint8)
 
-    tesseract.set_image(image.ctypes, width, height, depth)
-    tesseract.set_variable("whitelist", whitelist)
-    tesseract.set_resolution()
-    text = tesseract.get_text()
-    return text.strip()
+    try:
+        tesseract.set_image(image.ctypes, width, height, depth)
+        tesseract.set_variable("whitelist", whitelist)
+        if pageseg_mode is not None:
+            tesseract.set_variable("tessedit_pageseg_mode", str(pageseg_mode))
+        if resolution is not None:
+            tesseract.set_resolution(resolution)
+        else:
+            tesseract.set_resolution()
+        text = tesseract.get_text()
+        return (text or "").strip()
+    finally:
+        if pageseg_mode is not None:
+            tesseract.set_variable("tessedit_pageseg_mode", "3")
+        if resolution is not None:
+            tesseract.set_resolution(70)

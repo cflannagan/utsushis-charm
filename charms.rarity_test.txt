@@ -1,0 +1,696 @@
+# Rarity OCR test: expects 'Rarity 1'..'Rarity 9' and 'Rarity10' (no space before 10).
+# columns: frame_path<TAB>rarity<TAB>raw_ocr
+frames/frame756.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame3210.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame1407.png	7	[skill_aligned/trunc_bgr] Rarity 7 2R —
+frames/frame4225.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame2132.png	5	[skill_aligned/raw_color_roi] Rarity 5 R
+frames/frame4580.png	6	[skill_aligned/raw_color_roi] Rarity 6
+frames/frame1611.png	7	[skill_aligned/trunc_bgr] Rarity 7 R ——
+frames/frame6156.png	6	[skill_aligned/trunc_bgr] Raity 6 28—
+frames/frame597.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame6181.png	6	[skill_aligned/raw_color_roi] Rarity 6 NE_
+frames/frame6195.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE__-
+frames/frame4782.png	8	[skill_aligned/raw_color_roi] Rarity 8 ol ¢ S
+frames/frame3172.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame434.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame5271.png	10	[skill_aligned/raw_color_roi] Rarity10 QRN
+frames/frame352.png	6	[skill_aligned/raw_color_roi] Rarity 6 o —
+frames/frame4147.png	7	[skill_aligned/raw_color_roi] Rarity7 R
+frames/frame385.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame4806.png	8	[skill_aligned/raw_color_roi] Rarity 8 KR
+frames/frame5067.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame150.png	6	[skill_aligned/trunc_bgr] Rarity 6 ==
+frames/frame1215.png	7	[skill_aligned/raw_color_roi] Rarity7 o
+frames/frame4345.png	7	[skill_aligned/trunc_bgr] Rarity 7 R
+frames/frame4437.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame5729.png	6	[skill_aligned/raw_color_roi] Rarity 6 2R —
+frames/frame4386.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame2085.png	5	[skill_aligned/raw_color_roi] Rarity 5 o ——
+frames/frame811.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame4393.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame804.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame3371.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame6209.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame1200.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame4378.png	7	[skill_aligned/trunc_bgr] Rarity 7 8__
+frames/frame3826.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame409.png	6	[skill_aligned/raw_color_roi] Rarity 6 DE__-
+frames/frame4634.png	7	[skill_aligned/raw_color_roi] Rarity 7 Q8 —
+frames/frame4620.png	7	[skill_aligned/raw_color_roi] Rarity 7 0 —
+frames/frame5516.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame3952.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame4973.png	4	[skill_aligned/raw_color_roi] Rarity 4 [ ¢ g
+frames/frame4998.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame3985.png	7	[skill_aligned/trunc_bgr] Rarity 7 28—
+frames/frame5310.png	9	[skill_aligned/raw_color_roi] Rarity 9 RN
+frames/frame5476.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame3007.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5847.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame2872.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5884.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame2125.png	5	[skill_aligned/raw_color_roi] Rarity5 QR
+frames/frame5892.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame2864.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame796.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame4597.png	7	[skill_aligned/raw_color_roi] Rarity 7 0NN —
+frames/frame2469.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame5460.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame557.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame3763.png	7	[skill_aligned/raw_color_roi] Rarity7, V=
+frames/frame2455.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame4742.png	8	[skill_aligned/raw_color_roi] Rarity 8 o
+frames/frame2327.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame4965.png	4	[skill_aligned/raw_color_roi] Rarity 4
+frames/frame3944.png	7	[skill_aligned/trunc_bgr] Rarity 7 R__
+frames/frame3165.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®”——
+frames/frame1982.png	5	[skill_aligned/raw_color_roi] Rarity 5 R —
+frames/frame3401.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame621.png	5	[skill_aligned/raw_color_roi] Rarity 5 VE_-
+frames/frame6223.png	6	[skill_aligned/raw_color_roi] Rarity 6 e —
+frames/frame4352.png	7	[skill_aligned/trunc_bgr] Rarity 7 R
+frames/frame5058.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame2051.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame5918.png	6	[skill_aligned/trunc_bgr] Rarity 6 o ——
+frames/frame4409.png	7	[skill_aligned/trunc_bgr] Rarity 7 g__
+frames/frame3819.png	7	[skill_aligned/trunc_bgr] Rarity 7 2R —
+frames/frame393.png	6	[skill_aligned/raw_color_roi] Rarity 6 VRE_-
+frames/frame3158.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame2508.png	5	[skill_aligned/raw_color_roi] Rarity 5 DRE__-
+frames/frame4179.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®”——
+frames/frame344.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame4958.png	4	[skill_aligned/raw_color_roi] Rarity 4
+frames/frame581.png	5	[skill_aligned/raw_color_roi] Rarity 5 RE_-
+frames/frame1175.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame973.png	7	[skill_aligned/raw_color_roi] Rarity7, L —
+frames/frame4555.png	9	[skill_aligned/raw_color_roi] Raity 9 RS2 —
+frames/frame5139.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame1377.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame5677.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame740.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame1429.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®”——
+frames/frame3202.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame963.png	7	[skill_aligned/trunc_bgr] Rarity 7 [l ¢ I
+frames/frame787.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame2336.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame1159.png	7	[skill_aligned/raw_color_roi] Rarity 7 o
+frames/frame3014.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5303.png	9	[skill_aligned/raw_color_roi] Rarity 9 R —
+frames/frame220.png	6	[skill_aligned/trunc_bgr] Rarity 6 "——
+frames/frame2478.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE
+frames/frame2493.png	5	[skill_aligned/raw_color_roi] Rarity 5 "——
+frames/frame4790.png	8	[skill_aligned/raw_color_roi] Rarity 8 RN —
+frames/frame4155.png	7	[skill_aligned/raw_color_roi] Rarity7, poo d o T
+frames/frame1039.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame3148.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame3606.png	7	[skill_aligned/raw_color_roi] Rarity7, o0 —
+frames/frame1005.png	7	[skill_aligned/trunc_bgr] Rarity 7 @R——
+frames/frame3835.png	7	[skill_aligned/raw_color_roi] Rarity 7 LY
+frames/frame4425.png	7	[skill_aligned/raw_color_roi] Rarity7, pood + =
+frames/frame5075.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame3362.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5713.png	6	[skill_aligned/raw_color_roi] Rarity 6 N —
+frames/frame1561.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame2068.png	5	[skill_aligned/raw_color_roi] Rarity 5 "N-——
+frames/frame3410.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame1207.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame180.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame96.png	6	[skill_aligned/trunc_bgr] Rarity 6 "——
+frames/frame5706.png	6	[skill_aligned/raw_color_roi] Rarity 6 "-——
+frames/frame143.png	6	[skill_aligned/raw_color_roi] Rarity 6 R —
+frames/frame157.png	6	[skill_aligned/trunc_bgr] Raity 6 VR —
+frames/frame1945.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame2280.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame3613.png	7	[skill_aligned/raw_color_roi] Rarity7, V=
+frames/frame6025.png	6	[skill_aligned/raw_color_roi] Rarity 6 LR —
+frames/frame2525.png	5	[skill_aligned/raw_color_roi] Rarity 5 o —
+frames/frame3968.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame5316.png	9	[skill_aligned/raw_color_roi] Rarity 9 RN
+frames/frame235.png	6	[skill_aligned/raw_color_roi] Rarity 6 NE_
+frames/frame3029.png	4	[skill_aligned/trunc_bgr] Rarity 4 /!——
+frames/frame5855.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_
+frames/frame2848.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame5699.png	6	[skill_aligned/raw_color_roi] Rarity 6 LR —
+frames/frame1414.png	7	[skill_aligned/raw_color_roi] Rarity7, LR—
+frames/frame989.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame5100.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame1366.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame1400.png	7	[skill_aligned/raw_color_roi] Rarity7, p 1§ =
+frames/frame2653.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame779.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame4234.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®”——
+frames/frame2645.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame5116.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame3598.png	7	[skill_aligned/raw_color_roi] Rarity7, jod =
+frames/frame4591.png	7	[skill_aligned/raw_color_roi] Rarity 7 0 —
+frames/frame2447.png	5	[skill_aligned/raw_color_roi] Rarity 5 p 1§ =
+frames/frame4036.png	7	[skill_aligned/trunc_bgr] Rarity 7 jod ¢ -
+frames/frame3995.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame3771.png	7	[skill_aligned/trunc_bgr] Rarity 7 R__
+frames/frame5499.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame6033.png	6	[skill_aligned/raw_color_roi] Rarity 6 frid——
+frames/frame1990.png	5	[skill_aligned/raw_color_roi] Rarity 5 p 1§ =
+frames/frame425.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame1012.png	7	[skill_aligned/trunc_bgr] Rarity 7 LR —
+frames/frame2296.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame43.png	6	[skill_aligned/trunc_bgr] Rarity 6 "——
+frames/frame1576.png	7	[skill_aligned/raw_color_roi] Rarity7 RN
+frames/frame2094.png	5	[skill_aligned/raw_color_roi] Rarity 5 e —
+frames/frame2902.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame196.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame81.png	6	[skill_aligned/trunc_bgr] Rarity 6 ==
+frames/frame5936.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame2042.png	5	[skill_aligned/raw_color_roi] Rarity 5 p1 ¢ =
+frames/frame1239.png	7	[skill_aligned/trunc_bgr] Rarity 7 RL—
+frames/frame6230.png	6	[skill_aligned/trunc_bgr] Rarity 6 o2 ——
+frames/frame4816.png	8	[skill_aligned/raw_color_roi] Rarity 8 B
+frames/frame1952.png	5	[skill_aligned/raw_color_roi] Rarity 5 DE__-
+frames/frame5507.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame5261.png	2	[skill_aligned/raw_color_roi] Rarity 2
+frames/frame2240.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame2532.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) +
+frames/frame1832.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame2485.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) +
+frames/frame1167.png	7	[skill_aligned/trunc_bgr] Rarity 7 g__
+frames/frame1601.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame2320.png	4	[skill_aligned/trunc_bgr] Rarity 4 ]!——
+frames/frame4751.png	8	[skill_aligned/raw_color_roi] Rarity 8 R2—
+frames/frame4209.png	7	[skill_aligned/trunc_bgr] Rarity 7 @R
+frames/frame5659.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame2888.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame3515.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame4252.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame251.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame2421.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®”——
+frames/frame4044.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame4911.png	8	[skill_aligned/raw_color_roi] Rarity 8 nYw
+frames/frame3918.png	7	[skill_aligned/trunc_bgr] Rarity 7 g__
+frames/frame1699.png	7	[skill_aligned/trunc_bgr] Rarity 7 KRR —
+frames/frame1706.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame5212.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame5574.png	6	[skill_aligned/trunc_bgr] Rarity 6 "n——
+frames/frame1712.png	7	[skill_aligned/trunc_bgr] Rarity 7 R
+frames/frame4130.png	7	[skill_aligned/raw_color_roi] Rarity7, NN —
+frames/frame6041.png	6	[skill_aligned/raw_color_roi] Rarity 6 e —
+frames/frame4871.png	8	[skill_aligned/raw_color_roi] Rarity 8 KR __
+frames/frame6082.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame3475.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame3313.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5788.png	6	[skill_aligned/raw_color_roi] Rarity 6 "w-——
+frames/frame668.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame3306.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame1511.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame1277.png	7	[skill_aligned/raw_color_roi] Rarity7, LR—
+frames/frame3460.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame126.png	6	[skill_aligned/trunc_bgr] Rarity 6 ==
+frames/frame3845.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®”——
+frames/frame3879.png	7	[skill_aligned/trunc_bgr] Rarity 7 R
+frames/frame3886.png	7	[skill_aligned/trunc_bgr] Rarity 7 e
+frames/frame5549.png	6	[skill_aligned/raw_color_roi] Rarity 6 "n-——
+frames/frame2226.png	5	[skill_aligned/trunc_bgr] Rarity 5
+frames/frame2554.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) +
+frames/frame318.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame442.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE__
+frames/frame1061.png	7	[skill_aligned/trunc_bgr] Rarity 7 g__
+frames/frame4086.png	7	[skill_aligned/raw_color_roi] Rarity7 o
+frames/frame1883.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame244.png	6	[skill_aligned/raw_color_roi] Rarity 6 DE__-
+frames/frame1673.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame4290.png	7	[skill_aligned/trunc_bgr] Rarity 7 g__
+frames/frame708.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n——
+frames/frame5171.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame3500.png	3	[skill_aligned/trunc_bgr] Rarity 3
+frames/frame3270.png		[2x_clahe_trunc] A
+frames/frame1473.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame1315.png	7	[skill_aligned/raw_color_roi] Rarity7, R
+frames/frame5365.png	7	[skill_aligned/raw_color_roi] Rarity7, R
+frames/frame4053.png	7	[skill_aligned/trunc_bgr] Rarity 7 LR —
+frames/frame508.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame285.png	6	[skill_aligned/raw_color_roi] Rarity 6 p 1§ =
+frames/frame2387.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame1077.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame326.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame4641.png	7	[skill_aligned/raw_color_roi] Rarity 7 2= —
+frames/frame6056.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE__-
+frames/frame5007.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame2026.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame2967.png	4	[skill_aligned/trunc_bgr] Rarity 4 ]!——
+frames/frame119.png	6	[skill_aligned/trunc_bgr] Raity 6 28—
+frames/frame2999.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame3339.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5760.png	6	[skill_aligned/trunc_bgr] Rarity 6 L——
+frames/frame1260.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame5774.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame2594.png	5	[skill_aligned/trunc_bgr] Rarity 5
+frames/frame1937.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame5589.png	6	[skill_aligned/trunc_bgr] Rarity 6 o ——
+frames/frame2219.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame6123.png	6	[skill_aligned/raw_color_roi] Rarity 6 LR —
+frames/frame2345.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame2379.png	5	[skill_aligned/raw_color_roi] Rarity 5 NN —
+frames/frame1664.png	7	[skill_aligned/trunc_bgr] Rarity 7 R —
+frames/frame3715.png	7	[skill_aligned/trunc_bgr] Rarity 7 8__
+frames/frame1102.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame2147.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame1300.png	7	[skill_aligned/raw_color_roi] Rarity7, p1 ¢ =
+frames/frame1466.png	7	[skill_aligned/trunc_bgr] Rarity 7 LR
+frames/frame4526.png	8	[skill_aligned/raw_color_roi] Rarity 8 22—
+frames/frame1338.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame2625.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame3507.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5823.png	6	[skill_aligned/trunc_bgr] Rarity 6 "o ——
+frames/frame4297.png	7	[skill_aligned/trunc_bgr] Rarity 7 8__
+frames/frame4724.png	8	[skill_aligned/raw_color_roi] Rarity 8 K2K2 —
+frames/frame1648.png	7	[skill_aligned/raw_color_roi] Rarity7, LL—
+frames/frame3739.png	7	[skill_aligned/raw_color_roi] Rarity7, NN —
+frames/frame3936.png	7	[skill_aligned/trunc_bgr] Rarity 7 @R——
+frames/frame4095.png	7	[skill_aligned/trunc_bgr] Rarity 7 @R——
+frames/frame294.png	6	[skill_aligned/raw_color_roi] Rarity 6 p 1§ =
+frames/frame1728.png	7	[skill_aligned/raw_color_roi] Rarity7 R —
+frames/frame4122.png	7	[skill_aligned/raw_color_roi] Rarity7, RE_
+frames/frame3895.png	7	[skill_aligned/raw_color_roi] Rarity7, LR—
+frames/frame3671.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame4320.png	7	[skill_aligned/trunc_bgr] Rarity 7 g__
+frames/frame5980.png	6	[skill_aligned/raw_color_roi] Rarity 6 LR —
+frames/frame653.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame5016.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame5957.png	6	[skill_aligned/raw_color_roi] Rarity 6 pood + =
+frames/frame690.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame684.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame5942.png	6	[skill_aligned/raw_color_roi] Rarity 6 DE__
+frames/frame1503.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame646.png	5	[skill_aligned/raw_color_roi] Rarity 5 DRE_-
+frames/frame134.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame4862.png	8	[skill_aligned/raw_color_roi] Rarity 8 o
+frames/frame493.png	5	[skill_aligned/raw_color_roi] Rarity 5 "w-——
+frames/frame5598.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame2585.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame3116.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame450.png	6	[skill_aligned/trunc_bgr] Raity 6 28—
+frames/frame5229.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame2546.png	5	[skill_aligned/raw_color_roi] Rarity 5 DRE__-
+frames/frame3658.png	7	[skill_aligned/raw_color_roi] Rarity7, R
+frames/frame4137.png	7	[skill_aligned/trunc_bgr] Rarity 7 R__
+frames/frame4902.png	8	[skill_aligned/raw_color_roi] Rarity 8 KR _
+frames/frame524.png	5	[skill_aligned/trunc_bgr] Rarity 5
+frames/frame1891.png	5	[skill_aligned/raw_color_roi] Rarity 5 frE——
+frames/frame2354.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame1488.png	7	[skill_aligned/raw_color_roi] Rarity7 o
+frames/frame2181.png	5	[skill_aligned/raw_color_roi] Rarity 5 RE_-
+frames/frame732.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame726.png	5	[skill_aligned/raw_color_roi] Rarity 5 N —
+frames/frame5163.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame4533.png	8	[skill_aligned/raw_color_roi] Rarity 8 QLR
+frames/frame1449.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame2632.png	5	[skill_aligned/raw_color_roi] Rarity 5 "——
+frames/frame2154.png	5	[skill_aligned/raw_color_roi] Rarity 5 N —
+frames/frame5613.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_
+frames/frame3276.png		[2x_clahe_trunc] A,
+frames/frame2829.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame4280.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame4733.png	8	[skill_aligned/raw_color_roi] Rarity 8 KR
+frames/frame3706.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame532.png	5	[skill_aligned/raw_color_roi] Rarity5
+frames/frame3060.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5203.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame334.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE__-
+frames/frame4684.png	8	[skill_aligned/raw_color_roi] Rarity 8 R —
+frames/frame485.png	5	[skill_aligned/raw_color_roi] Rarity 5 o —
+frames/frame2034.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame5767.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame2975.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame2961.png	4	[skill_aligned/trunc_bgr] Rarity 4 ]!——
+frames/frame4336.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame1528.png	7	[skill_aligned/trunc_bgr] Rarity 7 [ S
+frames/frame4691.png	8	[skill_aligned/raw_color_roi] Rarity 8 Q8 —
+frames/frame3698.png	7	[skill_aligned/raw_color_roi] Rarity7, RR—
+frames/frame3854.png	7	[skill_aligned/trunc_bgr] Rarity 7 @R
+frames/frame6092.png	6	[skill_aligned/raw_color_roi] Rarity 6 N —
+frames/frame3101.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame5564.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame2394.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame1110.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame6131.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame2196.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame3288.png	2	[skill_aligned/raw_color_roi] Rarity 2
+frames/frame4518.png	8	[skill_aligned/raw_color_roi] Rarity 8 QLY —
+frames/frame5606.png	6	[skill_aligned/trunc_bgr] Rarity 6 o2 ——
+frames/frame3263.png		[2x_clahe_trunc] .
+frames/frame4242.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame5148.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame5637.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame1323.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®——
+frames/frame5179.png	2	[skill_aligned/raw_color_roi] Rarity 2
+frames/frame2616.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame5810.png	6	[skill_aligned/trunc_bgr] Rarity 6 "——
+frames/frame516.png	5	[skill_aligned/trunc_bgr] Rarity 5
+frames/frame6100.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame3078.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame4717.png	8	[skill_aligned/raw_color_roi] Rarity 8 e
+frames/frame2372.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame3087.png	4	[skill_aligned/trunc_bgr] Rarity 4 ]!——
+frames/frame4887.png	8	[skill_aligned/raw_color_roi] Rarity 8 Q=
+frames/frame5541.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE__-
+frames/frame6048.png	6	[skill_aligned/raw_color_roi] Rarity 6 2R —
+frames/frame476.png	5	[skill_aligned/raw_color_roi] Rarity 5 E__-
+frames/frame3124.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame2212.png	5	[skill_aligned/raw_color_roi] Rarity 5 DVE__-
+frames/frame1069.png	7	[skill_aligned/trunc_bgr] Rarity 7 @R——
+frames/frame3871.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame3440.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame3468.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame1519.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame890.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame5965.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame5795.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame5781.png	6	[skill_aligned/raw_color_roi] Rarity 6 ool + =
+frames/frame4312.png	7	[skill_aligned/trunc_bgr] Rarity 7 g__
+frames/frame5024.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame661.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame4879.png	8	[skill_aligned/raw_color_roi] Rarity 8 L —
+frames/frame3680.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame1929.png	5	[skill_aligned/raw_color_roi] Rarity 5 )+ F o
+frames/frame4845.png	8	[skill_aligned/raw_color_roi] Rarity 8 o
+frames/frame4676.png	7	[skill_aligned/raw_color_roi] Rarity 7 o8N —
+frames/frame4104.png	7	[skill_aligned/trunc_bgr] Rarity 7 g__
+frames/frame1054.png	7	[skill_aligned/trunc_bgr] Rarity 7 2__
+frames/frame311.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame3643.png	7	[skill_aligned/trunc_bgr] Rarity 7 [ S
+frames/frame3910.png	7	[skill_aligned/trunc_bgr] Rarity 7 8__
+frames/frame1875.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame1691.png	7	[skill_aligned/trunc_bgr] Rarity 7 n__
+frames/frame1849.png	5	[skill_aligned/trunc_bgr] Rarity 5
+frames/frame6115.png	6	[skill_aligned/raw_color_roi] Rarity 6 PRE__-
+frames/frame4070.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame2429.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5420.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_
+frames/frame5434.png	6	[skill_aligned/trunc_bgr] Raity 6 R —
+frames/frame3045.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame3723.png	7	[skill_aligned/trunc_bgr] Rarity 7 2R
+frames/frame1134.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame5839.png	6	[skill_aligned/trunc_bgr] Raity 6 QLR —
+frames/frame5187.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame2603.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame5622.png	6	[skill_aligned/trunc_bgr] Raity 6 Y —
+frames/frame3537.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame717.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) +
+frames/frame3523.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame1308.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame4270.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame501.png	5	[skill_aligned/raw_color_roi] Rarity 5 NN —
+frames/frame267.png	6	[skill_aligned/raw_color_roi] Rarity 6 LR —
+frames/frame4648.png	7	[skill_aligned/raw_color_roi] Rarity 7 2= —
+frames/frame3133.png	4	[skill_aligned/trunc_bgr] Rarity 4 ]!——
+frames/frame2577.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame111.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_
+frames/frame1254.png	7	[skill_aligned/raw_color_roi] Rarity7, poo o T
+frames/frame5998.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame1268.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame4476.png	8	[skill_aligned/raw_color_roi] Rarity 8 QL —
+frames/frame2007.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame5973.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame850.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE__
+frames/frame2947.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame4305.png	7	[skill_aligned/trunc_bgr] Rarity 7 8__
+frames/frame3330.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame104.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame2990.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5033.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame676.png	5	[skill_aligned/raw_color_roi] Rarity 5 R —
+frames/frame5580.png	6	[skill_aligned/trunc_bgr] Raity 6 2N —
+frames/frame1094.png	7	[skill_aligned/raw_color_roi] Rarity7, o —
+frames/frame2562.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame4113.png	7	[skill_aligned/raw_color_roi] Rarity7, R
+frames/frame5557.png	6	[skill_aligned/trunc_bgr] Rarity 6 @R——
+frames/frame2402.png	5	[skill_aligned/raw_color_roi] Rarity 5 o0 —
+frames/frame3052.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame2172.png	5	[skill_aligned/raw_color_roi] Rarity 5 p1 ¢ =
+frames/frame4261.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame2610.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame2162.png	5	[skill_aligned/raw_color_roi] Rarity 5 DRE__-
+frames/frame1331.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame1457.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame5802.png	6	[skill_aligned/trunc_bgr] Rarity 6 2——
+frames/frame921.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame3297.png	2	[skill_aligned/raw_color_roi] Rarity 2
+frames/frame2189.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame4077.png	7	[skill_aligned/raw_color_roi] Rarity7, L
+frames/frame1127.png	7	[skill_aligned/trunc_bgr] Rarity 7 n__
+frames/frame1641.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame1899.png	5	[skill_aligned/raw_color_roi] Rarity 5 NN —
+frames/frame1866.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame3903.png	7	[skill_aligned/raw_color_roi] Rarity7, NN —
+frames/frame1682.png	7	[skill_aligned/raw_color_roi] Rarity7 LR —
+frames/frame458.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame1735.png	7	[skill_aligned/raw_color_roi] Rarity7, R
+frames/frame3650.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame5221.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame3863.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®”——
+frames/frame1906.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame3320.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame3446.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame4329.png	7	[skill_aligned/raw_color_roi] Rarity7 LN
+frames/frame1292.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame3484.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame698.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame3453.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5744.png	6	[skill_aligned/raw_color_roi] Rarity 6 "-——
+frames/frame1536.png	7	[skill_aligned/raw_color_roi] Rarity7, RE_
+frames/frame5988.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame2017.png	5	[skill_aligned/trunc_bgr] Rarity 5
+frames/frame1085.png	7	[skill_aligned/raw_color_roi] Rarity7, o —
+frames/frame3686.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame1913.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame1720.png	7	[skill_aligned/raw_color_roi] Rarity 7 RN
+frames/frame4658.png	6	[skill_aligned/trunc_bgr] Raity 6 28—
+frames/frame303.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame1046.png	7	[skill_aligned/trunc_bgr] Rarity 7 jd ¢ -
+frames/frame4894.png	8	[skill_aligned/raw_color_roi] Rarity 8 QL —
+frames/frame6073.png	6	[skill_aligned/trunc_bgr] Raity 6 28—
+frames/frame3094.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame277.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_
+frames/frame6107.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame4062.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame539.png	5	[skill_aligned/raw_color_roi] Rarity 5 | +
+frames/frame5195.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame1481.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame2639.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame5630.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame3255.png		[2x_clahe_trunc] [ 3
+frames/frame2363.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame3069.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame2411.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame6139.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame1656.png	7	[skill_aligned/trunc_bgr] Rarity 7 R__
+frames/frame1859.png	5	[skill_aligned/raw_color_roi] Rarity 5 NN —
+frames/frame3928.png	7	[skill_aligned/trunc_bgr] Rarity 7 R —
+frames/frame2203.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) +
+frames/frame4855.png	8	[skill_aligned/raw_color_roi] Rarity 8 QN —
+frames/frame1246.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame842.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢+ =
+frames/frame2954.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame2940.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame5949.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE_
+frames/frame3493.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame1284.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®”——
+frames/frame2982.png	4	[skill_aligned/trunc_bgr] Rarity 4 ]!——
+frames/frame5753.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame4698.png	8	[skill_aligned/raw_color_roi] Rarity 8 QLR
+frames/frame5237.png	3	[skill_aligned/raw_color_roi] Rarity 3 = —
+frames/frame6064.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame2570.png	5	[skill_aligned/raw_color_roi] Rarity 5 DE__
+frames/frame4667.png	7	[skill_aligned/raw_color_roi] Rarity 7 Qe —
+frames/frame3108.png	4	[skill_aligned/trunc_bgr] Rarity 4 ]!——
+frames/frame4920.png	4	[skill_aligned/raw_color_roi] Rarity 4
+frames/frame260.png	6	[skill_aligned/raw_color_roi] Rarity 6 R —
+frames/frame3732.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame2438.png	5	[skill_aligned/raw_color_roi] Rarity 5 e —
+frames/frame4707.png	8	[skill_aligned/raw_color_roi] Rarity 8 YR
+frames/frame1119.png	7	[skill_aligned/trunc_bgr] Rarity 7 [ o S
+frames/frame1496.png	7	[skill_aligned/raw_color_roi] Rarity7 R
+frames/frame3281.png		[2x_clahe_trunc] .,
+frames/frame3530.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame4539.png	8	[skill_aligned/raw_color_roi] Rarity 8 R —
+frames/frame5155.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame5132.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame763.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame3219.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame4990.png	4	[skill_aligned/raw_color_roi] Rarity 4 [ ¢ g
+frames/frame1142.png	7	[skill_aligned/raw_color_roi] Rarity7 R —
+frames/frame6188.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame367.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE__
+frames/frame401.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE__-
+frames/frame4628.png	7	[skill_aligned/raw_color_roi] Rarity 7 SR= —
+frames/frame5287.png	9	[skill_aligned/raw_color_roi] Rarity 9 L —
+frames/frame4199.png	7	[skill_aligned/raw_color_roi] Rarity7, ool + =
+frames/frame165.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame73.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame4370.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame3379.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame818.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame1585.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame2926.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame825.png	5	[skill_aligned/raw_color_roi] Rarity 5 DRE_
+frames/frame3387.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5084.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame2933.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame4417.png	7	[skill_aligned/raw_color_roi] Rarity7, ool + =
+frames/frame1553.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame2516.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame5279.png	9	[skill_aligned/raw_color_roi] Rarity 9 SREZ —
+frames/frame6016.png	6	[skill_aligned/trunc_bgr] Raity 6 QLR —
+frames/frame2258.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5245.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame3634.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame1619.png	7	[skill_aligned/raw_color_roi] Rarity7, NN —
+frames/frame4007.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame2462.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame548.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) +
+frames/frame2304.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame4775.png	8	[skill_aligned/raw_color_roi] Rarity 8 R _
+frames/frame1625.png	7	[skill_aligned/trunc_bgr] Rarity 7 jod ¢ -
+frames/frame3754.png	7	[skill_aligned/raw_color_roi] Rarity7, ool + =
+frames/frame5669.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame5899.png	6	[skill_aligned/raw_color_roi] Rarity 6 o8 —
+frames/frame3554.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame748.png	5	[skill_aligned/raw_color_roi] Rarity 5 DVE__-
+frames/frame2689.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame5870.png	6	[skill_aligned/raw_color_roi] Rarity 6 ) +
+frames/frame6148.png	6	[skill_aligned/raw_color_roi] Rarity 6 p 1§ =
+frames/frame1633.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame5469.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame1182.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame589.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame5253.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame4171.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame2500.png	5	[skill_aligned/raw_color_roi] Rarity 5 NS
+frames/frame1790.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE__-
+frames/frame3187.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame3811.png	7	[skill_aligned/raw_color_roi] Rarity7, NN —
+frames/frame614.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame172.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN
+frames/frame1545.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame64.png	6	[skill_aligned/raw_color_roi] Rarity 6 e —
+frames/frame6202.png	6	[skill_aligned/trunc_bgr] Rarity 6 "——
+frames/frame6216.png	6	[skill_aligned/raw_color_roi] Rarity 6 o0 —
+frames/frame4401.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame5092.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame833.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) +
+frames/frame2918.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame1593.png	7	[skill_aligned/raw_color_roi] Rarity7, pood + =
+frames/frame629.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame1222.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®”——
+frames/frame5722.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame2059.png	5	[skill_aligned/trunc_bgr] Rarity 5
+frames/frame5736.png	6	[skill_aligned/raw_color_roi] Rarity 6 28—
+frames/frame3347.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5050.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame1975.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame1020.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame417.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame4951.png	4	[skill_aligned/raw_color_roi] Rarity 4 " —
+frames/frame3794.png	7	[skill_aligned/trunc_bgr] Rarity 7 LR
+frames/frame2313.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame211.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE__
+frames/frame5326.png	8	[skill_aligned/raw_color_roi] Rarity 8 QLR
+frames/frame2663.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame2111.png	5	[skill_aligned/raw_color_roi] Rarity 5 NN —
+frames/frame4548.png	8	[skill_aligned/raw_color_roi] Rarity 8 K2 —
+frames/frame2139.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame3233.png		[2x_clahe_trunc] A
+frames/frame5124.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame4564.png	10	[skill_aligned/trunc_bgr] Rarity10 QLI
+frames/frame981.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame4216.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame1346.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame5652.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_
+frames/frame771.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n-——
+frames/frame3545.png	3	[skill_aligned/raw_color_roi] Rarity 3 NE_
+frames/frame5685.png	6	[skill_aligned/raw_color_roi] Rarity 6 R —
+frames/frame5691.png	6	[skill_aligned/trunc_bgr] Raity 6 28—
+frames/frame3586.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame229.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame4982.png	4	[skill_aligned/raw_color_roi] Rarity 4
+frames/frame5444.png	6	[skill_aligned/raw_color_roi] Rarity 6 p1 ¢ =
+frames/frame4028.png	7	[skill_aligned/raw_color_roi] Rarity7, NN —
+frames/frame573.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame3021.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame3960.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame4799.png	8	[skill_aligned/raw_color_roi] Rarity 8 Q8 —
+frames/frame3141.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame2539.png	5	[skill_aligned/raw_color_roi] Rarity 5 Q=
+frames/frame5524.png	6	[skill_aligned/trunc_bgr] Rarity 6 ===
+frames/frame1959.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) +
+frames/frame3419.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame1568.png	7	[skill_aligned/raw_color_roi] Rarity7 e
+frames/frame639.png	5	[skill_aligned/raw_color_roi] Rarity 5 (rE——
+frames/frame605.png	5	[skill_aligned/raw_color_roi] Rarity 5
+frames/frame188.png	6	[skill_aligned/trunc_bgr] Rarity 6 o2 ——
+frames/frame3395.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5928.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE__-
+frames/frame2909.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame2289.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5294.png	9	[skill_aligned/trunc_bgr] Rarity 9 Q——
+frames/frame360.png	6	[skill_aligned/raw_color_roi] Rarity 6 VE__-
+frames/frame1743.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame3626.png	7	[skill_aligned/trunc_bgr] Rarity 7 LL—
+frames/frame1031.png	7	[skill_aligned/raw_color_roi] Rarity7, NN —
+frames/frame4613.png	7	[skill_aligned/trunc_bgr] Rarity 7 QLILR
+frames/frame5492.png	6	[skill_aligned/trunc_bgr] Rarity 6 ===
+frames/frame1151.png	7	[skill_aligned/trunc_bgr] Rarity 7 Q——
+frames/frame3746.png	7	[skill_aligned/raw_color_roi] Rarity7, p1 ¢+ =
+frames/frame5337.png	8	[skill_aligned/raw_color_roi] Rarity 8 RN —
+frames/frame5451.png	6	[skill_aligned/raw_color_roi] Rarity 6 o —
+frames/frame566.png	5	[skill_aligned/raw_color_roi] Rarity 5 "-——
+frames/frame6164.png	6	[skill_aligned/raw_color_roi] Rarity 6 DE__-
+frames/frame4767.png	8	[skill_aligned/raw_color_roi] Rarity 8 LR —
+frames/frame1384.png	7	[skill_aligned/trunc_bgr] Rarity 7 QR
+frames/frame1421.png	7	[skill_aligned/trunc_bgr] Rarity 7
+frames/frame5109.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame2880.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame1437.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame5645.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame955.png	7	[skill_aligned/raw_color_roi] Rarity7, LR —
+frames/frame1392.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame3778.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame202.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_-
+frames/frame4942.png	4	[skill_aligned/raw_color_roi] Rarity 4
+frames/frame5484.png	6	[skill_aligned/raw_color_roi] Rarity 6,
+frames/frame4605.png	7	[skill_aligned/raw_color_roi] Rarity 7 o8N —
+frames/frame4163.png	7	[skill_aligned/trunc_bgr] Rarity 7 RL—
+frames/frame1999.png	5	[skill_aligned/raw_color_roi] Rarity 5 DE__-
+frames/frame2248.png	5	[skill_aligned/raw_color_roi] Rarity 5 NE_
+frames/frame376.png	6	[skill_aligned/raw_color_roi] Rarity 6 NN —
+frames/frame1755.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame3195.png	4	[skill_aligned/trunc_bgr] Rarity 4 ]!——
+frames/frame4188.png	7	[skill_aligned/raw_color_roi] Rarity7 LN
+frames/frame4361.png	7	[skill_aligned/raw_color_roi] Rarity7, R —
+frames/frame3354.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame88.png	6	[skill_aligned/raw_color_roi] Rarity 6 VRE_-
+frames/frame1230.png	7	[skill_aligned/trunc_bgr] Rarity 7 ®”——
+frames/frame3427.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame3433.png	3	[skill_aligned/raw_color_roi] Rarity3
+frames/frame5042.png	3	[skill_aligned/raw_color_roi] Rarity 3
+frames/frame2077.png	5	[skill_aligned/raw_color_roi] Rarity 5 ) + -
+frames/frame4837.png	8	[skill_aligned/raw_color_roi] Rarity 8 ol ¢ S
+frames/frame3180.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®!——
+frames/frame4823.png	8	[skill_aligned/raw_color_roi] Rarity 8 R —
+frames/frame3802.png	7	[skill_aligned/trunc_bgr] Rarity 7 R——
+frames/frame1967.png	5	[skill_aligned/raw_color_roi] Rarity 5 ®w-——
+frames/frame5532.png	6	[skill_aligned/raw_color_roi] Rarity 6 28—
+frames/frame3619.png	7	[skill_aligned/trunc_bgr] Rarity 7 LL—
+frames/frame6007.png	6	[skill_aligned/raw_color_roi] Rarity 6 RE_
+frames/frame3786.png	7	[skill_aligned/trunc_bgr] Rarity 7 R
+frames/frame1191.png	7	[skill_aligned/raw_color_roi] Rarity7, LL—
+frames/frame3976.png	7	[skill_aligned/trunc_bgr] Rarity 7 R__
+frames/frame3037.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame4758.png	8	[skill_aligned/raw_color_roi] Rarity 8 R —
+frames/frame6173.png	6	[skill_aligned/raw_color_roi] Rarity 6 "n-——
+frames/frame2856.png	4	[skill_aligned/trunc_bgr] Rarity 4
+frames/frame5863.png	6	[skill_aligned/raw_color_roi] Rarity 6 DRE__-
+frames/frame5877.png	6	[skill_aligned/trunc_bgr] Raity 6 2R —
+frames/frame2895.png	4	[skill_aligned/trunc_bgr] Rarity 4 ®”——
+frames/frame2117.png	5	[skill_aligned/raw_color_roi] Rarity 5 "n——
+frames/frame4572.png	6	[skill_aligned/raw_color_roi] Rarity 6 = —
+frames/frame2103.png	5	[skill_aligned/raw_color_roi] Rarity 5 R —
+frames/frame997.png	7	[skill_aligned/raw_color_roi] Rarity7, e —

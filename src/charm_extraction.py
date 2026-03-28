@@ -13,6 +13,7 @@
 
 from .parse_errors import ParseError
 from .Charm import Charm, CharmList, InvalidCharm
+from .rarity_ocr import read_rarity_with_tesseract
 from .utils import *
 from .resources import (
     get_resource_path,
@@ -30,6 +31,9 @@ import cv2
 import os
 
 DEBUG = False
+
+# Written during charm extraction; does not replace charms.json or charms.encoded.txt.
+RARITY_TEST_OUTPUT_FILE = "charms.rarity_test.txt"
 
 
 logger = logging.getLogger(__name__)
@@ -158,12 +162,28 @@ def repair_invalid(language, charms, _=lambda x: x, repair_callback=ask_repair):
     return fixed
 
 
-def extract_charm(frame_loc, slots, skills, skill_text, all_skills, known_corrections):
+def extract_charm(
+    frame_loc,
+    slots,
+    skills,
+    skill_text,
+    all_skills,
+    known_corrections,
+    rarity_val=None,
+):
     logger.debug(f"Starting charm for {frame_loc}")
     suggestions = []
     has_errored = False
     skill_number = 0
-    charm = Charm(slots, frame_loc=frame_loc)
+    r = None
+    if rarity_val is not None:
+        try:
+            rv = int(rarity_val)
+            if 1 <= rv <= 10:
+                r = rv
+        except (TypeError, ValueError):
+            pass
+    charm = Charm(slots, frame_loc=frame_loc, rarity=r)
     errors = []
     for (img, text) in zip(skills, skill_text):
         skill_number += 1
@@ -206,6 +226,20 @@ def extract_charm(frame_loc, slots, skills, skill_text, all_skills, known_correc
     return charm
 
 
+def _write_rarity_test_output(rows, path=RARITY_TEST_OUTPUT_FILE):
+    """Tab-separated: frame path, parsed rarity (blank if unknown), raw OCR (one line)."""
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(
+            "# Rarity OCR test: expects 'Rarity 1'..'Rarity 9' and 'Rarity10' (no space before 10).\n"
+        )
+        f.write("# columns: frame_path<TAB>rarity<TAB>raw_ocr\n")
+        for frame_loc, rarity_val, raw in rows:
+            col2 = "" if rarity_val is None else str(rarity_val)
+            raw_one_line = " ".join((raw or "").split())
+            f.write(f"{frame_loc}\t{col2}\t{raw_one_line}\n")
+    print(f"Rarity test output written to {path}")
+
+
 def extract_charms(
     frame_dir,
     language="eng",
@@ -233,15 +267,21 @@ def extract_charms(
         with iter_wrapper(frames, desc=_("parsing-skills-slots")) as parse_pbar:
             count = 0
             combined_data = []
+            rarity_test_rows = []
             for frame_loc in parse_pbar:
                 charm_tuple = extract_basic_info(tess, frame_loc, cv2.imread(frame_loc))
                 if charm_tuple:
                     count += 1
                     charm_callback({"charm_count": count})
-                    combined_data.append(charm_tuple)
+                    fl, slots, skills, skill_text, rarity_info = charm_tuple
+                    rarity_val, rarity_raw = rarity_info
+                    rarity_test_rows.append((fl, rarity_val, rarity_raw))
+                    combined_data.append((fl, slots, skills, skill_text, rarity_val))
+
+        _write_rarity_test_output(rarity_test_rows)
 
         with iter_wrapper(combined_data, desc=_("validate-fix")) as build_pbar:
-            for frame_loc, slots, skills, skill_text in build_pbar:
+            for frame_loc, slots, skills, skill_text, rarity_val in build_pbar:
                 try:
                     charm = extract_charm(
                         frame_loc,
@@ -250,6 +290,7 @@ def extract_charms(
                         skill_text,
                         all_skills,
                         known_corrections,
+                        rarity_val=rarity_val,
                     )
                     if charm.has_skills():
                         charms.append(charm)
@@ -298,6 +339,12 @@ def save_duplicates(charms, mode="w"):
 
 
 def extract_basic_info(tess: Tesseract, frame_loc, frame):
+    rarity_val, rarity_raw = None, ""
+    try:
+        rarity_val, rarity_raw = read_rarity_with_tesseract(tess, frame)
+    except Exception as e:
+        logger.debug("Rarity read failed for %s: %s", frame_loc, e)
+
     try:
         skill_only_im = remove_non_skill_info(frame)
         slots = get_slots(skill_only_im)
@@ -309,7 +356,7 @@ def extract_basic_info(tess: Tesseract, frame_loc, frame):
         skills = get_skills(trunc_tr, True)
 
         skill_text = read_text_from_skill_tuple(tess, skills)
-        return frame_loc, slots, skills, skill_text
+        return frame_loc, slots, skills, skill_text, (rarity_val, rarity_raw)
     except Exception as e:
         logger.error(f"An error occured when analysing frame {frame_loc}. Error: {e}")
         logger.exception("Traceback")

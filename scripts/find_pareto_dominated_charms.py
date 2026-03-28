@@ -7,7 +7,13 @@ skills plus decorations from `decorations.txt` (disjoint slots, greedy smallest 
 jewel in the enumerator).
 
 Default output: `find pareto dominated charms results.txt` (overwritten each run):
-  loser_line < winner_line, discard dominated
+  loser_line < winner_line
+  loser_line < winner_line, Name size*count[, Name2 size2*count2 ...]
+
+  When the witness uses slotted decorations, the line appends jewel tokens from
+  ``decorations.txt``: ``Blaze Jewel 1*2`` means two size-1 Blaze jewels (Fire Attack).
+
+  Mode is indicated by the summary line (``Discard-dominated`` vs ``Pareto-dominated``).
 
 Legacy same-(skill1, skill2) numeric Pareto check: pass --pareto-only.
 
@@ -53,9 +59,9 @@ def parse_line(line: str, line_index: int) -> ParsedCharm:
     if not s or s.startswith("#"):
         raise ValueError("empty or comment")
     parts = s.split(",")
-    if len(parts) != 7:
-        raise ValueError(f"expected 7 comma-separated fields, got {len(parts)}")
-    skill1, l1, skill2, l2, sl1, sl2, sl3 = parts
+    if len(parts) < 7:
+        raise ValueError(f"expected at least 7 comma-separated fields, got {len(parts)}")
+    skill1, l1, skill2, l2, sl1, sl2, sl3 = parts[:7]
     return ParsedCharm(
         skill1=skill1.strip(),
         lvl1=int(l1),
@@ -290,6 +296,21 @@ def exact_skill_tie(
     return True
 
 
+def format_jewel_plan_suffix(plan: list[tuple[int, Decoration]]) -> str:
+    """
+    When a discard witness uses slotted decorations, append e.g.
+    ``', Blaze Jewel 1*2, Flawless Jewel 2*1'`` (jewel name and hole size from
+    ``decorations.txt``, *count = how many of that jewel).
+    """
+    if not plan:
+        return ""
+    counts: dict[tuple[str, int], int] = defaultdict(int)
+    for _si, j in plan:
+        counts[(j.name, j.size)] += 1
+    parts = [f"{name} {sz}*{counts[(name, sz)]}" for name, sz in sorted(counts)]
+    return ", " + ", ".join(parts)
+
+
 def flexibility_F(
     subj_levels: dict[str, int], cand: ParsedCharm, plan: list[tuple[int, Decoration]]
 ) -> bool:
@@ -302,10 +323,14 @@ def flexibility_F(
 
 def challenger_discards_subject(
     subj: ParsedCharm, cand: ParsedCharm, decs: list[Decoration]
-) -> bool:
+) -> list[tuple[int, Decoration]] | None:
+    """
+    If ``cand`` discards ``subj`` per charm-discard-criteria, return a witness jewel
+    plan (possibly empty if no slotted jewels were required). Otherwise None.
+    """
     subj_levels = subject_skill_levels(subj)
     if not subj_levels:
-        return False
+        return None
 
     # Every subject skill name has an entry so empty rem does not vacuously succeed.
     remaining: dict[str, int] = {}
@@ -321,29 +346,30 @@ def challenger_discards_subject(
         resid = residual_slots_after_plan(cand, plan)
         dcmp = cmp_slot_multiset(resid, subj_slot_t)
         if dcmp > 0:
-            return True
+            return plan
         if dcmp < 0:
             continue
         # D tie → E / F
         if strict_native_beat(subj_levels, cand):
-            return True
+            return plan
         if exact_skill_tie(subj_levels, cand, plan):
             if flexibility_F(subj_levels, cand, plan):
-                return True
+                return plan
         # overcoverage on tie: fail E
-    return False
+    return None
 
 
 def find_discard_dominated(
     charms: list[ParsedCharm], decs: list[Decoration]
-) -> list[tuple[ParsedCharm, ParsedCharm]]:
-    results: list[tuple[ParsedCharm, ParsedCharm]] = []
+) -> list[tuple[ParsedCharm, ParsedCharm, list[tuple[int, Decoration]]]]:
+    results: list[tuple[ParsedCharm, ParsedCharm, list[tuple[int, Decoration]]]] = []
     for y in charms:
         for cand in charms:
             if cand is y:
                 continue
-            if challenger_discards_subject(y, cand, decs):
-                results.append((y, cand))
+            plan = challenger_discards_subject(y, cand, decs)
+            if plan is not None:
+                results.append((y, cand, plan))
                 break
     return results
 
@@ -388,22 +414,26 @@ def main() -> None:
     out_path = Path(args.output)
 
     if args.pareto_only:
-        pairs = find_pareto_dominated(charms)
+        pareto_pairs = find_pareto_dominated(charms)
         label = "Pareto-dominated"
-        line_suffix = "pareto dominated"
+        n_out = len(pareto_pairs)
     else:
         decs = load_decorations(args.decorations)
-        pairs = find_discard_dominated(charms, decs)
+        discard_triples = find_discard_dominated(charms, decs)
         label = "Discard-dominated (charm-discard-criteria)"
-        line_suffix = "discard dominated"
+        n_out = len(discard_triples)
 
     lines: list[str] = [
         f"Total parsed lines: {len(charms)}",
-        f"{label} lines: {len(pairs)}",
+        f"{label} lines: {n_out}",
         "",
     ]
-    for victim, dominator in pairs:
-        lines.append(f"{victim.line} < {dominator.line}, {line_suffix}")
+    if args.pareto_only:
+        for victim, dominator in pareto_pairs:
+            lines.append(f"{victim.line} < {dominator.line}")
+    else:
+        for victim, dominator, plan in discard_triples:
+            lines.append(f"{victim.line} < {dominator.line}{format_jewel_plan_suffix(plan)}")
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     if not args.quiet:

@@ -347,6 +347,12 @@ _resources = {
     "mask": _alter_resource_path(os.path.join("images", "mask.png")),
     "charm_only": _alter_resource_path(os.path.join("images", "charm_only.png")),
     "skill_mask": _alter_resource_path(os.path.join("images", "skill_mask.png")),
+    **{
+        f"rarity{n}": _alter_resource_path(
+            os.path.join("images", "rarities", f"rarity{n}.png")
+        )
+        for n in range(1, 11)
+    },
     # internals
     "internal_versions": _alter_resource_path(os.path.join("data", "versions.json")),
     "INTERNAL_TRANSLATIONS": _alter_resource_path(os.path.join("data", "translations")),

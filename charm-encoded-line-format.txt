@@ -1,15 +1,18 @@
-Charm encoded line format (seven fields)
-========================================
+Charm encoded line format (seven or eight fields)
+=================================================
 
-Each charm line uses exactly seven comma-separated fields (matching `Charm.to_simple_encode()`):
+Each charm line uses comma-separated fields (matching `Charm.to_simple_encode()`):
 
-  skill_1, skill_1_lvl, skill_2, skill_2_lvl, slot_1_lvl, slot_2_lvl, slot_3_lvl
+  skill_1, skill_1_lvl, skill_2, skill_2_lvl, slot_1_lvl, slot_2_lvl, slot_3_lvl[, rarity_tag]
+
+The **eighth** field, when present, is the detected rarity: `rar1` … `rar9`, `rar10`, or `rar0` if
+unknown. Older files may use `0`/`1` (legacy Rarity-7 flag) or omit the eighth field entirely.
 
 The first four fields are always the two skill columns: if a charm has only one skill, the second
 skill name is empty and the placeholder level is 0 — e.g. `,,0` after the first skill’s level.
 
-The last three fields are always the three jewel slot levels (in fixed UI order). They are the
-last three comma-separated values on the line, after the four skill-related fields.
+The three **slot** fields are the three jewel slot levels (in fixed UI order), immediately before
+the optional rarity tag — i.e. they are not the “last three values on the line” when rarity is present.
 
 See this example:
 Evade Extender,3,Grinder (S),1,1,1,1
