@@ -67,11 +67,25 @@ Rules (A–C: plan on the challenger)
 Rule D — Residual slot multiset
 -------------------------------
 Delete holes committed for jewels in your plan. Compare what is left on **C** to the subject’s
-**three slot fields** (order ignored—multiset). Sort both **descending**, compare **lexicographically**
-(larger first).
+**three slot fields** (order ignored—treat as a multiset). Sort both triples **descending** so you
+have (c1,c2,c3) for **C**’s leftover holes and (s1,s2,s3) for the subject (pad with zeros so there
+are three positions).
 
-Intuition: a subject with a single **size-2** hole (2-0-0) is **not** fairly replaced by a charm
-that only leaves two **size-1** holes (1-1-0), because some builds need a real size-2 hole.
+  * **Win (C passes D):** for each index i in {1,2,3}, ci >= si, and for at least one i, ci > si
+    (strict **component-wise** dominance on the sorted triples).
+
+  * **Tie (go to E):** the two sorted triples are **exactly equal** (same three values in sorted
+    order).
+
+  * **Lose:** anything else—including cases where the first position favors **C** but a later
+    position favors the subject. Example: **C** leftover (2,0,0) vs subject (1,1,1): first slot **C**
+    wins (2 > 1), but second and third the subject wins (1 > 0), so **C** does **not** pass **D**
+    (and **E** / **F** are not used for that plan).
+
+Intuition: you need to be **at least as good** in **each** sorted slot tier, not only ahead on the
+largest single hole. A subject with three **size-1** holes is **not** dominated by a leftover pattern
+that is only one **size-2** and two empty tiers if that leaves **no** usable size-1-class holes where
+the subject still had two.
 
 
 Rule E — Skill outcome (only when D ties)
@@ -129,4 +143,5 @@ candidate**. If **none** pass, keep the subject for this test.
 Related files
 -------------
   * Longer walkthrough: `step by step determination if charm can be safely discarded`
-  * Pareto-only script: `scripts/find_pareto_dominated_charms.py` (same skill pair, no jewels)
+  * Automation: `scripts/find_pareto_dominated_charms.py` (default: full discard test per this doc;
+    `--pareto-only`: same skill pair, no jewels)

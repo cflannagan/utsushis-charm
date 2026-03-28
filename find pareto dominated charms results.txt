@@ -1,50 +1,435 @@
 Total parsed lines: 635
-Pareto-dominated lines: 47
+Discard-dominated (charm-discard-criteria) lines: 432
 
-Blight Resistance,1,Affinity Sliding,1,0,0,0 < Blight Resistance,1,Affinity Sliding,1,3,1,0, pareto dominated
-Blast Attack,1,,0,0,0,0 < Blast Attack,2,,0,3,1,0, pareto dominated
-Resuscitate,1,,0,0,0,0 < Resuscitate,1,,0,3,0,0, pareto dominated
-Jump Master,1,,0,1,0,0 < Jump Master,1,,0,1,1,0, pareto dominated
-Resentment,1,,0,1,0,0 < Resentment,2,,0,1,1,1, pareto dominated
-Partbreaker,1,Water Attack,1,1,0,0 < Partbreaker,3,Water Attack,1,1,0,0, pareto dominated
-Attack Boost,1,,0,1,1,0 < Attack Boost,2,,0,1,1,0, pareto dominated
-Handicraft,1,,0,0,0,0 < Handicraft,1,,0,1,1,0, pareto dominated
-Spare Shot,2,,0,1,0,0 < Spare Shot,2,,0,3,0,0, pareto dominated
-Focus,1,,0,0,0,0 < Focus,1,,0,1,0,0, pareto dominated
-Artillery,1,,0,0,0,0 < Artillery,1,,0,3,0,0, pareto dominated
-Attack Boost,2,,0,0,0,0 < Attack Boost,2,,0,1,1,0, pareto dominated
-Water Attack,1,Bubbly Dance,1,3,0,0 < Water Attack,2,Bubbly Dance,1,3,0,0, pareto dominated
-Fire Attack,1,Water Attack,1,2,0,0 < Fire Attack,2,Water Attack,1,2,0,0, pareto dominated
-Earplugs,2,Counterstrike,1,1,0,0 < Earplugs,2,Counterstrike,2,2,0,0, pareto dominated
-Normal/Rapid Up,1,,0,1,0,0 < Normal/Rapid Up,2,,0,1,0,0, pareto dominated
-Guard,2,,0,1,0,0 < Guard,2,,0,1,1,0, pareto dominated
-Steadiness,1,Geologist,1,1,0,0 < Steadiness,1,Geologist,2,3,0,0, pareto dominated
-Evade Window,1,Recoil Down,1,0,0,0 < Evade Window,1,Recoil Down,1,2,0,0, pareto dominated
-Razor Sharp,2,,0,0,0,0 < Razor Sharp,2,,0,1,1,0, pareto dominated
-Guard,1,,0,0,0,0 < Guard,2,,0,1,0,0, pareto dominated
-Guard Up,2,,0,1,0,0 < Guard Up,2,,0,1,1,0, pareto dominated
-Stamina Surge,1,,0,0,0,0 < Stamina Surge,1,,0,1,0,0, pareto dominated
-Heroics,1,,0,0,0,0 < Heroics,1,,0,1,0,0, pareto dominated
-Resuscitate,1,,0,1,0,0 < Resuscitate,1,,0,3,0,0, pareto dominated
-Evade Extender,1,Partbreaker,1,1,1,0 < Evade Extender,2,Partbreaker,1,1,1,0, pareto dominated
-Weakness Exploit,1,,0,0,0,0 < Weakness Exploit,1,,0,1,1,0, pareto dominated
-Ice Attack,1,Rapid Morph,1,2,0,0 < Ice Attack,2,Rapid Morph,2,3,1,0, pareto dominated
-Power Prolonger,1,,0,0,0,0 < Power Prolonger,2,,0,1,1,0, pareto dominated
-Power Prolonger,2,,0,1,0,0 < Power Prolonger,2,,0,1,1,0, pareto dominated
-Spare Shot,1,,0,1,0,0 < Spare Shot,2,,0,3,0,0, pareto dominated
-Blight Resistance,1,Resentment,1,0,0,0 < Blight Resistance,1,Resentment,1,1,0,0, pareto dominated
-Blast Attack,1,,0,1,0,0 < Blast Attack,2,,0,3,1,0, pareto dominated
-Latent Power,1,,0,1,0,0 < Latent Power,2,,0,1,0,0, pareto dominated
-Paralysis Attack,1,,0,0,0,0 < Paralysis Attack,1,,0,1,1,0, pareto dominated
-Stamina Thief,1,Bubbly Dance,1,1,1,0 < Stamina Thief,1,Bubbly Dance,2,1,1,0, pareto dominated
-Weakness Exploit,1,,0,1,0,0 < Weakness Exploit,1,,0,1,1,0, pareto dominated
-Spare Shot,1,,0,0,0,0 < Spare Shot,2,,0,3,0,0, pareto dominated
-Divine Blessing,1,Hunger Resistance,1,2,0,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, pareto dominated
-Bubbly Dance,2,Leap of Faith,1,1,0,0 < Bubbly Dance,2,Leap of Faith,1,1,1,0, pareto dominated
-Critical Eye,2,,0,1,1,0 < Critical Eye,3,,0,1,1,0, pareto dominated
-Agitator,1,,0,0,0,0 < Agitator,2,,0,3,0,0, pareto dominated
-Fire Attack,1,Botanist,1,1,0,0 < Fire Attack,2,Botanist,1,2,1,0, pareto dominated
-Power Prolonger,1,,0,1,0,0 < Power Prolonger,2,,0,1,1,0, pareto dominated
-Thunder Resistance,1,Recoil Down,1,1,0,0 < Thunder Resistance,1,Recoil Down,1,3,1,0, pareto dominated
-Tremor Resistance,1,Divine Blessing,1,0,0,0 < Tremor Resistance,3,Divine Blessing,2,1,1,1, pareto dominated
-Agitator,2,,0,0,0,0 < Agitator,2,,0,3,0,0, pareto dominated
+Stun Resistance,1,Master Mounter,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Blight Resistance,1,Affinity Sliding,1,0,0,0 < Blight Resistance,1,Resentment,1,1,0,0, discard dominated
+Steadiness,1,Water Attack,2,1,0,0 < Water Attack,2,Earplugs,1,2,1,0, discard dominated
+Blast Attack,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Power Prolonger,2,,0,1,1,0 < Maximum Might,2,Defiance,3,4,1,1, discard dominated
+Blight Resistance,1,Resentment,1,1,0,0 < Ice Attack,1,Blight Resistance,1,2,1,0, discard dominated
+Hunger Resistance,2,Divine Blessing,1,0,0,0 < Divine Blessing,1,Thunder Attack,2,1,1,0, discard dominated
+Resuscitate,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Counterstrike,1,Bludgeoner,1,1,0,0 < Water Resistance,1,Counterstrike,1,2,1,1, discard dominated
+Jump Master,1,,0,1,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Divine Blessing,1,Steadiness,2,0,0,0 < Divine Blessing,1,Thunder Attack,2,1,1,0, discard dominated
+Divine Blessing,1,Thunder Attack,2,1,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Thunder Resistance,1,Blight Resistance,1,2,0,0 < Ice Attack,1,Blight Resistance,1,2,1,0, discard dominated
+Carving Pro,1,Tremor Resistance,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Blast Resistance,1,Ice Resistance,2,3,0,0 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1, discard dominated
+Bombardier,1,Thunder Attack,1,0,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Resentment,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Tremor Resistance,1,Resentment,1,1,0,0 < Reload Speed,3,Tremor Resistance,1,2,2,0, discard dominated
+Steadiness,1,Resuscitate,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Water Attack,2,Earplugs,1,2,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Bubbly Dance,2,Rapid Morph,1,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Poison Attack,1,Quick Sheathe,1,2,0,0 < Quick Sheathe,1,Tremor Resistance,1,2,1,0, discard dominated
+Wide-Range,1,Flinch Free,2,2,0,0 < Flinch Free,3,Critical Draw,1,2,2,0, discard dominated
+Pierce Up,1,Recoil Down,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Poison Resistance,1,Steadiness,1,1,1,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Thunder Attack,1,Recovery Speed,2,0,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Ice Attack,1,Jump Master,1,0,0,0 < Jump Master,1,,0,1,0,0, discard dominated
+Master Mounter,1,Rapid Morph,1,1,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Bubbly Dance,2,Leap of Faith,1,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Wide-Range,1,Bludgeoner,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Poison Attack,1,Normal/Rapid Up,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Wide-Range,2,Fire Attack,1,2,1,0 < Critical Draw,2,Wide-Range,3,2,2,1, discard dominated
+Partbreaker,1,Water Attack,1,1,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Quick Sheathe,1,Tremor Resistance,1,2,1,0 < Mail of Hellfire,1,Tremor Resistance,3,3,2,1, discard dominated
+Critical Eye,3,Divine Blessing,1,0,0,0 < Critical Eye,3,,0,2,0,0, discard dominated
+Attack Boost,1,,0,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Windproof,1,Rapid Morph,1,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Flinch Free,1,Fortify,1,3,0,0 < Fortify,1,Recovery Up,3,3,1,0, discard dominated
+Water Attack,3,Counterstrike,1,1,0,0 < Water Resistance,1,Counterstrike,1,2,1,1, discard dominated
+Botanist,1,Earplugs,1,2,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Water Resistance,1,Leap of Faith,1,3,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Handicraft,1,,0,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Marathon Runner,1,Free Meal,2,0,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Sleep Resistance,2,Stun Resistance,2,0,0,0 < Punishing Draw,1,Sleep Resistance,2,1,1,0, discard dominated
+Peak Performance,1,,0,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Wirebug Whisperer,1,Steadiness,1,2,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Hunger Resistance,1,Wall Runner,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Dragon Attack,2,Fire Attack,2,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Rapid Morph,2,Bludgeoner,1,0,0,0 < Rapid Morph,2,Poison Resistance,2,3,0,0, discard dominated
+Fire Attack,2,Divine Blessing,1,2,0,0 < Dragon Attack,3,Divine Blessing,1,3,2,0, discard dominated
+Affinity Sliding,1,Carving Pro,1,2,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Ballistics,1,Water Attack,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Spare Shot,2,,0,1,0,0 < Spare Shot,2,,0,3,0,0, discard dominated
+Partbreaker,1,Thunder Attack,1,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Bludgeoner,1,Weakness Exploit,1,1,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Water Attack,2,Paralysis Attack,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Wall Runner,2,Horn Maestro,1,1,1,0 < Punishing Draw,2,Wall Runner,2,1,1,1, discard dominated
+Heroics,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Fortify,1,Latent Power,2,0,0,0 < Item Prolonger,1,Fortify,1,2,2,0, discard dominated
+Guard Up,2,,0,1,1,0 < Guard Up,2,Bladescale Hone,2,2,1,0, discard dominated
+Recoil Down,2,Muck Resistance,1,0,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Heroics,1,Protective Polish,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Speed Eating,2,Bludgeoner,1,0,0,0 < Speed Eating,2,Thunder Resistance,2,3,1,0, discard dominated
+Focus,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Recoil Down,1,Blight Resistance,1,1,0,0 < Ice Attack,1,Blight Resistance,1,2,1,0, discard dominated
+Counterstrike,1,Slugger,1,1,1,0 < Water Resistance,1,Counterstrike,1,2,1,1, discard dominated
+Poison Attack,1,Tremor Resistance,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Windproof,2,Bubbly Dance,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Geologist,1,Ice Attack,1,2,0,0 < Ice Attack,1,Blight Resistance,1,2,1,0, discard dominated
+Dragon Attack,2,Blight Resistance,1,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Wirebug Whisperer,1,Spread Up,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Artillery,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Defense Boost,1,Stun Resistance,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Attack Boost,2,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Fire Attack,2,Slugger,2,0,0,0 < Slugger,2,Stun Resistance,2,2,0,0, discard dominated
+Paralysis Resistance,1,Defense Boost,1,2,1,0 < Counterstrike,1,Defense Boost,2,2,1,1, discard dominated
+Wirebug Whisperer,1,Windproof,1,1,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Wall Runner,1,Stun Resistance,2,1,0,0 < Punishing Draw,2,Wall Runner,2,1,1,1, discard dominated
+Dragon Attack,2,Bubbly Dance,1,2,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Muck Resistance,1,Slugger,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Water Attack,2,Poison Attack,1,1,0,0 < Water Attack,2,Earplugs,1,2,1,0, discard dominated
+Earplugs,2,Wirebug Whisperer,1,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Rapid Morph,1,Ice Attack,1,1,0,0 < Ice Attack,1,Blight Resistance,1,2,1,0, discard dominated
+Steadiness,2,Thunder Attack,1,1,1,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Horn Maestro,1,Reload Speed,1,2,0,0 < Reload Speed,3,Tremor Resistance,1,2,2,0, discard dominated
+Agitator,2,Slugger,1,0,0,0 < Agitator,2,,0,3,0,0, discard dominated
+Marathon Runner,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Bubbly Dance,1,Heroics,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Critical Draw,1,Earplugs,1,0,0,0 < Earplugs,2,Wirebug Whisperer,1,3,0,0, discard dominated
+Wall Runner,2,Guard Up,1,0,0,0 < Wall Runner,3,Evade Window,2,3,0,0, discard dominated
+Ballistics,1,Wirebug Whisperer,2,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Razor Sharp,2,,0,1,1,0 < Maximum Might,2,Defiance,3,4,1,1, discard dominated
+Dragon Resistance,1,Speed Eating,2,1,0,0 < Speed Eating,2,Thunder Resistance,2,3,1,0, discard dominated
+Slugger,2,Razor Sharp,1,0,0,0 < Slugger,2,Stun Resistance,2,2,0,0, discard dominated
+Water Attack,1,Bubbly Dance,1,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Critical Boost,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Ice Attack,1,Wide-Range,2,3,0,0 < Wide-Range,5,Speed Eating,3,3,2,0, discard dominated
+Quick Sheathe,2,Botanist,1,0,0,0 < Dragon Attack,2,Quick Sheathe,2,1,1,0, discard dominated
+Dragon Attack,1,Resentment,1,0,0,0 < Blight Resistance,1,Resentment,1,1,0,0, discard dominated
+Fire Attack,1,Windproof,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Punishing Draw,1,Bubbly Dance,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Diversion,1,Earplugs,2,2,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Recovery Speed,1,Quick Sheathe,1,1,1,0 < Quick Sheathe,1,Rapid Morph,1,1,1,1, discard dominated
+Blast Resistance,1,Protective Polish,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Fire Attack,1,Water Attack,1,2,0,0 < Water Attack,2,Earplugs,1,2,1,0, discard dominated
+Item Prolonger,1,Rapid Morph,2,1,0,0 < Tremor Resistance,2,Rapid Morph,2,2,1,0, discard dominated
+Water Attack,1,Evade Window,2,2,0,0 < Critical Element,2,Evade Window,2,2,2,0, discard dominated
+Resuscitate,1,,0,3,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Partbreaker,2,Reload Speed,1,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Earplugs,2,Counterstrike,1,1,0,0 < Earplugs,2,Counterstrike,2,2,0,0, discard dominated
+Stun Resistance,1,Slugger,1,1,1,0 < Coalescence,3,Stun Resistance,3,2,2,1, discard dominated
+Counterstrike,2,Paralysis Resistance,2,0,0,0 < Water Resistance,1,Counterstrike,1,2,1,1, discard dominated
+Normal/Rapid Up,1,,0,1,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Speed Sharpening,1,Partbreaker,1,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Fire Attack,1,Diversion,1,2,1,0 < Diversion,1,Reload Speed,1,2,2,1, discard dominated
+Carving Pro,1,Master Mounter,1,2,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Windproof,2,Slugger,1,0,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Poison Attack,1,Ice Attack,1,0,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Sleep Resistance,2,Divine Blessing,1,2,0,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, discard dominated
+Diversion,1,Guard,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Free Meal,2,Bombardier,1,2,0,0 < Rapid Morph,1,Free Meal,2,3,1,0, discard dominated
+Evade Window,1,Earplugs,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Divine Blessing,1,Poison Attack,1,2,1,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, discard dominated
+Flinch Free,2,Spare Shot,1,0,0,0 < Wide-Range,1,Flinch Free,2,2,0,0, discard dominated
+Guard,2,,0,1,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Resentment,1,Evade Window,1,2,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Poison Attack,2,Evade Extender,1,1,0,0 < Wirebug Whisperer,3,Poison Attack,2,2,2,0, discard dominated
+Evade Extender,1,Dragon Resistance,1,2,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Free Meal,1,Wide-Range,2,3,0,0 < Wide-Range,5,Speed Eating,3,3,2,0, discard dominated
+Evade Extender,1,Geologist,2,0,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Constitution,1,Recovery Up,2,0,0,0 < Fortify,1,Recovery Up,3,3,1,0, discard dominated
+Thunder Attack,3,Counterstrike,1,1,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Flinch Free,2,Rapid Fire Up,1,0,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Flinch Free,1,Normal/Rapid Up,1,1,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Ice Attack,3,Punishing Draw,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Weakness Exploit,1,,0,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Slugger,2,Stun Resistance,2,2,0,0 < Slugger,2,Divine Blessing,2,2,1,1, discard dominated
+Stamina Thief,1,Special Ammo Boost,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Sneak Attack,1,Marathon Runner,1,2,1,0 < Paralysis Attack,2,Marathon Runner,1,2,2,2, discard dominated
+Wirebug Whisperer,1,Slugger,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Evade Extender,2,Hunger Resistance,1,0,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Master's Touch,1,,0,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Tremor Resistance,1,Ice Attack,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Guard,2,,0,1,1,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Evade Extender,1,Poison Attack,1,0,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Blight Resistance,1,Heroics,1,1,0,0 < Ice Attack,1,Blight Resistance,1,2,1,0, discard dominated
+Diversion,1,Defense Boost,1,2,1,0 < Counterstrike,1,Defense Boost,2,2,1,1, discard dominated
+Latent Power,1,Maximum Might,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Speed Sharpening,1,Thunder Attack,1,2,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Ice Attack,1,Partbreaker,1,0,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Hellfire Cloak,1,,0,1,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Steadiness,1,Blight Resistance,1,0,0,0 < Blight Resistance,1,Resentment,1,1,0,0, discard dominated
+Steadiness,1,Geologist,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Evade Window,1,Recoil Down,1,0,0,0 < Carving Pro,1,Evade Window,2,1,1,1, discard dominated
+Agitator,1,Wide-Range,1,1,0,0 < Wide-Range,2,Fire Attack,1,2,1,0, discard dominated
+Jump Master,1,,0,1,1,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Thunder Attack,1,Windproof,2,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Stun Resistance,2,Speed Eating,1,1,0,0 < Stun Resistance,2,Bombardier,2,2,1,0, discard dominated
+Load Shells,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Constitution,1,Earplugs,1,2,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Blast Attack,2,,0,3,1,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Partbreaker,1,Evade Extender,1,1,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Paralysis Resistance,1,Leap of Faith,1,3,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Dragon Resistance,1,Bubbly Dance,1,2,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Wide-Range,2,Tremor Resistance,1,2,0,0 < Critical Draw,2,Wide-Range,3,2,2,1, discard dominated
+Peak Performance,1,Partbreaker,2,3,0,0 < Diversion,1,Partbreaker,2,3,2,0, discard dominated
+Mind's Eye,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Speed Sharpening,1,Power Prolonger,1,1,0,0 < Power Prolonger,2,,0,1,1,0, discard dominated
+Fire Attack,1,Steadiness,2,3,1,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Water Attack,1,Defense Boost,1,1,1,0 < Earplugs,1,Water Attack,2,1,1,1, discard dominated
+Punishing Draw,2,Reload Speed,1,1,1,0 < Punishing Draw,2,Wall Runner,2,1,1,1, discard dominated
+Latent Power,2,,0,1,0,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Wirebug Whisperer,1,Marathon Runner,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Speed Sharpening,1,Paralysis Resistance,1,1,1,0 < Paralysis Resistance,1,Poison Attack,1,1,1,1, discard dominated
+Defense Boost,1,Poison Resistance,2,2,0,0 < Blast Resistance,1,Poison Resistance,2,2,1,0, discard dominated
+Razor Sharp,2,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Guard,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Defense Boost,2,Rapid Fire Up,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Peak Performance,2,Flinch Free,1,1,0,0 < Maximum Might,2,Defiance,3,4,1,1, discard dominated
+Tremor Resistance,1,Razor Sharp,1,1,0,0 < Reload Speed,3,Tremor Resistance,1,2,2,0, discard dominated
+Wall Runner,1,Load Shells,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Guard Up,2,,0,1,0,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Affinity Sliding,1,Normal/Rapid Up,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Weakness Exploit,2,,0,1,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Speed Sharpening,1,Resuscitate,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Stamina Surge,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Thunder Attack,1,Partbreaker,2,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Bombardier,2,Diversion,1,2,0,0 < Stun Resistance,2,Bombardier,2,2,1,0, discard dominated
+Rapid Morph,1,Earplugs,1,2,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Wide-Range,2,Spare Shot,1,2,0,0 < Critical Draw,2,Wide-Range,3,2,2,1, discard dominated
+Muck Resistance,2,Evade Extender,1,0,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Horn Maestro,1,Evade Window,1,1,0,0 < Carving Pro,1,Evade Window,2,1,1,1, discard dominated
+Recovery Up,2,Speed Eating,1,1,1,0 < Mushroomancer,2,Recovery Up,2,2,2,1, discard dominated
+Heroics,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Affinity Sliding,1,Stamina Thief,1,3,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Leap of Faith,1,Diversion,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Recoil Down,2,Hunger Resistance,1,1,0,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, discard dominated
+Paralysis Attack,1,Blight Resistance,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Carving Pro,1,Blast Attack,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Normal/Rapid Up,2,,0,1,0,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Windproof,1,Divine Blessing,1,1,1,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, discard dominated
+Tremor Resistance,2,Quick Sheathe,1,2,0,0 < Mail of Hellfire,1,Tremor Resistance,3,3,2,1, discard dominated
+Punishing Draw,1,Defense Boost,1,2,0,0 < Punishing Draw,2,Wirebug Whisperer,3,2,1,0, discard dominated
+Recovery Up,3,Evade Extender,1,1,0,0 < Fortify,1,Recovery Up,3,3,1,0, discard dominated
+Resuscitate,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Recovery Up,1,Thunder Attack,1,2,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Quick Sheathe,1,Free Meal,2,0,0,0 < Dragon Attack,2,Quick Sheathe,2,1,1,0, discard dominated
+Evade Extender,1,Partbreaker,1,1,1,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Fire Attack,3,Earplugs,2,0,0,0 < Earplugs,2,Wirebug Whisperer,1,3,0,0, discard dominated
+Steadiness,1,Stun Resistance,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Geologist,1,Blight Resistance,2,1,0,0 < Maximum Might,2,Defiance,3,4,1,1, discard dominated
+Stun Resistance,1,Power Prolonger,1,1,1,0 < Coalescence,3,Stun Resistance,3,2,2,1, discard dominated
+Muck Resistance,1,Blast Resistance,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Weakness Exploit,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Ice Attack,1,Rapid Morph,1,2,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Dragon Attack,2,Stamina Thief,2,1,0,0 < Stamina Thief,3,Wide-Range,1,2,1,0, discard dominated
+Wall Runner,1,Defense Boost,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Hunger Resistance,1,Maximum Might,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Slugger,1,Evade Extender,1,1,1,0 < Slugger,2,Divine Blessing,2,2,1,1, discard dominated
+Quick Sheathe,1,,0,3,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Peak Performance,1,Water Attack,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Reload Speed,2,Slugger,1,0,0,0 < Reload Speed,3,Tremor Resistance,1,2,2,0, discard dominated
+Power Prolonger,1,,0,0,0,0 < Power Prolonger,2,,0,1,1,0, discard dominated
+Water Attack,2,Constitution,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Hellfire Cloak,1,Thunder Resistance,1,1,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Divine Blessing,1,Counterstrike,1,1,1,0 < Water Resistance,1,Counterstrike,1,2,1,1, discard dominated
+Fire Resistance,1,Blight Resistance,2,0,0,0 < Ice Attack,1,Blight Resistance,1,2,1,0, discard dominated
+Power Prolonger,2,,0,1,0,0 < Power Prolonger,2,,0,1,1,0, discard dominated
+Normal/Rapid Up,1,Critical Element,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Slugger,1,Counterstrike,1,1,1,0 < Water Resistance,1,Counterstrike,1,2,1,1, discard dominated
+Affinity Sliding,1,Slugger,1,1,1,0 < Slugger,2,Divine Blessing,2,2,1,1, discard dominated
+Water Attack,1,Diversion,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Item Prolonger,1,Thunder Resistance,1,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Critical Eye,1,Thunder Resistance,1,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Water Resistance,1,Bombardier,1,2,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Evade Window,1,Water Attack,2,1,0,0 < Carving Pro,1,Evade Window,2,1,1,1, discard dominated
+Bubbly Dance,1,Stun Resistance,1,1,0,0 < Bubbly Dance,2,Rapid Morph,1,1,1,0, discard dominated
+Focus,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Wirebug Whisperer,1,Bombardier,1,2,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Spare Shot,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Diversion,1,Dragon Resistance,1,2,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Wide-Range,1,Critical Eye,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Attack Boost,2,,0,1,1,0 < Dragon Attack,1,Attack Boost,2,2,1,0, discard dominated
+Fire Attack,2,Defense Boost,1,1,1,0 < Counterstrike,1,Defense Boost,2,2,1,1, discard dominated
+Sleep Resistance,1,Poison Resistance,3,1,0,0 < Maximum Might,2,Defiance,3,4,1,1, discard dominated
+Stun Resistance,3,Thunder Attack,1,1,1,0 < Coalescence,3,Stun Resistance,3,2,2,1, discard dominated
+Evade Window,2,Latent Power,1,1,0,0 < Critical Element,2,Evade Window,2,2,2,0, discard dominated
+Blight Resistance,1,Resentment,1,0,0,0 < Blight Resistance,1,Resentment,1,1,0,0, discard dominated
+Evade Extender,1,Ice Attack,1,1,1,0 < Evade Extender,3,Grinder (S),1,1,1,1, discard dominated
+Bludgeoner,1,Diversion,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Dragon Attack,1,Recovery Up,2,1,0,0 < Fortify,1,Recovery Up,3,3,1,0, discard dominated
+Water Attack,1,Geologist,2,1,0,0 < Earplugs,1,Water Attack,2,1,1,1, discard dominated
+Bombardier,1,Rapid Fire Up,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Rapid Morph,1,Sleep Attack,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Divine Blessing,1,Guard Up,1,1,0,0 < Dragon Attack,3,Divine Blessing,1,3,2,0, discard dominated
+Dragon Resistance,1,Quick Sheathe,1,2,0,0 < Quick Sheathe,1,Tremor Resistance,1,2,1,0, discard dominated
+Blast Attack,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Hunger Resistance,1,Earplugs,2,0,0,0 < Earplugs,2,Counterstrike,2,2,0,0, discard dominated
+Affinity Sliding,1,Botanist,2,1,0,0 < Botanist,2,Muck Resistance,1,2,1,0, discard dominated
+Rapid Morph,1,Affinity Sliding,1,1,0,0 < Bubbly Dance,2,Rapid Morph,1,1,1,0, discard dominated
+Blight Resistance,1,Bombardier,2,2,0,0 < Hunger Resistance,2,Bombardier,2,3,2,0, discard dominated
+Counterstrike,1,Ice Resistance,1,2,0,0 < Water Resistance,1,Counterstrike,1,2,1,1, discard dominated
+Ice Attack,2,Blight Resistance,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Guard,2,Stamina Surge,2,0,0,0 < Stamina Surge,2,Mind's Eye,1,2,2,0, discard dominated
+Latent Power,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Paralysis Attack,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Fire Attack,3,Blast Attack,1,1,0,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Windproof,1,Affinity Sliding,1,3,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Ice Attack,2,Mushroomancer,1,1,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Speed Sharpening,1,Geologist,1,2,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Paralysis Resistance,1,Bludgeoner,1,0,0,0 < Counterstrike,1,Bludgeoner,1,1,0,0, discard dominated
+Geologist,2,Hunger Resistance,2,2,0,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, discard dominated
+Peak Performance,1,Evade Extender,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Peak Performance,2,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Windproof,1,Guard Up,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Defense Boost,3,Recovery Up,1,1,0,0 < Fortify,1,Recovery Up,3,3,1,0, discard dominated
+Stun Resistance,1,Wall Runner,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Speed Sharpening,1,Paralysis Attack,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Flinch Free,2,Slugger,1,2,0,0 < Flinch Free,3,Critical Draw,1,2,2,0, discard dominated
+Defense Boost,2,Steadiness,1,1,1,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Evade Window,2,Speed Eating,1,1,0,0 < Critical Element,2,Evade Window,2,2,2,0, discard dominated
+Water Attack,2,Fire Attack,1,0,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Resentment,1,Quick Sheathe,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Stamina Thief,1,Bubbly Dance,1,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Quick Sheathe,1,Protective Polish,1,1,0,0 < Quick Sheathe,1,Tremor Resistance,1,2,1,0, discard dominated
+Defense Boost,1,Carving Pro,1,1,1,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Blight Resistance,1,Guard,1,1,0,0 < Ice Attack,1,Blight Resistance,1,2,1,0, discard dominated
+Ice Attack,2,Fortify,1,1,0,0 < Fortify,1,Recovery Up,3,3,1,0, discard dominated
+Guard,1,Special Ammo Boost,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Rapid Morph,2,Guard Up,1,1,0,0 < Tremor Resistance,2,Rapid Morph,2,2,1,0, discard dominated
+Weakness Exploit,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Evade Window,1,Recoil Down,1,2,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Water Attack,3,Resentment,1,1,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Master Mounter,1,Wide-Range,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Divine Blessing,1,Quick Sheathe,1,2,0,0 < Dragon Attack,3,Divine Blessing,1,3,2,0, discard dominated
+Speed Sharpening,2,Steadiness,1,2,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Hunger Resistance,2,Rapid Morph,1,1,0,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, discard dominated
+Stamina Thief,1,Recovery Speed,2,2,0,0 < Counterstrike,1,Recovery Speed,2,2,2,0, discard dominated
+Affinity Sliding,1,Fire Resistance,1,3,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Tremor Resistance,2,Slugger,1,1,0,0 < Tremor Resistance,2,Rapid Morph,2,2,1,0, discard dominated
+Critical Element,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Special Ammo Boost,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Paralysis Attack,1,,0,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Maximum Might,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Recovery Up,1,Botanist,1,1,0,0 < Botanist,1,Evade Window,1,3,1,0, discard dominated
+Spare Shot,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Divine Blessing,1,Hunger Resistance,1,2,0,0 < Dragon Attack,3,Divine Blessing,1,3,2,0, discard dominated
+Partbreaker,1,Artillery,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Recovery Up,1,Steadiness,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Earplugs,1,Sleep Resistance,2,1,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Bubbly Dance,2,Leap of Faith,1,1,0,0 < Bubbly Dance,2,Rapid Morph,1,1,1,0, discard dominated
+Botanist,1,Special Ammo Boost,1,1,0,0 < Botanist,1,Evade Window,1,3,1,0, discard dominated
+Fortify,1,Stun Resistance,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Hunger Resistance,1,Sleep Attack,2,0,0,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Recovery Speed,1,Slugger,1,2,1,0 < Slugger,2,Divine Blessing,2,2,1,1, discard dominated
+Artillery,1,,0,3,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Recoil Down,1,Bombardier,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Dragon Attack,2,Carving Pro,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Free Meal,2,Thunder Attack,1,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Earplugs,2,Bombardier,1,0,0,0 < Earplugs,2,Counterstrike,2,2,0,0, discard dominated
+Reload Speed,2,Hunger Resistance,2,0,0,0 < Reload Speed,3,Tremor Resistance,1,2,2,0, discard dominated
+Wide-Range,1,Leap of Faith,1,2,0,0 < Wide-Range,2,Fire Attack,1,2,1,0, discard dominated
+Recovery Up,1,Bludgeoner,2,1,0,0 < Mushroomancer,2,Recovery Up,2,2,2,1, discard dominated
+Partbreaker,3,Water Attack,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Partbreaker,1,Bombardier,1,1,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Evade Extender,2,Razor Sharp,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Water Attack,2,Bludgeoner,1,1,0,0 < Water Attack,2,Earplugs,1,2,1,0, discard dominated
+Rapid Morph,1,Hunger Resistance,2,2,1,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, discard dominated
+Master Mounter,1,Recovery Up,3,2,0,0 < Recovery Up,3,Blast Resistance,2,3,2,0, discard dominated
+Earplugs,1,Tremor Resistance,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Earplugs,1,Focus,1,1,0,0 < Water Attack,2,Earplugs,1,2,1,0, discard dominated
+Spread Up,1,Stun Resistance,1,1,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Free Meal,1,Tremor Resistance,1,2,0,0 < Reload Speed,3,Tremor Resistance,1,2,2,0, discard dominated
+Punishing Draw,1,Resuscitate,2,0,0,0 < Paralysis Attack,2,Marathon Runner,1,2,2,2, discard dominated
+Item Prolonger,2,Tremor Resistance,1,2,0,0 < Defense Boost,1,Item Prolonger,2,2,2,0, discard dominated
+Tremor Resistance,2,Thunder Resistance,1,0,0,0 < Reload Speed,3,Tremor Resistance,1,2,2,0, discard dominated
+Critical Eye,2,,0,1,1,0 < Maximum Might,2,Defiance,3,4,1,1, discard dominated
+Bubbly Dance,1,Windproof,1,1,0,0 < Bubbly Dance,2,Rapid Morph,1,1,1,0, discard dominated
+Quick Sheathe,2,Artillery,1,0,0,0 < Quick Sheathe,1,Dragon Resistance,1,2,2,0, discard dominated
+Latent Power,1,Hellfire Cloak,2,0,0,0 < Earplugs,4,Latent Power,3,4,0,0, discard dominated
+Speed Sharpening,2,Punishing Draw,1,1,0,0 < Punishing Draw,2,Wall Runner,2,1,1,1, discard dominated
+Speed Sharpening,2,Sleep Attack,1,0,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Divine Blessing,2,Item Prolonger,1,1,1,0 < Slugger,2,Divine Blessing,2,2,1,1, discard dominated
+Steadiness,1,Recoil Down,1,2,1,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Thunder Attack,1,Rapid Morph,1,1,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Botanist,2,Bludgeoner,1,1,0,0 < Bludgeoner,2,Bombardier,2,1,1,1, discard dominated
+Affinity Sliding,1,Wirebug Whisperer,1,2,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Fire Attack,2,Water Attack,1,2,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Blast Resistance,1,Speed Eating,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Water Resistance,1,Divine Blessing,1,3,0,0 < Dragon Attack,3,Divine Blessing,1,3,2,0, discard dominated
+Windproof,2,Stun Resistance,1,3,0,0 < Rapid Morph,1,Windproof,2,3,1,0, discard dominated
+Wall Runner,1,Paralysis Resistance,1,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Thunder Attack,2,Free Meal,1,1,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Critical Eye,1,,0,2,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Weakness Exploit,1,,0,2,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Water Attack,3,Affinity Sliding,1,2,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Reload Speed,1,Poison Attack,1,2,1,0 < Diversion,1,Reload Speed,1,2,2,1, discard dominated
+Blight Resistance,1,Quick Sheathe,1,2,0,0 < Quick Sheathe,1,Dragon Resistance,1,2,2,0, discard dominated
+Dragon Attack,3,Steadiness,1,1,0,0 < Dragon Attack,3,Divine Blessing,1,3,2,0, discard dominated
+Protective Polish,1,Recoil Down,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Hellfire Cloak,1,Resentment,1,1,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Quick Sheathe,1,Diversion,1,1,0,0 < Dragon Attack,2,Quick Sheathe,2,1,1,0, discard dominated
+Defense Boost,1,Slugger,2,0,0,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Speed Sharpening,2,Blight Resistance,1,2,0,0 < Speed Sharpening,3,Burst,2,2,2,0, discard dominated
+Partbreaker,1,Ice Resistance,1,0,0,0 < Evade Extender,2,Partbreaker,1,1,1,0, discard dominated
+Offensive Guard,1,,0,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Geologist,2,Dragon Attack,1,3,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Counterstrike,2,Muck Resistance,1,1,0,0 < Water Resistance,1,Counterstrike,1,2,1,1, discard dominated
+Speed Eating,1,Earplugs,1,2,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Wirebug Whisperer,1,Flinch Free,1,1,1,0 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1, discard dominated
+Counterstrike,2,Earplugs,1,0,0,0 < Earplugs,2,Counterstrike,2,2,0,0, discard dominated
+Ice Attack,1,Poison Resistance,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Divine Blessing,1,Ballistics,1,1,0,0 < Dragon Attack,3,Divine Blessing,1,3,2,0, discard dominated
+Reload Speed,1,Ice Resistance,1,1,1,0 < Diversion,1,Reload Speed,1,2,2,1, discard dominated
+Dragon Attack,2,Ballistics,1,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Handicraft,1,,0,1,1,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Resentment,1,,0,3,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Agitator,1,,0,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Evade Window,1,Wide-Range,1,1,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Leap of Faith,1,Recovery Speed,2,1,0,0 < Ice Resistance,1,Recovery Speed,2,1,1,0, discard dominated
+Evade Window,1,Stamina Surge,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Windproof,2,Maximum Might,1,0,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Ammo Up,1,,0,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Earplugs,1,Critical Element,1,1,1,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Speed Sharpening,1,Defense Boost,1,1,1,0 < Defense Boost,1,Protective Polish,1,1,1,1, discard dominated
+Stamina Surge,1,,0,1,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Razor Sharp,2,Spare Shot,1,0,0,0 < Paralysis Attack,2,Marathon Runner,1,2,2,2, discard dominated
+Divine Blessing,1,Bludgeoner,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Peak Performance,2,Bombardier,1,0,0,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Thunder Resistance,1,Muck Resistance,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Agitator,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Critical Eye,1,Wall Runner,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Fire Attack,1,Botanist,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Ice Attack,2,Water Attack,1,3,0,0 < Thunder Attack,4,Earplugs,3,3,2,1, discard dominated
+Flinch Free,2,Special Ammo Boost,1,1,0,0 < Flinch Free,3,Resuscitate,1,3,1,0, discard dominated
+Blast Attack,1,Windproof,1,1,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Power Prolonger,1,,0,1,0,0 < Power Prolonger,2,,0,1,1,0, discard dominated
+Ballistics,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Load Shells,1,Reload Speed,1,1,0,0 < Reload Speed,3,Tremor Resistance,1,2,2,0, discard dominated
+Item Prolonger,2,Thunder Attack,1,1,0,0 < Item Prolonger,2,Ice Attack,1,1,1,0, discard dominated
+Wide-Range,1,Speed Sharpening,1,1,0,0 < Wide-Range,2,Fire Attack,1,2,1,0, discard dominated
+Recovery Speed,1,Wirebug Whisperer,1,3,1,0 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1, discard dominated
+Botanist,1,Stun Resistance,1,1,1,0 < Coalescence,3,Stun Resistance,3,2,2,1, discard dominated
+Protective Polish,1,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Stamina Thief,1,Rapid Morph,1,1,0,0 < Bubbly Dance,2,Rapid Morph,1,1,1,0, discard dominated
+Divine Blessing,2,Poison Resistance,1,3,0,0 < Water Attack,2,Divine Blessing,2,3,1,0, discard dominated
+Wide-Range,2,Defense Boost,1,1,1,0 < Critical Draw,2,Wide-Range,3,2,2,1, discard dominated
+Stamina Thief,1,Bubbly Dance,2,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Partbreaker,2,Item Prolonger,1,0,0,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Water Attack,1,Wirebug Whisperer,2,3,0,0 < Paralysis Resistance,1,Wirebug Whisperer,2,3,1,0, discard dominated
+Thunder Resistance,1,Recoil Down,1,1,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Water Attack,2,Mushroomancer,1,0,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Bludgeoner,1,Slugger,2,1,1,0 < Slugger,2,Divine Blessing,2,2,1,1, discard dominated
+Stun Resistance,2,Poison Attack,1,1,1,0 < Coalescence,3,Stun Resistance,3,2,2,1, discard dominated
+Partbreaker,2,Fire Attack,1,2,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Divine Blessing,2,Counterstrike,1,1,0,0 < Divine Blessing,1,Hunger Resistance,2,2,2,1, discard dominated
+Sleep Resistance,2,Critical Draw,1,0,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Wide-Range,1,Paralysis Attack,1,2,0,0 < Paralysis Attack,2,Marathon Runner,1,2,2,2, discard dominated
+Slugger,2,Defense Boost,1,2,0,0 < Slugger,2,Quick Sheathe,1,3,1,0, discard dominated
+Speed Eating,1,Item Prolonger,1,1,0,0 < Speed Eating,2,Thunder Resistance,2,3,1,0, discard dominated
+Tremor Resistance,1,Divine Blessing,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Steadiness,1,Ice Attack,2,0,0,0 < Diversion,1,Carving Pro,1,1,1,1, discard dominated
+Steadiness,1,Geologist,2,3,0,0 < Steadiness,2,Dragon Attack,1,3,1,1, discard dominated
+Defense Boost,2,Partbreaker,1,1,1,0 < Partbreaker,2,Bubbly Dance,2,2,1,1, discard dominated
+Ice Resistance,1,Fire Resistance,2,1,0,0 < Thunder Resistance,1,Fire Resistance,2,1,1,0, discard dominated
+Special Ammo Boost,2,Defense Boost,1,0,0,0 < Blast Attack,3,Quick Sheathe,1,4,1,0, discard dominated
+Wirebug Whisperer,1,Speed Eating,1,1,1,0 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1, discard dominated
+Counterstrike,2,Horn Maestro,1,0,0,0 < Earplugs,2,Counterstrike,2,2,0,0, discard dominated
+Blight Resistance,1,Hellfire Cloak,1,1,0,0 < Blight Resistance,1,Affinity Sliding,1,3,1,0, discard dominated
+Evade Window,1,Bludgeoner,1,1,0,0 < Evade Window,1,Wirebug Whisperer,1,3,2,0, discard dominated
+Agitator,2,,0,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated
+Fortify,1,Steadiness,1,0,0,0 < Evade Extender,1,Dragon Attack,2,2,2,0, discard dominated

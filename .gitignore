@@ -15,6 +15,8 @@ converted.js
 !data/**/*.json
 
 *.mp4
+/videos/
+
 # Found here https://docs.google.com/spreadsheets/d/1ce4_R7HvBPPYE63qyGfeI-nTTSBDsGCGc7ETTGHqYac/edit#gid=0
 # mh-rise skills language - Feuille 1.csv 
 
