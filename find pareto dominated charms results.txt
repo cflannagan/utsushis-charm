@@ -1,435 +1,181 @@
-Total parsed lines: 635
-Discard-dominated (charm-discard-criteria) lines: 432
+Total parsed lines: 406
+Discard-dominated (charm-discard-criteria) lines: 178
 
-Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Blaze Jewel 1*1
-Blight Resistance,1,Affinity Sliding,1,0,0,0,rar4,fr2975 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Resistor Jewel 2*1, Slider Jewel 1*1
-Wirebug Whisperer,1,Marathon Runner,1,0,0,0,rar7,fr4171 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Sprinter Jewel 2*1, Wirebug Jewel 2*1
-Resuscitate,1,,0,1,0,0,rar5,fr2532 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Crisis Jewel 2*1
-Evade Window,2,Latent Power,1,1,0,0,rar6,fr96 < Critical Element,2,Evade Window,2,2,2,0,rar8,fr4894, Throttle Jewel 2*1
-Affinity Sliding,1,Botanist,2,1,0,0,rar4,fr2967 < Botanist,2,Muck Resistance,1,2,1,0,rar6,fr5781, Slider Jewel 1*1
-Affinity Sliding,1,Slugger,1,1,1,0,rar6,fr6082 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Slider Jewel 1*1
-Slugger,2,Razor Sharp,1,0,0,0,rar6,fr5564 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Razor Jewel 2*1
-Critical Element,1,,0,0,0,0,rar4,fr2313 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Crit Element Jewel 2*1
-Protective Polish,1,,0,0,0,0,rar4,fr2327 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Sharp Jewel 2*1
-Reload Speed,2,Slugger,1,0,0,0,rar4,fr3060 < Affinity Sliding,1,Slugger,1,1,1,0,rar6,fr6082, Quickload Jewel 1*2
-Flinch Free,2,Special Ammo Boost,1,1,0,0,rar7,fr1222 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Trueshot Jewel 2*1
-Sleep Resistance,2,Divine Blessing,1,2,0,0,rar6,fr1790 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Pep Jewel 1*2
-Recovery Up,2,Speed Eating,1,1,1,0,rar6,fr6188 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Gobbler Jewel 2*1
-Quick Sheathe,1,Protective Polish,1,1,0,0,rar7,fr4290 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Sharp Jewel 2*1, Sheath Jewel 2*1
-Ice Attack,1,Wide-Range,2,3,0,0,rar7,fr5365 < Wide-Range,5,Speed Eating,3,3,2,0,rar9,fr4555, Frost Jewel+ 2*1
-Evade Window,1,Water Attack,2,1,0,0,rar5,fr629 < Carving Pro,1,Evade Window,2,1,1,1,rar7,fr3723, Stream Jewel 1*2
-Paralysis Resistance,1,Bludgeoner,1,0,0,0,rar3,fr5124 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Antipara Jewel 1*1, Blunt Jewel 2*1
-Flinch Free,2,Slugger,1,2,0,0,rar6,fr5492 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, KO Jewel 2*1
-Diversion,1,Guard,1,0,0,0,rar5,fr605 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Diversion Jewel 1*1, Ironwall Jewel 2*1
-Earplugs,1,Critical Element,1,1,1,0,rar7,fr3985 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Crit Element Jewel 2*1
-Speed Sharpening,1,Paralysis Resistance,1,1,1,0,rar5,fr1899 < Paralysis Resistance,1,Poison Attack,1,1,1,1,rar7,fr1568, Grinder Jewel 1*1
-Stun Resistance,2,Speed Eating,1,1,0,0,rar5,fr771 < Stun Resistance,2,Bombardier,2,2,1,0,rar7,fr1102, Gobbler Jewel 2*1
-Dragon Attack,2,Ballistics,1,1,0,0,rar7,fr1127 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Dragon Jewel+ 2*1, Precise Jewel 2*1
-Partbreaker,1,Thunder Attack,1,1,1,0,rar6,fr285 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Destroyer Jewel 2*1
-Hunger Resistance,1,Maximum Might,1,0,0,0,rar5,fr2639 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Hungerless Jewel 1*1, Mighty Jewel 2*1
-Affinity Sliding,1,Stamina Thief,1,3,0,0,rar7,fr3706 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Drain Jewel 1*1
-Speed Sharpening,1,Defense Boost,1,1,1,0,rar6,fr5669 < Counterstrike,1,Defense Boost,2,2,1,1,rar7,fr4188, Grinder Jewel 1*1
-Evade Extender,1,Poison Attack,1,0,0,0,rar4,fr2829 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Jumping Jewel 2*1, Venom Jewel 1*1
-Rapid Morph,1,Ice Attack,1,1,0,0,rar5,fr2007 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361
-Speed Sharpening,1,Power Prolonger,1,1,0,0,rar7,fr3910 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Enhancer Jewel 2*1, Grinder Jewel 1*1
-Paralysis Resistance,1,Leap of Faith,1,3,0,0,rar7,fr4386 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Antipara Jewel 1*1, Dive Jewel 1*1
-Razor Sharp,2,Spare Shot,1,0,0,0,rar7,fr1561 < Paralysis Attack,2,Marathon Runner,1,2,2,2,rar8,fr4698, Razor Jewel 2*2, Thrift Jewel 2*1
-Master's Touch,1,,0,1,1,0,rar7,fr4130 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Mastery Jewel 2*1
-Stun Resistance,2,Poison Attack,1,1,1,0,rar6,fr5622 < Coalescence,3,Stun Resistance,3,2,2,1,rar10,fr4564, Venom Jewel 1*1
-Divine Blessing,1,Steadiness,2,0,0,0,rar4,fr2856 < Blast Resistance,2,Divine Blessing,2,1,1,0,rar6,fr6223, Sniper Jewel 1*2
-Peak Performance,2,Bombardier,1,0,0,0,rar6,fr6131 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Bomber Jewel 1*1, Flawless Jewel 2*2
-Recoil Down,1,Blight Resistance,1,1,0,0,rar5,fr589 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Absorber Jewel 1*1
-Thunder Resistance,1,Blight Resistance,1,2,0,0,rar5,fr2212 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Thunder Res Jewel 1*1
-Dragon Resistance,1,Bubbly Dance,1,2,1,0,rar7,fr1377 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Dragon Res Jewel 1*1
-Earplugs,2,Counterstrike,1,1,0,0,rar5,fr690 < Diversion,1,Earplugs,2,2,1,0,rar7,fr1110, Counter Jewel 2*1
-Defense Boost,1,Slugger,2,0,0,0,rar4,fr2880 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Defense Jewel 1*1
-Ice Attack,1,Poison Resistance,1,1,0,0,rar4,fr2926 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Antidote Jewel 1*1
-Divine Blessing,1,Ballistics,1,1,0,0,rar7,fr4179 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Precise Jewel 2*1
-Water Attack,1,Defense Boost,1,1,1,0,rar6,fr5580 < Earplugs,1,Water Attack,2,1,1,1,rar7,fr3786, Defense Jewel 1*1
-Partbreaker,3,Water Attack,1,1,0,0,rar5,fr458 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Destroyer Jewel 2*1, Stream Jewel 1*1
-Flinch Free,1,Normal/Rapid Up,1,1,0,0,rar7,fr3944 < Flinch Free,3,Resuscitate,1,3,1,0,rar8,fr4758, Forceshot Jewel 3*1
-Ice Attack,1,Partbreaker,1,0,0,0,rar3,fr3453 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Frost Jewel+ 2*1
-Load Shells,1,,0,1,0,0,rar6,fr5810 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Magazine Jewel 2*1
-Wall Runner,2,Guard Up,1,0,0,0,rar5,fr532 < Wall Runner,3,Evade Window,2,3,0,0,rar8,fr4733, Shield Jewel 2*1
-Sleep Resistance,2,Stun Resistance,2,0,0,0,rar4,fr2909 < Punishing Draw,1,Sleep Resistance,2,1,1,0,rar6,fr6209, Steadfast Jewel 1*2
-Defense Boost,3,Recovery Up,1,1,0,0,rar4,fr2848 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Defense Jewel+ 2*2
-Sleep Resistance,1,Poison Resistance,3,1,0,0,rar4,fr2982 < Maximum Might,2,Defiance,3,4,1,1,rar10,fr5271, Hard Antidote Jewel 4*1, Pep Jewel 1*1
-Water Attack,2,Paralysis Attack,1,0,0,0,rar5,fr2585 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Paralyzer Jewel 2*1, Stream Jewel+ 2*1
-Stamina Thief,1,Recovery Speed,2,2,0,0,rar5,fr1952 < Counterstrike,1,Recovery Speed,2,2,2,0,rar7,fr973, Drain Jewel 1*1
-Geologist,2,Dragon Attack,1,3,0,0,rar7,fr4044 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr1576, Geology Jewel 1*2
-Blast Resistance,1,Protective Polish,1,1,0,0,rar6,fr5823 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Antiblast Jewel 1*1, Sharp Jewel 2*1
-Fire Attack,3,Blast Attack,1,1,0,0,rar7,fr4305 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Blast Jewel 2*1, Hard Blaze Jewel 3*1
-Defense Boost,2,Rapid Fire Up,1,0,0,0,rar7,fr1331 < Defense Boost,5,Quick Sheathe,1,3,1,0,rar8,fr4539, Salvo Jewel 3*1
-Thunder Attack,1,Rapid Morph,1,1,1,0,rar6,fr5877 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Quickswitch Jewel 2*1
-Diversion,1,Earplugs,2,2,1,0,rar7,fr1110 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Diversion Jewel 1*1
-Wirebug Whisperer,1,Slugger,1,0,0,0,rar3,fr5024 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, KO Jewel 2*1, Wirebug Jewel 2*1
-Steadiness,1,Stun Resistance,1,1,0,0,rar5,fr2562 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Sniper Jewel 1*1, Steadfast Jewel 1*1
-Resentment,1,Evade Window,1,2,0,0,rar7,fr1119 < Critical Element,2,Evade Window,2,2,2,0,rar8,fr4894, Furor Jewel 2*1
-Master Mounter,1,Recovery Up,3,2,0,0,rar6,fr126 < Recovery Up,3,Blast Resistance,2,3,2,0,rar7,fr3658, Rodeo Jewel 2*1
-Steadiness,1,Blight Resistance,1,0,0,0,rar4,fr3202 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Resistor Jewel 2*1, Sniper Jewel 1*1
-Windproof,2,Maximum Might,1,0,0,0,rar6,fr5998 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Mighty Jewel 2*1, Wind Res Jewel 1*2
-Dragon Attack,2,Bubbly Dance,1,2,0,0,rar6,fr393 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Dragon Jewel 1*2
-Heroics,1,,0,1,0,0,rar5,fr1945 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Potential Jewel 2*1
-Partbreaker,1,Artillery,1,1,0,0,rar7,fr4104 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Artillery Jewel 2*1
-Sleep Resistance,2,Critical Draw,1,0,0,0,rar7,fr1457 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Draw Jewel 3*1, Pep Jewel 1*2
-Earplugs,2,Bombardier,1,0,0,0,rar3,fr5100 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Hard Bomber Jewel 4*1
-Normal/Rapid Up,2,,0,1,0,0,rar6,fr43 < Maximum Might,2,Defiance,3,4,1,1,rar10,fr5271, Forceshot Jewel+ 4*1
-Fire Attack,1,Water Attack,1,2,0,0,rar6,fr401 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Stream Jewel 1*1
-Defense Boost,2,Steadiness,1,1,1,0,rar6,fr119 < Counterstrike,1,Defense Boost,2,2,1,1,rar7,fr4188, Sniper Jewel 1*1
-Paralysis Resistance,1,Defense Boost,1,2,1,0,rar6,fr5957 < Counterstrike,1,Defense Boost,2,2,1,1,rar7,fr4188, Antipara Jewel 1*1
-Item Prolonger,2,Tremor Resistance,1,2,0,0,rar6,fr244 < Defense Boost,1,Item Prolonger,2,2,2,0,rar7,fr4155, Footing Jewel 2*1
-Divine Blessing,1,Hunger Resistance,1,2,0,0,rar5,fr2570 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Hungerless Jewel 1*1
-Resentment,1,,0,3,0,0,rar7,fr3680 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr1239, Furor Jewel 2*1
-Attack Boost,2,,0,1,1,0,rar6,fr4658 < Dragon Attack,1,Attack Boost,2,2,1,0,rar7,fr4667
-Dragon Attack,2,Stamina Thief,2,1,0,0,rar5,fr548 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr1239, Hard Dragon Jewel 3*1
-Punishing Draw,1,Resuscitate,2,0,0,0,rar6,fr5499 < Paralysis Attack,2,Marathon Runner,1,2,2,2,rar8,fr4698, Crisis Jewel 2*2, Gambit Jewel 2*1
-Defense Boost,1,Carving Pro,1,1,1,0,rar6,fr5444 < Carving Pro,1,Evade Window,2,1,1,1,rar7,fr3723, Defense Jewel 1*1
-Tremor Resistance,1,Divine Blessing,1,0,0,0,rar4,fr3172 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Footing Jewel 2*1, Protection Jewel 2*1
-Focus,1,,0,1,0,0,rar7,fr3771 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Charger Jewel 2*1
-Guard,2,,0,1,0,0,rar6,fr235 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Ironwall Jewel+ 3*1
-Carving Pro,1,Blast Attack,1,1,0,0,rar7,fr1323 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Blast Jewel 2*1, Carver Jewel 1*1
-Load Shells,1,Reload Speed,1,1,0,0,rar7,fr3918 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Magazine Jewel 2*1, Quickload Jewel 1*1
-Speed Eating,1,Item Prolonger,1,1,0,0,rar4,fr2895 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Enduring Jewel 2*1, Gobbler Jewel 2*1
-Rapid Morph,1,Sleep Attack,1,0,0,0,rar5,fr2354 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Sleep Jewel 2*1
-Divine Blessing,1,Guard Up,1,1,0,0,rar7,fr1691 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Shield Jewel 2*1
-Bludgeoner,1,Slugger,2,1,1,0,rar6,fr64 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Blunt Jewel 2*1
-Earplugs,2,Wirebug Whisperer,1,3,0,0,rar7,fr3763 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Wirebug Jewel 2*1
-Hunger Resistance,2,Rapid Morph,1,1,0,0,rar5,fr508 < Divine Blessing,1,Hunger Resistance,2,2,2,1,rar7,fr4613, Quickswitch Jewel 2*1
-Blight Resistance,1,Heroics,1,1,0,0,rar6,fr220 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Potential Jewel 2*1
-Slugger,1,Evade Extender,1,1,1,0,rar6,fr143 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Jumping Jewel 2*1
-Divine Blessing,1,Thunder Attack,2,1,1,0,rar6,fr6107 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Bolt Jewel+ 2*1
-Heroics,1,,0,0,0,0,rar4,fr2918 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Potential Jewel 2*1
-Hellfire Cloak,1,Thunder Resistance,1,1,0,0,rar6,fr5706 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Hellfire Jewel 3*1, Thunder Res Jewel 1*1
-Recovery Speed,1,Wirebug Whisperer,1,3,1,0,rar7,fr1292 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1,rar7,fr1720, Recovery Jewel 1*1
-Fire Attack,2,Divine Blessing,1,2,0,0,rar6,fr88 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Blaze Jewel 1*2
-Partbreaker,1,Ice Resistance,1,0,0,0,rar3,fr3475 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Ice Res Jewel 1*1
-Stamina Thief,1,Bubbly Dance,2,1,1,0,rar6,fr260 < Bubbly Dance,2,Wide-Range,1,1,1,1,rar7,fr1488, Drain Jewel 1*1
-Blight Resistance,1,Hellfire Cloak,1,1,0,0,rar6,fr5574 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Hellfire Jewel 3*1
-Fire Attack,2,Water Attack,1,2,0,0,rar6,fr150 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Blaze Jewel+ 2*1, Stream Jewel 1*1
-Weakness Exploit,1,,0,2,0,0,rar7,fr4648 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Tenderizer Jewel 2*1
-Water Attack,1,Wirebug Whisperer,2,3,0,0,rar7,fr4062 < Paralysis Resistance,1,Wirebug Whisperer,2,3,1,0,rar7,fr3698, Stream Jewel 1*1
-Stun Resistance,1,Wall Runner,1,0,0,0,rar3,fr3460 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Steadfast Jewel 1*1, Wall Run Jewel 2*1
-Partbreaker,1,Bombardier,1,1,0,0,rar4,fr3087 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Bomber Jewel 1*1
-Reload Speed,1,Poison Attack,1,2,1,0,rar7,fr1545 < Diversion,1,Reload Speed,1,2,2,1,rar7,fr3835, Venom Jewel 1*1
-Water Resistance,1,Bombardier,1,2,0,0,rar5,fr646 < Stun Resistance,2,Bombardier,2,2,1,0,rar7,fr1102, Water Res Jewel 1*1
-Poison Resistance,1,Steadiness,1,1,1,0,rar5,fr2154 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr1576, Antidote Jewel 1*1
-Water Attack,1,Evade Window,2,2,0,0,rar6,fr211 < Critical Element,2,Evade Window,2,2,2,0,rar8,fr4894, Stream Jewel 1*1
-Evade Extender,2,Razor Sharp,1,0,0,0,rar6,fr5973 < Item Prolonger,2,Evade Extender,2,3,0,0,rar7,fr3854, Razor Jewel 2*1
-Recoil Down,2,Muck Resistance,1,0,0,0,rar3,fr5058 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Absorber Jewel 1*2, Muck Jewel 1*1
-Peak Performance,1,Evade Extender,1,0,0,0,rar5,fr516 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Flawless Jewel 2*1, Jumping Jewel 2*1
-Punishing Draw,2,Reload Speed,1,1,1,0,rar6,fr5677 < Punishing Draw,2,Wall Runner,2,1,1,1,rar8,fr4862, Quickload Jewel 1*1
-Critical Eye,1,Thunder Resistance,1,3,0,0,rar7,fr4628 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Expert Jewel 2*1, Thunder Res Jewel 1*1
-Latent Power,1,,0,1,0,0,rar5,fr2196 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Throttle Jewel 2*1
-Evade Window,1,Recoil Down,1,0,0,0,rar3,fr5245 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Absorber Jewel 1*1, Evasion Jewel 2*1
-Wide-Range,2,Tremor Resistance,1,2,0,0,rar6,fr5949 < Critical Draw,2,Wide-Range,3,2,2,1,rar8,fr5326, Footing Jewel 2*1
-Marathon Runner,1,,0,0,0,0,rar6,fr5753 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Sprinter Jewel 2*1
-Ammo Up,1,,0,0,0,0,rar6,fr5884 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Capacity Jewel 3*1
-Power Prolonger,2,,0,1,1,0,rar7,fr3819 < Maximum Might,2,Defiance,3,4,1,1,rar10,fr5271, Enhancer Jewel+ 4*1
-Counterstrike,2,Earplugs,1,0,0,0,rar4,fr3210 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Counter Jewel+ 4*1
-Windproof,2,Bubbly Dance,1,1,0,0,rar5,fr796 < Bubbly Dance,2,Wide-Range,1,1,1,1,rar7,fr1488, Wind Res Jewel 1*2
-Dragon Attack,1,Resentment,1,0,0,0,rar5,fr2226 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Dragon Jewel 1*1, Furor Jewel 2*1
-Water Attack,1,Diversion,1,1,0,0,rar5,fr2632 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Diversion Jewel 1*1, Stream Jewel 1*1
-Marathon Runner,1,Free Meal,2,0,0,0,rar7,fr1346 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Satiated Jewel 1*2, Sprinter Jewel 2*1
-Wirebug Whisperer,1,Steadiness,1,2,0,0,rar5,fr2546 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Sniper Jewel 1*1, Wirebug Jewel 2*1
-Constitution,1,Earplugs,1,2,0,0,rar5,fr2162 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Physique Jewel 2*1
-Diversion,1,Dragon Resistance,1,2,0,0,rar5,fr1999 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Diversion Jewel 1*1, Dragon Res Jewel 1*1
-Wirebug Whisperer,1,Flinch Free,1,1,1,0,rar5,fr726 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1,rar7,fr1720, Brace Jewel 1*1
-Affinity Sliding,1,Carving Pro,1,2,0,0,rar6,fr196 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Carver Jewel 1*1
-Tremor Resistance,1,Ice Attack,1,0,0,0,rar3,fr5171 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Footing Jewel 2*1, Frost Jewel 1*1
-Wide-Range,1,Flinch Free,2,2,0,0,rar6,fr5767 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Friendship Jewel 2*1
-Quick Sheathe,1,Free Meal,2,0,0,0,rar3,fr3515 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Satiated Jewel 1*2, Sheath Jewel 2*1
-Flinch Free,1,Fortify,1,3,0,0,rar7,fr3613 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Brace Jewel 1*1
-Counterstrike,1,Bludgeoner,1,1,0,0,rar5,fr684 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Blunt Jewel 2*1, Counter Jewel 2*1
-Wide-Range,2,Defense Boost,1,1,1,0,rar6,fr6041 < Critical Draw,2,Wide-Range,3,2,2,1,rar8,fr5326, Defense Jewel+ 2*1
-Divine Blessing,1,Counterstrike,1,1,1,0,rar6,fr5713 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Counter Jewel 2*1
-Guard,1,Special Ammo Boost,1,0,0,0,rar7,fr1338 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Ironwall Jewel 2*1, Trueshot Jewel 2*1
-Weakness Exploit,1,,0,1,0,0,rar5,fr756 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Tenderizer Jewel 2*1
-Thunder Resistance,1,Recoil Down,1,1,0,0,rar4,fr2954 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Absorber Jewel 1*1, Thunder Res Jewel 1*1
-Paralysis Attack,1,,0,0,0,0,rar4,fr2999 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Paralyzer Jewel 2*1
-Power Prolonger,1,,0,0,0,0,rar4,fr3052 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Enhancer Jewel 2*1
-Stun Resistance,1,Master Mounter,1,1,0,0,rar5,fr708 < Stun Resistance,2,Bombardier,2,2,1,0,rar7,fr1102, Rodeo Jewel 2*1
-Defense Boost,1,Stun Resistance,1,1,0,0,rar5,fr717 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Defense Jewel 1*1, Steadfast Jewel 1*1
-Item Prolonger,2,Thunder Attack,1,1,0,0,rar4,fr3141 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Enduring Jewel 2*2
-Mind's Eye,1,,0,0,0,0,rar6,fr5988 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Mind's Eye Jewel 2*1
-Stun Resistance,1,Slugger,1,1,1,0,rar6,fr5722 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Steadfast Jewel 1*1
-Bludgeoner,1,Diversion,1,1,0,0,rar5,fr2068 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Blunt Jewel 2*1, Diversion Jewel 1*1
-Counterstrike,2,Horn Maestro,1,0,0,0,rar4,fr3219 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Counter Jewel 2*2, Sonorous Jewel 1*1
-Water Attack,3,Resentment,1,1,0,0,rar6,fr6173 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Furor Jewel 2*1, Hard Stream Jewel 3*1
-Wide-Range,1,Speed Sharpening,1,1,0,0,rar5,fr539 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Friendship Jewel 2*1, Grinder Jewel 1*1
-Botanist,1,Special Ammo Boost,1,1,0,0,rar6,fr5788 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Botany Jewel 1*1, Trueshot Jewel 2*1
-Poison Attack,1,Tremor Resistance,1,0,0,0,rar4,fr3045 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Footing Jewel 2*1, Venom Jewel 1*1
-Attack Boost,1,,0,1,1,0,rar6,fr5965 < Dragon Attack,1,Attack Boost,2,2,1,0,rar7,fr4667
-Fire Attack,2,Slugger,2,0,0,0,rar4,fr3484 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Blaze Jewel 1*2
-Offensive Guard,1,,0,0,0,0,rar6,fr318 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Guardian Jewel 3*1
-Hunger Resistance,1,Wall Runner,1,0,0,0,rar2,fr5261 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Hungerless Jewel 1*1, Wall Run Jewel 2*1
-Agitator,1,Wide-Range,1,1,0,0,rar6,fr5589 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Challenger Jewel 2*1, Friendship Jewel 2*1
-Speed Sharpening,2,Blight Resistance,1,2,0,0,rar6,fr409 < Speed Sharpening,3,Burst,2,2,2,0,rar8,fr4476, Resistor Jewel 2*1
-Water Resistance,1,Leap of Faith,1,3,0,0,rar7,fr1503 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Dive Jewel 1*1, Water Res Jewel 1*1
-Dragon Resistance,1,Quick Sheathe,1,2,0,0,rar5,fr1891 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Dragon Res Jewel 1*1, Sheath Jewel 2*1
-Stamina Thief,1,Rapid Morph,1,1,0,0,rar4,fr3029 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Drain Jewel 1*1
-Ice Attack,3,Punishing Draw,1,0,0,0,rar4,fr2429 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Frost Jewel 1*1, Gambit Jewel 2*1
-Water Attack,2,Bludgeoner,1,1,0,0,rar5,fr2462 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Blunt Jewel 2*1, Stream Jewel+ 2*1
-Windproof,1,Divine Blessing,1,1,1,0,rar6,fr6216 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Wind Res Jewel 1*1
-Jump Master,1,,0,1,0,0,rar7,fr4409 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Leap Jewel 3*1
-Protective Polish,1,Recoil Down,1,0,0,0,rar5,fr2189 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Absorber Jewel 1*1, Sharp Jewel 2*1
-Resuscitate,1,,0,3,0,0,rar7,fr1585 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr1239, Crisis Jewel 2*1
-Guard,2,,0,1,1,0,rar7,fr1031 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Ironwall Jewel+ 3*1
-Slugger,2,Stun Resistance,2,2,0,0,rar7,fr4345 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Steadfast Jewel 1*2
-Counterstrike,2,Paralysis Resistance,2,0,0,0,rar4,fr2902 < Counterstrike,2,Evade Window,1,1,1,0,rar6,fr5729, Antipara Jewel 1*2
-Dragon Attack,2,Blight Resistance,1,1,0,0,rar5,fr2625 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Dragon Jewel+ 2*1
-Item Prolonger,1,Thunder Resistance,1,3,0,0,rar6,fr5557 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Enduring Jewel 2*1, Thunder Res Jewel 1*1
-Partbreaker,2,Reload Speed,1,1,1,0,rar6,fr229 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Quickload Jewel 1*1
-Tremor Resistance,2,Thunder Resistance,1,0,0,0,rar3,fr3313 < Status Trigger,2,Tremor Resistance,3,2,1,0,rar8,fr4782, Thunder Res Jewel 1*1
-Speed Sharpening,1,Resuscitate,1,1,0,0,rar7,fr4297 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Crisis Jewel 2*1, Grinder Jewel 1*1
-Peak Performance,1,Water Attack,1,0,0,0,rar5,fr763 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Flawless Jewel 2*1, Stream Jewel 1*1
-Resentment,1,,0,1,0,0,rar5,fr2085 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Furor Jewel 2*1
-Artillery,1,,0,3,0,0,rar7,fr4270 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr1239, Artillery Jewel 2*1
-Carving Pro,1,Tremor Resistance,1,0,0,0,rar4,fr2933 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Carver Jewel 1*1, Footing Jewel 2*1
-Speed Sharpening,1,Partbreaker,1,1,1,0,rar6,fr165 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Grinder Jewel 1*1
-Ice Attack,2,Fortify,1,1,0,0,rar5,fr2147 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Frost Jewel+ 2*1
-Steadiness,1,Geologist,1,1,0,0,rar4,fr2961 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Geology Jewel 1*1, Sniper Jewel 1*1
-Dragon Attack,2,Fire Attack,2,1,0,0,rar5,fr653 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Blaze Jewel+ 2*1, Dragon Jewel+ 2*1
-Water Attack,2,Fire Attack,1,0,0,0,rar3,fr3401 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Stream Jewel+ 2*1
-Latent Power,2,,0,1,0,0,rar6,fr5549 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Throttle Jewel 2*2
-Dragon Resistance,1,Speed Eating,2,1,0,0,rar5,fr2394 < Maximum Might,2,Defiance,3,4,1,1,rar10,fr5271, Dragon Res Jewel 1*1, Gobbler Jewel+ 4*1
-Tremor Resistance,1,Razor Sharp,1,1,0,0,rar7,fr4378 < Status Trigger,2,Tremor Resistance,3,2,1,0,rar8,fr4782, Razor Jewel 2*1
-Speed Sharpening,1,Geologist,1,2,0,0,rar5,fr476 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Geology Jewel 1*1, Grinder Jewel 1*1
-Item Prolonger,1,Rapid Morph,2,1,0,0,rar5,fr2645 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Enduring Jewel 2*1
-Peak Performance,1,,0,1,1,0,rar7,fr3739 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Flawless Jewel 2*1
-Weakness Exploit,1,,0,0,0,0,rar4,fr4965 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Tenderizer Jewel 2*1
-Poison Attack,2,Evade Extender,1,1,0,0,rar5,fr1866 < Wirebug Whisperer,3,Poison Attack,2,2,2,0,rar8,fr4548, Jumping Jewel 2*1
-Poison Attack,1,Normal/Rapid Up,1,0,0,0,rar5,fr2017 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Forceshot Jewel 3*1, Venom Jewel 1*1
-Recovery Up,1,Bludgeoner,2,1,0,0,rar5,fr661 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Blunt Jewel 2*2
-Carving Pro,1,Master Mounter,1,2,0,0,rar6,fr5524 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Carver Jewel 1*1, Rodeo Jewel 2*1
-Windproof,1,Affinity Sliding,1,3,0,0,rar7,fr4216 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Wind Res Jewel 1*1
-Steadiness,1,Geologist,2,3,0,0,rar7,fr1039 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr1576, Geology Jewel 1*2
-Stun Resistance,3,Thunder Attack,1,1,1,0,rar6,fr6148 < Coalescence,3,Stun Resistance,3,2,2,1,rar10,fr4564, Bolt Jewel+ 2*1
-Fortify,1,Steadiness,1,0,0,0,rar4,fr3078 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Fortitude Jewel 2*1, Sniper Jewel 1*1
-Ballistics,1,,0,0,0,0,rar4,fr3037 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Precise Jewel 2*1
-Special Ammo Boost,1,,0,1,0,0,rar6,fr5744 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Trueshot Jewel 2*1
-Hellfire Cloak,1,,0,1,0,0,rar5,fr597 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Hellfire Jewel 3*1
-Ballistics,1,Wirebug Whisperer,2,0,0,0,rar5,fr2363 < Ballistics,2,Foray,2,3,2,0,rar9,fr5279, Wirebug Jewel 2*2
-Steadiness,1,Ice Attack,2,0,0,0,rar4,fr2864 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Frost Jewel+ 2*1, Sniper Jewel 1*1
-Blast Resistance,1,Ice Resistance,2,3,0,0,rar6,fr277 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1,rar7,fr1720, Antiblast Jewel 1*1, Ice Res Jewel 1*1
-Sneak Attack,1,Marathon Runner,1,2,1,0,rar8,fr4691 < Paralysis Attack,2,Marathon Runner,1,2,2,2,rar8,fr4698, Backstab Jewel 2*1
-Recoil Down,2,Hunger Resistance,1,1,0,0,rar5,fr1929 < Recoil Down,2,Horn Maestro,1,1,1,0,rar6,fr376, Hungerless Jewel 1*1
-Bombardier,1,Thunder Attack,1,0,0,0,rar3,fr5033 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Bolt Jewel 1*1, Bomber Jewel 1*1
-Evade Window,1,Wide-Range,1,1,0,0,rar5,fr2500 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Evasion Jewel 2*1, Friendship Jewel 2*1
-Water Attack,2,Mushroomancer,1,0,0,0,rar7,fr4242 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Stream Jewel+ 2*1
-Evade Extender,1,Geologist,2,0,0,0,rar3,fr5075 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Geology Jewel 1*2, Jumping Jewel 2*1
-Punishing Draw,1,Bubbly Dance,1,0,0,0,rar4,fr3148 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Bubble Jewel 2*1, Gambit Jewel 2*1
-Rapid Morph,2,Bludgeoner,1,0,0,0,rar4,fr2296 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Blunt Jewel 2*1
-Water Attack,2,Constitution,1,0,0,0,rar3,fr3371 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Physique Jewel 2*1, Stream Jewel+ 2*1
-Evade Extender,1,Partbreaker,1,1,1,0,rar6,fr5460 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Jumping Jewel 2*1
-Power Prolonger,2,,0,1,0,0,rar6,fr6033 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Enhancer Jewel 2*2
-Master Mounter,1,Wide-Range,1,0,0,0,rar3,fr4998 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Friendship Jewel 2*1, Rodeo Jewel 2*1
-Speed Eating,1,Earplugs,1,2,1,0,rar7,fr3960 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Gobbler Jewel 2*1
-Blast Attack,1,,0,0,0,0,rar4,fr2289 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Blast Jewel 2*1
-Critical Draw,1,Earplugs,1,0,0,0,rar7,fr1207 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Draw Jewel+ 4*1
-Razor Sharp,2,,0,1,1,0,rar7,fr1619 < Maximum Might,2,Defiance,3,4,1,1,rar10,fr5271, Razor Jewel+ 4*1
-Wide-Range,1,Critical Eye,1,0,0,0,rar5,fr1832 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Expert Jewel 2*1, Friendship Jewel 2*1
-Fire Attack,1,Windproof,1,1,0,0,rar5,fr2203 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Wind Res Jewel 1*1
-Evade Extender,1,Ice Attack,1,1,1,0,rar6,fr5685 < Evade Extender,3,Grinder (S),1,1,1,1,rar8,fr4707, Frost Jewel 1*1
-Free Meal,1,Wide-Range,2,3,0,0,rar7,fr1611 < Wide-Range,5,Speed Eating,3,3,2,0,rar9,fr4555, Satiated Jewel 1*1
-Blight Resistance,1,Resentment,1,1,0,0,rar6,fr6230 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Furor Jewel 2*1
-Paralysis Attack,1,,0,1,1,0,rar7,fr1664 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Paralyzer Jewel 2*1
-Speed Sharpening,2,Punishing Draw,1,1,0,0,rar5,fr614 < Speed Sharpening,2,Windproof,1,2,1,0,rar7,fr1449, Gambit Jewel 2*1
-Handicraft,1,,0,0,0,0,rar6,fr5774 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Handicraft Jewel 3*1
-Water Attack,2,Poison Attack,1,1,0,0,rar5,fr2577 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Stream Jewel+ 2*1, Venom Jewel 1*1
-Critical Eye,3,Divine Blessing,1,0,0,0,rar6,fr4580 < Critical Eye,3,,0,2,0,0,rar7,fr4641, Protection Jewel 2*1
-Hunger Resistance,1,Sleep Attack,2,0,0,0,rar6,fr134 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Hungerless Jewel 1*1, Sleep Jewel 2*2
-Wide-Range,1,Paralysis Attack,1,2,0,0,rar7,fr1528 < Wide-Range,1,Divine Blessing,1,2,2,0,rar7,fr1191, Paralyzer Jewel 2*1
-Earplugs,1,Focus,1,1,0,0,rar7,fr1429 < Diversion,1,Earplugs,2,2,1,0,rar7,fr1110, Charger Jewel 2*1
-Blast Resistance,1,Speed Eating,1,1,0,0,rar4,fr3165 < Recovery Up,2,Speed Eating,1,1,1,0,rar6,fr6188, Antiblast Jewel 1*1
-Thunder Attack,1,Partbreaker,2,1,0,0,rar5,fr2411 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Bolt Jewel 1*1
-Wall Runner,1,Paralysis Resistance,1,3,0,0,rar6,fr5855 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Antipara Jewel 1*1, Wall Run Jewel 2*1
-Counterstrike,1,Ice Resistance,1,2,0,0,rar5,fr621 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Counter Jewel 2*1, Ice Res Jewel 1*1
-Earplugs,1,Sleep Resistance,2,1,0,0,rar4,fr2320 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Pep Jewel 1*2
-Ice Attack,2,Blight Resistance,1,0,0,0,rar4,fr3094 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Resistor Jewel 2*1
-Leap of Faith,1,Diversion,1,1,0,0,rar5,fr566 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Dive Jewel 1*1, Diversion Jewel 1*1
-Recovery Up,1,Steadiness,1,0,0,0,rar3,fr3410 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Medicine Jewel 2*1, Sniper Jewel 1*1
-Free Meal,2,Bombardier,1,2,0,0,rar5,fr748 < Rapid Morph,1,Free Meal,2,3,1,0,rar7,fr4261, Bomber Jewel 1*1
-Fire Attack,3,Earplugs,2,0,0,0,rar4,fr2888 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Hard Blaze Jewel+ 4*1
-Recoil Down,1,Bombardier,1,1,0,0,rar4,fr3101 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Absorber Jewel 1*1, Bomber Jewel 1*1
-Thunder Attack,1,Recovery Speed,2,0,0,0,rar3,fr3339 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Bolt Jewel 1*1, Recovery Jewel 1*2
-Rapid Morph,1,Affinity Sliding,1,1,0,0,rar5,fr2516 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Slider Jewel 1*1
-Quick Sheathe,1,Diversion,1,1,0,0,rar5,fr2117 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Diversion Jewel 1*1, Sheath Jewel 2*1
-Blight Resistance,1,Guard,1,1,0,0,rar6,fr5918 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Ironwall Jewel 2*1
-Wall Runner,1,Stun Resistance,2,1,0,0,rar5,fr2034 < Stun Resistance,2,Bombardier,2,2,1,0,rar7,fr1102, Wall Run Jewel 2*1
-Divine Blessing,2,Poison Resistance,1,3,0,0,rar7,fr3634 < Water Attack,2,Divine Blessing,2,3,1,0,rar7,fr1673, Antidote Jewel 1*1
-Heroics,1,Protective Polish,1,0,0,0,rar7,fr1633 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Potential Jewel 2*1, Sharp Jewel 2*1
-Fire Resistance,1,Blight Resistance,2,0,0,0,rar3,fr5116 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Fire Res Jewel 1*1, Resistor Jewel 2*1
-Stamina Thief,1,Special Ammo Boost,1,1,0,0,rar7,fr3863 < Water Attack,1,Stamina Thief,1,2,1,0,rar6,fr5839, Trueshot Jewel 2*1
-Normal/Rapid Up,1,,0,1,0,0,rar5,fr804 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Forceshot Jewel 3*1
-Diversion,1,Defense Boost,1,2,1,0,rar7,fr1012 < Diversion,1,Reload Speed,1,2,2,1,rar7,fr3835, Defense Jewel 1*1
-Rapid Morph,2,Guard Up,1,1,0,0,rar7,fr1284 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Shield Jewel 2*1
-Geologist,1,Blight Resistance,2,1,0,0,rar5,fr668 < Maximum Might,2,Defiance,3,4,1,1,rar10,fr5271, Geology Jewel 1*1, Resistor Jewel+ 4*1
-Bubbly Dance,2,Rapid Morph,1,1,1,0,rar6,fr5532 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Quickswitch Jewel 2*1
-Wirebug Whisperer,1,Spread Up,1,0,0,0,rar7,fr3671 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr1239, Spread Jewel 3*1, Wirebug Jewel 2*1
-Geologist,1,Ice Attack,1,2,0,0,rar5,fr2125 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Geology Jewel 1*1
-Stun Resistance,1,Power Prolonger,1,1,1,0,rar7,fr3746 < Coalescence,3,Stun Resistance,3,2,2,1,rar10,fr4564, Enhancer Jewel 2*1
-Steadiness,1,Recoil Down,1,2,1,0,rar7,fr1277 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr1576, Absorber Jewel 1*1
-Razor Sharp,2,,0,0,0,0,rar5,fr1849 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Razor Jewel 2*2
-Rapid Morph,1,Earplugs,1,2,1,0,rar7,fr3586 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Quickswitch Jewel 2*1
-Peak Performance,1,Partbreaker,2,3,0,0,rar7,fr1712 < Diversion,1,Partbreaker,2,3,2,0,rar7,fr1735, Flawless Jewel 2*1
-Agitator,2,,0,0,0,0,rar5,fr2594 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Challenger Jewel 2*2
-Speed Sharpening,1,Paralysis Attack,1,1,0,0,rar7,fr1230 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Grinder Jewel 1*1, Paralyzer Jewel 2*1
-Divine Blessing,1,Quick Sheathe,1,2,0,0,rar6,fr5541 < Divine Blessing,1,Hunger Resistance,2,2,2,1,rar7,fr4613, Sheath Jewel 2*1
-Quick Sheathe,1,Tremor Resistance,1,2,1,0,rar7,fr3871 < Mail of Hellfire,1,Tremor Resistance,3,3,2,1,rar9,fr5316, Sheath Jewel 2*1
-Recovery Speed,1,Slugger,1,2,1,0,rar7,fr1593 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Recovery Jewel 1*1
-Dragon Attack,3,Steadiness,1,1,0,0,rar5,fr2478 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Hard Dragon Jewel 3*1, Sniper Jewel 1*1
-Botanist,1,Earplugs,1,2,1,0,rar6,fr5980 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Botany Jewel 1*1
-Partbreaker,1,Evade Extender,1,1,0,0,rar5,fr1875 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Jumping Jewel 2*1
-Ice Attack,1,Jump Master,1,0,0,0,rar7,fr1308 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Frost Jewel 1*1, Leap Jewel 3*1
-Divine Blessing,1,Bludgeoner,1,0,0,0,rar4,fr2280 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Blunt Jewel 2*1, Protection Jewel 2*1
-Leap of Faith,1,Recovery Speed,2,1,0,0,rar5,fr1959 < Counterstrike,1,Recovery Speed,2,2,2,0,rar7,fr973, Dive Jewel 1*1
-Quick Sheathe,1,,0,3,0,0,rar6,fr111 < Quick Sheathe,2,Hellfire Cloak,1,3,0,0,rar8,fr4806
-Blight Resistance,1,Quick Sheathe,1,2,0,0,rar6,fr81 < Paralysis Attack,2,Marathon Runner,1,2,2,2,rar8,fr4698, Resistor Jewel 2*1, Sheath Jewel 2*1
-Muck Resistance,1,Blast Resistance,1,1,0,0,rar4,fr3195 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Antiblast Jewel 1*1, Muck Jewel 1*1
-Recovery Speed,1,Quick Sheathe,1,1,1,0,rar5,fr2525 < Quick Sheathe,1,Rapid Morph,1,1,1,1,rar7,fr3886, Recovery Jewel 1*1
-Bombardier,2,Diversion,1,2,0,0,rar6,fr5652 < Stun Resistance,2,Bombardier,2,2,1,0,rar7,fr1102, Diversion Jewel 1*1
-Critical Boost,1,,0,1,0,0,rar7,fr4591 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Critical Jewel 2*1
-Divine Blessing,1,Poison Attack,1,2,1,0,rar7,fr1246 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Venom Jewel 1*1
-Latent Power,1,Hellfire Cloak,2,0,0,0,rar7,fr4070 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Hellfire Jewel+ 4*1
-Blight Resistance,1,Resentment,1,0,0,0,rar5,fr1937 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Furor Jewel 2*1
-Weakness Exploit,2,,0,1,0,0,rar6,fr4572 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Tenderizer Jewel 2*2
-Dragon Attack,2,Carving Pro,1,1,0,0,rar5,fr1906 < Carving Pro,1,Evade Window,2,1,1,1,rar7,fr3723, Dragon Jewel 1*2
-Latent Power,1,Maximum Might,1,0,0,0,rar7,fr921 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Mighty Jewel 2*1, Throttle Jewel 2*1
-Master Mounter,1,Rapid Morph,1,1,0,0,rar5,fr2493 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Rodeo Jewel 2*1
-Maximum Might,1,,0,1,0,0,rar5,fr740 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Mighty Jewel 2*1
-Blight Resistance,1,Bombardier,2,2,0,0,rar6,fr251 < Hunger Resistance,2,Bombardier,2,3,2,0,rar7,fr1315, Resistor Jewel 2*1
-Free Meal,2,Thunder Attack,1,3,0,0,rar7,fr1392 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Satiated Jewel 1*2
-Agitator,1,,0,0,0,0,rar4,fr3014 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Challenger Jewel 2*1
-Recovery Up,1,Thunder Attack,1,2,1,0,rar6,fr6123 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Bolt Jewel+ 2*1
-Guard,2,Stamina Surge,2,0,0,0,rar7,fr1519 < Stamina Surge,2,Mind's Eye,1,2,2,0,rar8,fr4879, Ironwall Jewel 2*2
-Divine Blessing,2,Item Prolonger,1,1,1,0,rar6,fr6092 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Enduring Jewel 2*1
-Recovery Up,3,Evade Extender,1,1,0,0,rar5,fr732 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Jumping Jewel 2*1, Medicine Jewel 2*1
-Windproof,1,Guard Up,1,1,0,0,rar7,fr1167 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Shield Jewel 2*1, Wind Res Jewel 1*1
-Windproof,2,Slugger,1,0,0,0,rar4,fr3021 < Affinity Sliding,1,Slugger,1,1,1,0,rar6,fr6082, Wind Res Jewel 1*2
-Peak Performance,2,,0,0,0,0,rar5,fr2455 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Flawless Jewel 2*2
-Power Prolonger,1,,0,1,0,0,rar5,fr2026 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Enhancer Jewel 2*1
-Focus,1,,0,0,0,0,rar6,fr385 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Charger Jewel 2*1
-Critical Eye,2,,0,1,1,0,rar6,fr326 < Critical Eye,3,,0,1,1,0,rar7,fr4605
-Spread Up,1,Stun Resistance,1,1,0,0,rar7,fr3715 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Spread Jewel 3*1, Steadfast Jewel 1*1
-Fire Attack,1,Botanist,1,1,0,0,rar4,fr3069 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Botany Jewel 1*1
-Wall Runner,2,Horn Maestro,1,1,1,0,rar6,fr6073 < Punishing Draw,2,Wall Runner,2,1,1,1,rar8,fr4862, Sonorous Jewel 1*1
-Tremor Resistance,2,Quick Sheathe,1,2,0,0,rar6,fr6164 < Mail of Hellfire,1,Tremor Resistance,3,3,2,1,rar9,fr5316, Sheath Jewel 2*1
-Fortify,1,Stun Resistance,1,1,0,0,rar5,fr698 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Steadfast Jewel 1*1
-Bubbly Dance,2,Leap of Faith,1,1,1,0,rar6,fr5899 < Bubbly Dance,2,Wide-Range,1,1,1,1,rar7,fr1488, Dive Jewel 1*1
-Wide-Range,2,Fire Attack,1,2,1,0,rar7,fr1682 < Critical Draw,2,Wide-Range,3,2,2,1,rar8,fr5326, Blaze Jewel+ 2*1
-Wirebug Whisperer,1,Speed Eating,1,1,1,0,rar5,fr2094 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1,rar7,fr1720, Gobbler Jewel 2*1
-Bludgeoner,1,Weakness Exploit,1,1,0,0,rar7,fr4620 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Blunt Jewel 2*1, Tenderizer Jewel 2*1
-Stamina Surge,1,,0,0,0,0,rar4,fr2947 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Refresh Jewel 2*1
-Fire Attack,1,Diversion,1,2,1,0,rar7,fr3895 < Diversion,1,Reload Speed,1,2,2,1,rar7,fr3835, Blaze Jewel 1*1
-Counterstrike,1,Slugger,1,1,1,0,rar6,fr5637 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Counter Jewel 2*1
-Artillery,1,,0,0,0,0,rar6,fr5795 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Artillery Jewel 2*1
-Speed Sharpening,1,Thunder Attack,1,2,0,0,rar6,fr5928 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Bolt Jewel 1*1, Grinder Jewel 1*1
-Guard Up,2,,0,1,1,0,rar7,fr1268 < Maximum Might,2,Defiance,3,4,1,1,rar10,fr5271, Shield Jewel+ 4*1
-Normal/Rapid Up,1,Critical Element,1,0,0,0,rar7,fr1511 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr1239, Crit Element Jewel 2*1, Forceshot Jewel 3*1
-Reload Speed,1,Ice Resistance,1,1,1,0,rar5,fr1859 < Diversion,1,Reload Speed,1,2,2,1,rar7,fr3835, Ice Res Jewel 1*1
-Bombardier,1,Rapid Fire Up,1,0,0,0,rar7,fr4007 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Bomber Jewel 1*1, Salvo Jewel 3*1
-Affinity Sliding,1,Normal/Rapid Up,1,0,0,0,rar5,fr2059 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Forceshot Jewel 3*1, Slider Jewel 1*1
-Resuscitate,1,,0,0,0,0,rar4,fr2872 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Crisis Jewel 2*1
-Weakness Exploit,1,,0,1,1,0,rar7,fr4676 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911
-Punishing Draw,1,Defense Boost,1,2,0,0,rar6,fr417 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Defense Jewel 1*1, Gambit Jewel 2*1
-Special Ammo Boost,2,Defense Boost,1,0,0,0,rar7,fr1601 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Defense Jewel 1*1, Trueshot Jewel 2*2
-Steadiness,1,Water Attack,2,1,0,0,rar5,fr639 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Sniper Jewel 1*1, Stream Jewel+ 2*1
-Wall Runner,1,Defense Boost,1,0,0,0,rar3,fr3362 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Defense Jewel 1*1, Wall Run Jewel 2*1
-Windproof,2,Stun Resistance,1,3,0,0,rar7,fr4209 < Rapid Morph,1,Windproof,2,3,1,0,rar7,fr1699, Steadfast Jewel 1*1
-Wide-Range,2,Spare Shot,1,2,0,0,rar7,fr1151 < Critical Draw,2,Wide-Range,3,2,2,1,rar8,fr5326, Thrift Jewel 2*1
-Critical Eye,1,,0,2,1,0,rar7,fr4634 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Expert Jewel 2*1
-Muck Resistance,1,Slugger,1,0,0,0,rar3,fr3507 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, KO Jewel 2*1, Muck Jewel 1*1
-Quick Sheathe,2,Botanist,1,0,0,0,rar3,fr5148 < Quick Sheathe,2,Hellfire Cloak,1,3,0,0,rar8,fr4806, Botany Jewel 1*1
-Tremor Resistance,2,Slugger,1,1,0,0,rar5,fr2554 < Status Trigger,2,Tremor Resistance,3,2,1,0,rar8,fr4782, KO Jewel 2*1
-Ice Resistance,1,Fire Resistance,2,1,0,0,rar4,fr3133 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1,rar7,fr1720, Fire Res Jewel 1*2
-Slugger,2,Defense Boost,1,2,0,0,rar6,fr5802 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Defense Jewel 1*1
-Defense Boost,1,Poison Resistance,2,2,0,0,rar5,fr2132 < Earplugs,1,Poison Resistance,2,2,1,0,rar7,fr4252, Defense Jewel 1*1
-Partbreaker,2,Item Prolonger,1,0,0,0,rar3,fr5132 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Enduring Jewel 2*1
-Thunder Attack,3,Counterstrike,1,1,1,0,rar6,fr352 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Counter Jewel 2*1
-Ice Attack,1,Rapid Morph,1,2,0,0,rar6,fr6195 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361
-Bubbly Dance,1,Windproof,1,1,0,0,rar5,fr2603 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Bubble Jewel 2*1, Wind Res Jewel 1*1
-Critical Eye,1,Wall Runner,1,0,0,0,rar4,fr3493 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Expert Jewel 2*1, Wall Run Jewel 2*1
-Divine Blessing,2,Counterstrike,1,1,0,0,rar5,fr2240 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Counter Jewel 2*1
-Speed Sharpening,2,Steadiness,1,2,0,0,rar6,fr5863 < Speed Sharpening,2,Windproof,1,2,1,0,rar7,fr1449, Sniper Jewel 1*1
-Botanist,2,Bludgeoner,1,1,0,0,rar4,fr3108 < Bludgeoner,2,Bombardier,2,1,1,1,rar7,fr1215, Botany Jewel 1*2
-Earplugs,1,Tremor Resistance,1,0,0,0,rar3,fr3500 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Footing Jewel+ 4*1
-Spare Shot,1,,0,0,0,0,rar4,fr3116 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Thrift Jewel 2*1
-Constitution,1,Recovery Up,2,0,0,0,rar2,fr3288 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Physique Jewel 2*1
-Ice Attack,2,Mushroomancer,1,1,0,0,rar7,fr1061 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Fungiform Jewel 3*1
-Water Attack,3,Affinity Sliding,1,2,0,0,rar6,fr360 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Hard Stream Jewel 3*1, Slider Jewel 1*1
-Evade Window,1,Bludgeoner,1,1,0,0,rar5,fr2248 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Blunt Jewel 2*1, Evasion Jewel 2*1
-Water Attack,2,Earplugs,1,2,1,0,rar7,fr1414 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Hard Stream Jewel 3*1
-Speed Sharpening,2,Sleep Attack,1,0,0,0,rar6,fr5936 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Grinder Jewel 1*2, Sleep Jewel 2*1
-Horn Maestro,1,Reload Speed,1,2,0,0,rar6,fr6056 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Quickload Jewel 1*1
-Speed Eating,2,Bludgeoner,1,0,0,0,rar4,fr3007 < Wide-Range,5,Speed Eating,3,3,2,0,rar9,fr4555, Blunt Jewel 2*1
-Peak Performance,2,Flinch Free,1,1,0,0,rar7,fr4234 < Maximum Might,2,Defiance,3,4,1,1,rar10,fr5271, Brace Jewel 1*1, Flawless Jewel+ 4*1
-Fire Attack,2,Defense Boost,1,1,1,0,rar6,fr450 < Counterstrike,1,Defense Boost,2,2,1,1,rar7,fr4188, Blaze Jewel+ 2*1
-Botanist,1,Stun Resistance,1,1,1,0,rar5,fr1982 < Coalescence,3,Stun Resistance,3,2,2,1,rar10,fr4564, Botany Jewel 1*1
-Steadiness,2,Thunder Attack,1,1,1,0,rar6,fr425 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr1576, Bolt Jewel 1*1
-Recovery Up,1,Botanist,1,1,0,0,rar3,fr5237 < Recovery Up,2,Speed Eating,1,1,1,0,rar6,fr6188, Botany Jewel 1*1
-Poison Attack,1,Ice Attack,1,0,0,0,rar3,fr5221 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Frost Jewel 1*1, Venom Jewel 1*1
-Bubbly Dance,2,Leap of Faith,1,1,0,0,rar5,fr779 < Bubbly Dance,2,Wide-Range,1,1,1,1,rar7,fr1488, Dive Jewel 1*1
-Poison Attack,1,Quick Sheathe,1,2,0,0,rar6,fr104 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Sheath Jewel 2*1, Venom Jewel 1*1
-Reload Speed,2,Hunger Resistance,2,0,0,0,rar4,fr3158 < Ice Attack,2,Reload Speed,2,1,1,0,rar6,fr344, Hungerless Jewel 1*2
-Resentment,1,Quick Sheathe,1,0,0,0,rar5,fr524 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Furor Jewel 2*1, Sheath Jewel 2*1
-Slugger,1,Counterstrike,1,1,1,0,rar6,fr6100 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Counter Jewel 2*1
-Free Meal,1,Tremor Resistance,1,2,0,0,rar5,fr2508 < Status Trigger,2,Tremor Resistance,3,2,1,0,rar8,fr4782, Satiated Jewel 1*1
-Wirebug Whisperer,1,Bombardier,1,2,0,0,rar5,fr581 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Bomber Jewel 1*1, Wirebug Jewel 2*1
-Paralysis Attack,1,Blight Resistance,1,0,0,0,rar5,fr2610 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Paralyzer Jewel 2*1
-Blast Attack,1,,0,1,0,0,rar5,fr2219 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Blast Jewel 2*1
-Quick Sheathe,2,Artillery,1,0,0,0,rar7,fr4401 < Quick Sheathe,2,Hellfire Cloak,1,3,0,0,rar8,fr4806, Artillery Jewel 2*1
-Spare Shot,1,,0,1,0,0,rar5,fr2653 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Thrift Jewel 2*1
-Spare Shot,2,,0,1,0,0,rar6,fr6181 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Thrift Jewel 2*2
-Hunger Resistance,1,Earplugs,2,0,0,0,rar3,fr3320 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Hard Hungerless Jewel 4*1
-Geologist,2,Hunger Resistance,2,2,0,0,rar5,fr825 < Divine Blessing,1,Hunger Resistance,2,2,2,1,rar7,fr4613, Geology Jewel 1*2
-Bubbly Dance,1,Heroics,1,0,0,0,rar5,fr2139 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Bubble Jewel 2*1, Potential Jewel 2*1
-Affinity Sliding,1,Wirebug Whisperer,1,2,0,0,rar5,fr2181 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Slider Jewel 1*1, Wirebug Jewel 2*1
-Evade Extender,2,Hunger Resistance,1,0,0,0,rar3,fr5212 < Evade Extender,2,Normal/Rapid Up,1,1,0,0,rar7,fr4312, Hungerless Jewel 1*1
-Horn Maestro,1,Evade Window,1,1,0,0,rar5,fr2469 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Evasion Jewel 2*1
-Affinity Sliding,1,Fire Resistance,1,3,0,0,rar7,fr4352 < Blight Resistance,1,Affinity Sliding,1,3,1,0,rar7,fr4437, Fire Res Jewel 1*1
-Wide-Range,1,Bludgeoner,1,0,0,0,rar3,fr5139 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Blunt Jewel 2*1, Friendship Jewel 2*1
-Pierce Up,1,Recoil Down,1,0,0,0,rar7,fr3826 < Fortify,1,Horn Maestro,1,3,1,0,rar7,fr3952, Absorber Jewel 1*1, Pierce Jewel 3*1
-Guard,1,,0,0,0,0,rar4,fr4920 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Ironwall Jewel 2*1
-Water Attack,1,Bubbly Dance,1,3,0,0,rar7,fr3732 < Bubbly Dance,2,Water Attack,1,3,0,0,rar7,fr1706
-Muck Resistance,2,Evade Extender,1,0,0,0,rar4,fr2258 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Jumping Jewel 2*1, Muck Jewel 1*2
-Stamina Surge,1,,0,1,0,0,rar5,fr557 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Refresh Jewel 2*1
-Wirebug Whisperer,1,Windproof,1,1,0,0,rar4,fr4973 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Wind Res Jewel 1*1, Wirebug Jewel 2*1
-Wide-Range,1,Leap of Faith,1,2,0,0,rar6,fr367 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Dive Jewel 1*1, Friendship Jewel 2*1
-Fire Attack,1,Steadiness,2,3,1,0,rar7,fr4036 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr1576, Blaze Jewel 1*1
-Partbreaker,1,Water Attack,1,1,0,0,rar5,fr1967 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Stream Jewel+ 2*1
-Thunder Attack,2,Free Meal,1,1,1,0,rar5,fr2042 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Satiated Jewel 1*1
-Rapid Morph,1,Hunger Resistance,2,2,1,0,rar7,fr1077 < Divine Blessing,1,Hunger Resistance,2,2,2,1,rar7,fr4613, Quickswitch Jewel 2*1
-Evade Window,2,Speed Eating,1,1,0,0,rar5,fr1883 < Critical Element,2,Evade Window,2,2,2,0,rar8,fr4894, Gobbler Jewel 2*1
-Water Resistance,1,Divine Blessing,1,3,0,0,rar7,fr1200 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Protection Jewel 2*1, Water Res Jewel 1*1
-Wall Runner,1,Load Shells,1,0,0,0,rar5,fr787 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Magazine Jewel 2*1, Wall Run Jewel 2*1
-Water Attack,1,Geologist,2,1,0,0,rar4,fr2421 < Earplugs,1,Water Attack,2,1,1,1,rar7,fr3786, Geology Jewel 1*2
-Agitator,2,Slugger,1,0,0,0,rar6,fr5476 < Item Prolonger,2,Agitator,2,2,0,0,rar7,fr1384, KO Jewel 2*1
-Guard Up,2,,0,1,0,0,rar6,fr188 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Shield Jewel 2*2
-Thunder Attack,1,Windproof,2,3,0,0,rar7,fr1069 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Wind Res Jewel 1*2
-Water Attack,3,Counterstrike,1,1,0,0,rar5,fr2051 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Counter Jewel 2*1, Hard Stream Jewel 3*1
-Blast Attack,2,,0,3,1,0,rar7,fr3968 < Blast Attack,3,Quick Sheathe,1,4,1,0,rar8,fr4855
-Flinch Free,2,Spare Shot,1,0,0,0,rar6,fr5484 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Thrift Jewel 2*1
-Stamina Thief,1,Bubbly Dance,1,1,1,0,rar5,fr2379 < Bubbly Dance,2,Wide-Range,1,1,1,1,rar7,fr1488, Drain Jewel 1*1
-Fortify,1,Latent Power,2,0,0,0,rar6,fr5659 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Fortitude Jewel 2*1
-Hellfire Cloak,1,Resentment,1,1,0,0,rar7,fr3976 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Furor Jewel 2*1, Hellfire Jewel 3*1
-Flinch Free,2,Rapid Fire Up,1,0,0,0,rar7,fr1473 < Flinch Free,3,Resuscitate,1,3,1,0,rar8,fr4758, Salvo Jewel 3*1
-Attack Boost,2,,0,0,0,0,rar4,fr3124 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Attack Jewel 2*2
-Ice Attack,2,Water Attack,1,3,0,0,rar7,fr3879 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Stream Jewel 1*1
-Defense Boost,2,Partbreaker,1,1,1,0,rar6,fr5469 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr1466, Defense Jewel+ 2*1
-Evade Window,1,Stamina Surge,1,0,0,0,rar5,fr2387 < Focus,3,Flinch Free,2,2,2,0,rar8,fr4518, Evasion Jewel 2*1, Refresh Jewel 2*1
-Evade Window,1,Earplugs,1,0,0,0,rar3,fr5229 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr4816, Evasion Jewel+ 4*1
-Bubbly Dance,1,Stun Resistance,1,1,0,0,rar5,fr493 < Stun Resistance,2,Bombardier,2,2,1,0,rar7,fr1102, Bubble Jewel 2*1
-Tremor Resistance,1,Resentment,1,1,0,0,rar6,fr5606 < Status Trigger,2,Tremor Resistance,3,2,1,0,rar8,fr4782, Furor Jewel 2*1
-Handicraft,1,,0,1,1,0,rar7,fr997 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Handicraft Jewel 3*1
-Evade Window,1,Recoil Down,1,2,0,0,rar6,fr5507 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Absorber Jewel 1*1, Evasion Jewel 2*1
-Dragon Attack,1,Recovery Up,2,1,0,0,rar4,fr3180 < Recovery Up,2,Speed Eating,1,1,1,0,rar6,fr6188, Dragon Jewel 1*1
-Counterstrike,2,Muck Resistance,1,1,0,0,rar5,fr2689 < Counterstrike,2,Evade Window,1,1,1,0,rar6,fr5729, Muck Jewel 1*1
-Blast Attack,1,Windproof,1,1,0,0,rar7,fr1656 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Blast Jewel 2*1, Wind Res Jewel 1*1
-Agitator,1,,0,1,1,0,rar6,fr6048 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr4329, Challenger Jewel 2*1
-Evade Extender,1,Dragon Resistance,1,2,0,0,rar5,fr2539 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr4533, Dragon Res Jewel 1*1, Jumping Jewel 2*1
-Jump Master,1,,0,1,1,0,rar7,fr1407 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr5310, Leap Jewel 3*1
-Ballistics,1,Water Attack,1,0,0,0,rar5,fr573 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Precise Jewel 2*1, Stream Jewel 1*1
-Thunder Resistance,1,Muck Resistance,1,1,0,0,rar4,fr2940 < Slugger,3,Weakness Exploit,1,1,1,1,rar8,fr4911, Muck Jewel 1*1, Thunder Res Jewel 1*1
-Steadiness,1,Resuscitate,1,0,0,0,rar5,fr811 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr4425, Crisis Jewel 2*1, Sniper Jewel 1*1
-Hunger Resistance,2,Divine Blessing,1,0,0,0,rar3,fr5067 < Blast Resistance,2,Divine Blessing,2,1,1,0,rar6,fr6223, Hungerless Jewel 1*2
-Windproof,1,Rapid Morph,1,3,0,0,rar7,fr1020 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr4361, Wind Res Jewel 1*1
+Dragon Attack,2,Ballistics,1,1,0,0,rar7,fr2149 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Dragon Jewel+ 2*1, Precise Jewel 2*1
+Guard,2,Stamina Surge,2,0,0,0,rar7,fr3478 < Stamina Surge,2,Mind's Eye,1,2,2,0,rar8,fr937, Ironwall Jewel 2*2
+Blast Attack,2,Affinity Sliding,1,1,0,0,rar7,fr1499 < Blast Attack,3,Quick Sheathe,1,4,1,0,rar8,fr840, Slider Jewel 1*1
+Fire Attack,1,Steadiness,2,3,1,0,rar7,fr2415 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr3033, Blaze Jewel 1*1
+Reload Speed,1,Poison Attack,1,2,1,0,rar7,fr3060 < Diversion,1,Reload Speed,1,2,2,1,rar7,fr1853, Venom Jewel 1*1
+Hellfire Cloak,1,Resentment,1,1,0,0,rar7,fr1795 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Furor Jewel 2*1, Hellfire Jewel 3*1
+Evade Extender,2,Stamina Thief,2,1,0,0,rar5,fr3112 < Evade Extender,3,Grinder (S),1,1,1,1,rar8,fr412, Drain Jewel 1*2
+Recovery Speed,1,Wirebug Whisperer,1,3,1,0,rar7,fr2817 < Ice Resistance,1,Wirebug Whisperer,1,3,1,1,rar7,fr2905, Recovery Jewel 1*1
+Attack Boost,2,,0,1,1,0,rar6,fr295 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Attack Jewel+ 4*1
+Earplugs,2,Wirebug Whisperer,1,3,0,0,rar7,fr1252 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Wirebug Jewel 2*1
+Quick Sheathe,1,Tremor Resistance,1,2,1,0,rar7,fr1773 < Mail of Hellfire,1,Tremor Resistance,3,3,2,1,rar9,fr429, Sheath Jewel 2*1
+Critical Element,1,,0,1,0,0,rar5,fr3135 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Crit Element Jewel 2*1
+Blast Attack,1,Windproof,1,1,0,0,rar7,fr2935 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Blast Jewel 2*1, Wind Res Jewel 1*1
+Peak Performance,1,Partbreaker,2,3,0,0,rar7,fr2912 < Diversion,1,Partbreaker,2,3,2,0,rar7,fr2890, Flawless Jewel 2*1
+Critical Eye,1,,0,2,1,0,rar7,fr125 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Expert Jewel 2*1
+Load Shells,2,Botanist,1,1,0,0,rar7,fr1055 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Botany Jewel 1*1, Magazine Jewel+ 4*1
+Ice Attack,1,Jump Master,1,0,0,0,rar7,fr2803 < Good Luck,2,Thunder Attack,3,3,1,0,rar8,fr473, Frost Jewel 1*1, Leap Jewel 3*1
+Water Attack,2,Mushroomancer,1,0,0,0,rar7,fr2058 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Fungiform Jewel 3*1, Stream Jewel 1*2
+Razor Sharp,2,,0,1,1,0,rar7,fr2971 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Razor Jewel+ 4*1
+Dragon Resistance,1,Bubbly Dance,1,2,1,0,rar7,fr3416 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr3451, Dragon Res Jewel 1*1
+Speed Sharpening,1,Power Prolonger,1,1,0,0,rar7,fr1722 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Enhancer Jewel 2*1, Grinder Jewel 1*1
+Steadiness,1,Recoil Down,1,2,1,0,rar7,fr2832 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr3033, Absorber Jewel 1*1
+Weakness Exploit,1,,0,2,0,0,rar7,fr53 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Tenderizer Jewel 2*1
+Ballistics,1,Recovery Up,2,2,0,0,rar7,fr1160 < Recovery Up,3,Blast Resistance,2,3,2,0,rar7,fr1298, Precise Jewel 2*1
+Fortify,1,Paralysis Attack,1,1,0,0,rar7,fr865 < Item Prolonger,1,Fortify,1,2,2,0,rar7,fr1395, Paralyzer Jewel 2*1
+Peak Performance,1,,0,1,1,0,rar7,fr1316 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Flawless Jewel 2*1
+Peak Performance,2,Flinch Free,1,1,0,0,rar7,fr2064 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Brace Jewel 1*1, Flawless Jewel+ 4*1
+Affinity Sliding,1,Carving Pro,1,3,0,0,rar7,fr997 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Carver Jewel 1*1, Slider Jewel 1*1
+Guard Up,2,Speed Sharpening,2,0,0,0,rar7,fr1038 < Guard Up,2,Bladescale Hone,2,2,1,0,rar8,fr796, Grinder Jewel 1*2
+Normal/Rapid Up,1,Critical Element,1,0,0,0,rar7,fr3356 < Steadiness,3,Normal/Rapid Up,1,3,0,0,rar8,fr786, Crit Element Jewel 2*1
+Wirebug Whisperer,1,Defense Boost,1,1,1,0,rar5,fr3128 < Counterstrike,1,Defense Boost,2,2,1,1,rar7,fr2484, Wirebug Jewel 2*1
+Fire Attack,3,Blast Attack,1,1,0,0,rar7,fr1977 < Blast Attack,3,Quick Sheathe,1,4,1,0,rar8,fr840, Hard Blaze Jewel+ 4*1
+Wide-Range,2,Fire Attack,1,2,1,0,rar7,fr2991 < Critical Draw,2,Wide-Range,3,2,2,1,rar8,fr891, Blaze Jewel+ 2*1
+Stamina Thief,1,Special Ammo Boost,1,1,0,0,rar7,fr1780 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Drain Jewel 1*1, Trueshot Jewel 2*1
+Counterstrike,1,Evade Window,2,0,0,0,rar4,fr2537 < Wall Runner,3,Evade Window,2,3,0,0,rar8,fr392, Counter Jewel 2*1
+Spread Up,1,Stun Resistance,1,1,0,0,rar7,fr1344 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Spread Jewel 3*1, Steadfast Jewel 1*1
+Handicraft,1,,0,1,1,0,rar7,fr2274 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Handicraft Jewel 3*1
+Tremor Resistance,1,Razor Sharp,1,1,0,0,rar7,fr1939 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Razor Jewel 2*1
+Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr1891 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr3451, Blaze Jewel 1*1
+Critical Eye,1,Wall Runner,1,0,0,0,rar4,fr2555 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Expert Jewel 2*1
+Defense Boost,1,Carving Pro,1,1,1,0,rar6,fr3194 < Counterstrike,1,Defense Boost,2,2,1,1,rar7,fr2484, Carver Jewel 1*1
+Water Attack,1,Bubbly Dance,1,3,0,0,rar7,fr1326 < Water Attack,2,Bubbly Dance,1,3,0,0,rar7,fr1289
+Sneak Attack,1,Marathon Runner,1,2,1,0,rar8,fr480 < Paralysis Attack,2,Marathon Runner,1,2,2,2,rar8,fr488, Backstab Jewel 2*1
+Earplugs,1,Critical Element,1,1,1,0,rar7,fr1867 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Crit Element Jewel 2*1
+Resuscitate,1,,0,3,0,0,rar7,fr3027 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr2751, Crisis Jewel 2*1
+Bludgeoner,1,Good Luck,1,0,0,0,rar7,fr1515 < Good Luck,2,Thunder Attack,3,3,1,0,rar8,fr473, Blunt Jewel 2*1
+Critical Eye,2,,0,0,0,0,rar4,fr3159 < Critical Eye,3,,0,1,1,0,rar7,fr98
+Windproof,1,Rapid Morph,1,3,0,0,rar7,fr2192 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr2007, Wind Res Jewel 1*1
+Divine Blessing,1,Poison Attack,1,2,1,0,rar7,fr2744 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr1956, Venom Jewel 1*1
+Rapid Morph,1,Speed Eating,1,2,0,0,rar6,fr3216 < Paralysis Attack,2,Marathon Runner,1,2,2,2,rar8,fr488, Gobbler Jewel 2*1, Quickswitch Jewel 2*1
+Recoil Down,2,Heroics,1,1,0,0,rar7,fr1963 < Stun Resistance,1,Recoil Down,2,2,1,0,rar7,fr1021, Potential Jewel 2*1
+Artillery,1,,0,0,0,0,rar6,fr3256 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Artillery Jewel 2*1
+Recovery Speed,1,Slugger,1,2,1,0,rar7,fr3020 < Slugger,1,Recovery Speed,1,3,1,0,rar7,fr1005
+Razor Sharp,2,Spare Shot,1,0,0,0,rar7,fr3047 < Paralysis Attack,2,Marathon Runner,1,2,2,2,rar8,fr488, Razor Jewel 2*2, Thrift Jewel 2*1
+Rapid Morph,1,Earplugs,1,2,1,0,rar7,fr1433 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Quickswitch Jewel 2*1
+Blast Attack,2,,0,3,0,0,rar7,fr972 < Blast Attack,3,Quick Sheathe,1,4,1,0,rar8,fr840
+Ice Attack,1,Wide-Range,2,3,0,0,rar7,fr2876 < Wide-Range,5,Speed Eating,3,3,2,0,rar9,fr0, Frost Jewel+ 2*1
+Botanist,1,Steadiness,1,2,1,0,rar7,fr1448 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr3033, Botany Jewel 1*1
+Latent Power,1,Maximum Might,1,0,0,0,rar7,fr2319 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Mighty Jewel 2*1, Throttle Jewel 2*1
+Artillery,1,Normal/Rapid Up,1,0,0,0,rar7,fr1579 < Steadiness,3,Normal/Rapid Up,1,3,0,0,rar8,fr786, Artillery Jewel 2*1
+Marathon Runner,1,Free Meal,2,0,0,0,rar7,fr3333 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Satiated Jewel 1*2, Sprinter Jewel 2*1
+Stun Resistance,1,Power Prolonger,1,1,1,0,rar7,fr1307 < Coalescence,3,Stun Resistance,3,2,2,1,rar8,fr7, Enhancer Jewel 2*1
+Geologist,2,Dragon Attack,1,3,0,0,rar7,fr2407 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr3033, Geology Jewel 1*2
+Ammo Up,1,,0,1,0,0,rar7,fr1587 < Good Luck,2,Thunder Attack,3,3,1,0,rar8,fr473, Capacity Jewel 3*1
+Paralysis Attack,1,,0,1,0,0,rar5,fr3105 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Paralyzer Jewel 2*1
+Water Attack,2,Earplugs,1,2,1,0,rar7,fr3379 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Hard Stream Jewel 3*1
+Diversion,1,Defense Boost,1,2,1,0,rar7,fr2184 < Counterstrike,1,Defense Boost,2,2,1,1,rar7,fr2484, Diversion Jewel 1*1
+Load Shells,1,Reload Speed,1,1,0,0,rar7,fr1846 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Magazine Jewel 2*1, Quickload Jewel 1*1
+Paralysis Resistance,2,Steadiness,1,1,0,0,rar5,fr607 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr3033, Antipara Jewel 1*2
+Rapid Morph,1,Hunger Resistance,2,2,1,0,rar7,fr2225 < Divine Blessing,1,Hunger Resistance,2,2,2,1,rar7,fr105, Quickswitch Jewel 2*1
+Windproof,2,Stun Resistance,1,3,0,0,rar7,fr2088 < Rapid Morph,1,Windproof,2,3,1,0,rar7,fr2928, Steadfast Jewel 1*1
+Power Prolonger,2,,0,1,1,0,rar7,fr1691 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Enhancer Jewel+ 4*1
+Resentment,1,Evade Window,1,2,0,0,rar7,fr2155 < Paralysis Attack,2,Marathon Runner,1,2,2,2,rar8,fr488, Evasion Jewel 2*1, Furor Jewel 2*1
+Divine Blessing,2,Poison Resistance,1,3,0,0,rar7,fr1387 < Water Attack,2,Divine Blessing,2,3,1,0,rar7,fr3013, Antidote Jewel 1*1
+Water Resistance,1,Leap of Faith,1,3,0,0,rar7,fr3348 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Dive Jewel 1*1, Water Res Jewel 1*1
+Partbreaker,1,Muck Resistance,1,2,1,0,rar7,fr1063 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr3451, Muck Jewel 1*1
+Weakness Exploit,1,,0,1,1,0,rar7,fr75 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Tenderizer Jewel 2*1
+Sleep Resistance,2,Critical Draw,1,0,0,0,rar7,fr3458 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Draw Jewel 3*1, Pep Jewel 1*2
+Divine Blessing,1,Guard Up,1,1,0,0,rar7,fr2998 < Guard Up,2,Bladescale Hone,2,2,1,0,rar8,fr796, Protection Jewel 2*1
+Steadiness,1,Stamina Surge,1,1,1,0,rar7,fr1529 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr3033, Refresh Jewel 2*1
+Tremor Resistance,1,Evade Window,1,2,0,0,rar6,fr3327 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Evasion Jewel 2*1
+Special Ammo Boost,2,Defense Boost,1,0,0,0,rar7,fr2984 < Blast Attack,3,Quick Sheathe,1,4,1,0,rar8,fr840, Defense Jewel 1*1, Trueshot Jewel+ 4*1
+Recoil Down,2,Horn Maestro,1,2,0,0,rar6,fr142 < Stun Resistance,1,Recoil Down,2,2,1,0,rar7,fr1021, Sonorous Jewel 1*1
+Quick Sheathe,1,Protective Polish,1,1,0,0,rar7,fr1992 < Quick Sheathe,1,Tremor Resistance,1,2,1,0,rar7,fr1773, Sharp Jewel 2*1
+Water Attack,1,Wirebug Whisperer,2,3,0,0,rar7,fr2392 < Paralysis Resistance,1,Wirebug Whisperer,2,3,1,0,rar7,fr1361, Stream Jewel 1*1
+Hunger Resistance,1,Resentment,1,2,1,0,rar7,fr1095 < Divine Blessing,1,Hunger Resistance,2,2,2,1,rar7,fr105, Furor Jewel 2*1
+Master Mounter,1,Wide-Range,1,0,0,0,rar3,fr2572 < Wide-Range,2,Recovery Up,3,2,0,0,rar6,fr316, Rodeo Jewel 2*1
+Recoil Down,1,Recovery Speed,2,2,0,0,rar6,fr3278 < Counterstrike,1,Recovery Speed,2,2,2,0,rar7,fr2296, Absorber Jewel 1*1
+Flinch Free,2,Rapid Fire Up,1,0,0,0,rar7,fr3445 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Brace Jewel 1*2, Salvo Jewel 3*1
+Critical Eye,3,Divine Blessing,1,0,0,0,rar6,fr232 < Critical Eye,3,,0,2,0,0,rar7,fr60, Protection Jewel 2*1
+Guard,2,,0,1,1,0,rar7,fr2169 < Constitution,3,Guard,2,2,1,0,rar8,fr825
+Constitution,1,Recovery Up,2,0,0,0,rar2,fr2588 < Wide-Range,2,Recovery Up,3,2,0,0,rar6,fr316, Physique Jewel 2*1
+Slugger,2,Stun Resistance,2,2,0,0,rar7,fr2021 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr1956, Steadfast Jewel 1*2
+Flinch Free,2,Focus,1,0,0,0,rar7,fr1465 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Brace Jewel 1*2, Charger Jewel 2*1
+Bludgeoner,1,Guard Up,2,1,0,0,rar7,fr1127 < Guard Up,2,Bladescale Hone,2,2,1,0,rar8,fr796, Blunt Jewel 2*1
+Speed Sharpening,1,Resuscitate,1,1,0,0,rar7,fr1984 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Crisis Jewel 2*1, Grinder Jewel 1*1
+Slugger,1,Rapid Fire Up,1,0,0,0,rar7,fr989 < Rapid Fire Up,2,Constitution,3,2,1,0,rar8,fr358, KO Jewel 2*1
+Recoil Down,2,Recovery Speed,1,2,0,0,rar6,fr690 < Stun Resistance,1,Recoil Down,2,2,1,0,rar7,fr1021, Recovery Jewel 1*1
+Master's Touch,1,,0,1,1,0,rar7,fr2454 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Mastery Jewel 2*1
+Flinch Free,1,Normal/Rapid Up,1,1,0,0,rar7,fr1824 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Brace Jewel 1*1, Forceshot Jewel 3*1
+Free Meal,2,Thunder Attack,1,3,0,0,rar7,fr3401 < Rapid Morph,1,Free Meal,2,3,1,0,rar7,fr2045, Bolt Jewel 1*1
+Pierce Up,1,Recoil Down,1,0,0,0,rar7,fr1709 < Good Luck,2,Thunder Attack,3,3,1,0,rar8,fr473, Absorber Jewel 1*1, Pierce Jewel 3*1
+Wirebug Whisperer,1,Spread Up,1,0,0,0,rar7,fr1267 < Recovery Speed,1,Wirebug Whisperer,1,3,1,0,rar7,fr2817, Spread Jewel 3*1
+Ice Attack,2,Water Attack,1,3,0,0,rar7,fr1765 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr2007, Stream Jewel 1*1
+Bombardier,1,Rapid Fire Up,1,0,0,0,rar7,fr2328 < Good Luck,2,Thunder Attack,3,3,1,0,rar8,fr473, Bomber Jewel 1*1, Salvo Jewel 3*1
+Speed Sharpening,1,Paralysis Attack,1,1,0,0,rar7,fr2758 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Grinder Jewel 1*1, Paralyzer Jewel 2*1
+Marathon Runner,1,Dragon Resistance,1,0,0,0,rar7,fr1522 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Dragon Res Jewel 1*1, Sprinter Jewel 2*1
+Horn Maestro,1,Partbreaker,1,1,0,0,rar5,fr584 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Destroyer Jewel 2*1, Sonorous Jewel 1*1
+Windproof,1,Affinity Sliding,1,3,0,0,rar7,fr2080 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Slider Jewel 1*1, Wind Res Jewel 1*1
+Slugger,2,Stun Resistance,1,2,1,0,rar7,fr1507 < Slugger,2,Divine Blessing,2,2,1,1,rar7,fr1956, Steadfast Jewel 1*1
+Paralysis Resistance,1,Leap of Faith,1,3,0,0,rar7,fr1931 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Antipara Jewel 1*1, Dive Jewel 1*1
+Hunger Resistance,2,Blight Resistance,1,0,0,0,rar3,fr2564 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Hungerless Jewel 1*2, Resistor Jewel 2*1
+Artillery,1,,0,3,0,0,rar7,fr2037 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr2751, Artillery Jewel 2*1
+Weakness Exploit,2,,0,1,0,0,rar6,fr266 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Tenderizer Jewel 2*2
+Guard,1,Special Ammo Boost,1,0,0,0,rar7,fr2868 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Ironwall Jewel 2*1, Trueshot Jewel 2*1
+Paralysis Attack,1,,0,1,1,0,rar7,fr3005 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Paralyzer Jewel 2*1
+Recovery Speed,2,Resuscitate,1,1,0,0,rar6,fr3306 < Counterstrike,1,Recovery Speed,2,2,2,0,rar7,fr2296, Crisis Jewel 2*1
+Wide-Range,1,Paralysis Attack,1,2,0,0,rar7,fr3486 < Wide-Range,1,Divine Blessing,1,2,2,0,rar7,fr2846, Paralyzer Jewel 2*1
+Ice Attack,2,Mushroomancer,1,1,0,0,rar7,fr2243 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr2007, Fungiform Jewel 3*1
+Partbreaker,1,Artillery,1,1,0,0,rar7,fr2477 < Partbreaker,2,Fire Attack,1,2,1,0,rar7,fr1891, Artillery Jewel 2*1
+Handicraft,1,Heroics,1,0,0,0,rar7,fr1176 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr2751, Handicraft Jewel 3*1, Potential Jewel 2*1
+Guard Up,2,,0,1,1,0,rar7,fr2838 < Guard Up,2,Bladescale Hone,2,2,1,0,rar8,fr796
+Recovery Up,2,Horn Maestro,1,1,1,0,rar6,fr3209 < Mushroomancer,2,Recovery Up,2,2,2,1,rar8,fr33, Sonorous Jewel 1*1
+Affinity Sliding,1,Hunger Resistance,1,3,0,0,rar7,fr1596 < Fire Resistance,1,Hunger Resistance,2,3,1,0,rar7,fr2258, Slider Jewel 1*1
+Hunger Resistance,1,Wall Runner,1,0,0,0,rar2,fr2579 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Hungerless Jewel 1*1
+Quick Sheathe,2,Artillery,1,0,0,0,rar7,fr1915 < Quick Sheathe,1,Dragon Resistance,1,2,2,0,rar7,fr2375, Artillery Jewel 2*1, Sheath Jewel 2*1
+Free Meal,1,Wide-Range,2,3,0,0,rar7,fr2977 < Wide-Range,5,Speed Eating,3,3,2,0,rar9,fr0, Satiated Jewel 1*1
+Attack Boost,1,,0,1,1,0,rar6,fr3249 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Attack Jewel 2*1
+Thunder Attack,1,Windproof,2,3,0,0,rar7,fr2235 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Wind Res Jewel 1*2
+Windproof,1,Guard Up,1,1,0,0,rar7,fr2103 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Shield Jewel 2*1, Wind Res Jewel 1*1
+Jump Master,1,,0,1,1,0,rar7,fr3386 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Leap Jewel 3*1
+Bombardier,2,Jump Master,1,0,0,0,rar7,fr1604 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Bomber Jewel 1*2, Leap Jewel 3*1
+Critical Boost,1,,0,1,0,0,rar7,fr88 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Critical Jewel 2*1
+Wirebug Whisperer,1,Marathon Runner,1,0,0,0,rar7,fr2343 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Sprinter Jewel 2*1, Wirebug Jewel 2*1
+Earplugs,1,Focus,1,1,0,0,rar7,fr3364 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Charger Jewel 2*1
+Flinch Free,2,Special Ammo Boost,1,1,0,0,rar7,fr2765 < Focus,3,Flinch Free,2,2,2,0,rar8,fr20, Trueshot Jewel 2*1
+Evade Extender,1,Hunger Resistance,1,2,1,0,rar7,fr1168 < Divine Blessing,1,Hunger Resistance,2,2,2,1,rar7,fr105, Jumping Jewel 2*1
+Wide-Range,2,Spare Shot,1,2,0,0,rar7,fr2126 < Critical Draw,2,Wide-Range,3,2,2,1,rar8,fr891, Thrift Jewel 2*1
+Diversion,1,Ballistics,1,1,1,0,rar7,fr1482 < Diversion,1,Reload Speed,1,2,2,1,rar7,fr1853, Precise Jewel 2*1
+Flinch Free,1,Fortify,1,3,0,0,rar7,fr1411 < Fortify,1,Recovery Up,3,3,1,0,rar7,fr2693, Brace Jewel 1*1
+Protective Polish,2,Steadiness,1,1,0,0,rar7,fr1555 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Sharp Jewel+ 4*1, Sniper Jewel 1*1
+Water Resistance,1,Divine Blessing,1,3,0,0,rar7,fr2853 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Protection Jewel 2*1, Water Res Jewel 1*1
+Heroics,1,,0,1,1,0,rar6,fr3236 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Potential Jewel 2*1
+Blast Attack,2,,0,3,1,0,rar7,fr1802 < Blast Attack,3,Quick Sheathe,1,4,1,0,rar8,fr840
+Affinity Sliding,1,Stamina Thief,1,3,0,0,rar7,fr1353 < Maximum Might,2,Defiance,3,4,1,1,rar8,fr421, Drain Jewel 1*1, Slider Jewel 1*1
+Steadiness,1,Geologist,2,3,0,0,rar7,fr2176 < Steadiness,2,Dragon Attack,1,3,1,1,rar7,fr3033, Geology Jewel 1*2
+Windproof,1,Counterstrike,1,2,0,0,rar6,fr3223 < Counterstrike,1,Wide-Range,1,3,1,0,rar7,fr2304, Wind Res Jewel 1*1
+Pierce Up,1,,0,0,0,0,rar6,fr3242 < Good Luck,2,Thunder Attack,3,3,1,0,rar8,fr473, Pierce Jewel 3*1
+Windproof,2,Earplugs,1,1,0,0,rar5,fr591 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Wind Res Jewel 1*2
+Affinity Sliding,1,Fire Resistance,1,3,0,0,rar7,fr2030 < Fire Resistance,1,Hunger Resistance,2,3,1,0,rar7,fr2258, Slider Jewel 1*1
+Critical Draw,1,Earplugs,1,0,0,0,rar7,fr2779 < Earplugs,2,Wirebug Whisperer,1,3,0,0,rar7,fr1252, Draw Jewel 3*1
+Divine Blessing,1,Ballistics,1,1,0,0,rar7,fr2351 < Divine Blessing,1,Poison Attack,1,2,1,0,rar7,fr2744, Precise Jewel 2*1
+Partbreaker,1,Water Resistance,1,3,0,0,rar7,fr1441 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Destroyer Jewel 2*1, Water Res Jewel 1*1
+Carving Pro,1,Blast Attack,1,1,0,0,rar7,fr2787 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Blast Jewel 2*1, Carver Jewel 1*1
+Stamina Surge,1,,0,1,0,0,rar5,fr3120 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Refresh Jewel 2*1
+Focus,1,,0,1,0,0,rar7,fr1244 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Charger Jewel 2*1
+Bludgeoner,1,Thunder Attack,2,2,1,0,rar7,fr1570 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Blunt Jewel 2*1
+Resentment,1,,0,3,0,0,rar7,fr1281 < Muck Resistance,1,Stamina Thief,2,3,2,0,rar7,fr2751, Furor Jewel 2*1
+Diversion,1,Earplugs,2,2,1,0,rar7,fr2162 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Diversion Jewel 1*1
+Reload Speed,3,Recovery Up,2,0,0,0,rar4,fr2547 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Medicine Jewel 2*2
+Earplugs,3,Punishing Draw,1,0,0,0,rar4,fr3095 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Gambit Jewel 2*1
+Bubbly Dance,1,Stun Resistance,1,2,0,0,rar6,fr3300 < Dragon Resistance,1,Bubbly Dance,1,2,1,0,rar7,fr3416, Steadfast Jewel 1*1
+Critical Draw,1,Earplugs,1,1,0,0,rar7,fr1120 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Draw Jewel 3*1
+Wide-Range,2,Weakness Exploit,1,1,0,0,rar7,fr875 < Wide-Range,2,Fire Attack,1,2,1,0,rar7,fr2991, Tenderizer Jewel 2*1
+Fire Attack,1,Diversion,1,2,1,0,rar7,fr1749 < Diversion,1,Reload Speed,1,2,2,1,rar7,fr1853, Blaze Jewel 1*1
+Latent Power,2,,0,1,1,0,rar7,fr1539 < Latent Power,3,Protective Polish,1,3,1,0,rar8,fr899
+Latent Power,1,Hellfire Cloak,2,0,0,0,rar7,fr2383 < Earplugs,4,Latent Power,3,4,0,0,rar8,fr372, Hellfire Jewel+ 4*1
+Speed Eating,1,Earplugs,1,2,1,0,rar7,fr1810 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Gobbler Jewel 2*1
+Bludgeoner,1,Weakness Exploit,1,1,0,0,rar7,fr111 < Bludgeoner,1,Punishing Draw,2,3,1,0,rar7,fr1369, Tenderizer Jewel 2*1
+Rapid Morph,2,Guard Up,1,1,0,0,rar7,fr2825 < Ice Attack,2,Rapid Morph,2,3,1,0,rar7,fr2007, Shield Jewel 2*1
+Jump Master,1,,0,1,0,0,rar7,fr2252 < Good Luck,2,Thunder Attack,3,3,1,0,rar8,fr473, Leap Jewel 3*1
+Critical Eye,1,Thunder Resistance,1,3,0,0,rar7,fr118 < Thunder Attack,4,Earplugs,3,3,2,1,rar9,fr436, Expert Jewel 2*1, Thunder Res Jewel 1*1
+Heroics,1,Protective Polish,1,0,0,0,rar7,fr2957 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Potential Jewel 2*1, Sharp Jewel 2*1
+Defense Boost,2,Rapid Fire Up,1,0,0,0,rar7,fr2859 < Defense Boost,5,Quick Sheathe,1,3,1,0,rar8,fr40, Salvo Jewel 3*1
+Speed Sharpening,1,Partbreaker,1,1,1,0,rar6,fr3287 < Partbreaker,2,Bubbly Dance,2,2,1,1,rar7,fr3451, Grinder Jewel 1*1
+Flinch Free,2,Resentment,1,1,0,0,rar7,fr955 < Focus,3,Flinch Free,2,2,2,0,rar8,fr20, Furor Jewel 2*1
+Heroics,2,,0,0,0,0,rar5,fr3142 < Reload Speed,3,Tremor Resistance,1,2,2,0,rar7,fr2943, Potential Jewel 2*2
+Marathon Runner,1,,0,0,0,0,rar6,fr3320 < Earplugs,1,Wall Runner,2,2,1,1,rar7,fr1645, Sprinter Jewel 2*1

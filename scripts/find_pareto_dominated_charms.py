@@ -438,7 +438,7 @@ def main() -> None:
 
     if not args.quiet:
         print(f"Total parsed lines: {len(charms)}")
-        print(f"{label} lines: {len(pairs)}")
+        print(f"{label} lines: {n_out}")
         print(f"Wrote {out_path}")
 
 
